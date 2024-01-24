@@ -3,4 +3,4 @@ source ~/.bash_custom
 
 eval "$(ssh-agent)"
 ssh-add ~/.ssh/github
-cd kennyAgricultureVic.github.io/ && git pull
+cd cd AGG-pretzel-documentation-website/ && git pull
