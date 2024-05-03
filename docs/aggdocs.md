@@ -65,7 +65,9 @@ On the new menu click on the right most button on the top row buttons
 
 ![enter image description here](https://raw.githubusercontent.com/kennyAgricultureVic/images/main/ACCESSIONS2.png)
 
+Search for a genotype dataset and add it to the view, click on the genotype tab on the right hand tab
 
+    AVR_1K-CoreCollection_Wheat_Exome_genotypes
 
 ![enter image description here](https://raw.githubusercontent.com/kennyAgricultureVic/images/main/ACCESSIONS3.png)
 
@@ -73,9 +75,7 @@ Drag to select the desired portion of the genetic map and press the zoom button
 
 ![enter image description here](https://raw.githubusercontent.com/kennyAgricultureVic/images/main/ACCESSIONS4.png)
 
-Search for the (something) and add it to the view, click on the genotype tab on the right hand tab
-
-    Hordeum AGG
+Brush/select the region with the markers you wish to view genotype data for 
 
 ![enter image description here](https://raw.githubusercontent.com/kennyAgricultureVic/images/main/ACCESSIONS5.png)
 
