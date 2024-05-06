@@ -2,11 +2,11 @@
 
 ## Finding a marker or gene on a genome
 
-Click the search button on the left hand panel.
+Click the search button on the left hand panel
 
 ![enter image description here](https://raw.githubusercontent.com/kennyAgricultureVic/images/main/BLAST7.PNG)
 
-Scroll down to the DNA Sequence BLAST search box.
+Scroll down to the DNA Sequence BLAST search box
 
 ![enter image description here](https://raw.githubusercontent.com/kennyAgricultureVic/images/main/BLAST2.PNG)
 
@@ -57,7 +57,7 @@ Click on the arrows to display the name of the feature
 
 ## View a summary of accessions for a searched subset of markers​
 
-Click back onto the explore tab and search for a genotype dataset and add it to the view. Click on the genotype tab on the right hand tab
+Click back onto the Explore tab and search for a genotype dataset and add it to the view. For example the following dataset on plantinformatics.io
 
     AVR_1K-CoreCollection_Wheat_Exome_genotypes
 
@@ -71,11 +71,11 @@ Within the window that pops up, click the far right hand button up the top to op
 
 ![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/summary-accessions/image+(2).png)
 
-Close the axies title menu by clicking the "X" button in the top right corner
+Close the axis title menu by clicking the "X" button in the top right corner
 
 ![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/summary-accessions/image+(3).png)
 
-CLick and drag over the area of interest along the axis to select a region on the chromosome and click the zoom button below the axis
+Click and drag over the area of interest along the axis to select a region on the chromosome and click the zoom button below the axis
 
 ![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/summary-accessions/image+(4).png)
 
@@ -83,11 +83,11 @@ If needed, reselect a given area to zoom in further to select only the required 
 
 ![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/summary-accessions/image+(5).png)
 
-Click the Genotype tab in the right hand pannel to switch to genotpye view then press the button highlighted by the red arrow in the screenshot
+Click the Genotype tab in the right hand pannel to switch to Genotype view then press the button highlighted by the red arrow in the screenshot
 
 ![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/summary-accessions/image+(6).png)
 
-In the resulting box that pops up, click desired samples (ctrl click to select multiple samples). The selected samples will display in the bottom text box
+In the resulting box that pops up, click desired samples (ctrl click to select multiple samples), the click "VCF lookup" button at the bottom of the pop up window. The selected samples will display in the bottom text box
 
 ![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/summary-accessions/image+(7).png)
 
