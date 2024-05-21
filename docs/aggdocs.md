@@ -2,7 +2,7 @@
 
 ## Finding a marker or gene on a genome
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Eg2wYKHsvN4?si=DB3hAHbg3fUTHzRN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="1020" height="630" src="https://www.youtube.com/embed/Eg2wYKHsvN4?si=DB3hAHbg3fUTHzRN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Click the search button on the left hand panel
 
