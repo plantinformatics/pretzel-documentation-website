@@ -30,3 +30,8 @@ markdown_extensions:
       generic: true
   - pymdownx.betterem:
       smart_enable: all
+plugins:
+  - search
+  - redirects:
+      redirect_maps:
+        aggdocs.md: AGG User group documentation/Finding a marker or gene on a genome.md
