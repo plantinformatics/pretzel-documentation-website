@@ -17,12 +17,12 @@ theme:
         icon: material/weather-night
         name: Switch to dark mode
   features:
-    - navigation.instant
     - navigation.instant.prefetch
     - navigation.tabs
     - toc.integrate
     - navigation.top
     - toc.follow
+    - navigation.sections
 markdown_extensions:
   - toc:
       permalink: true
