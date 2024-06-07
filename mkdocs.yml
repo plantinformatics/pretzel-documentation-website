@@ -34,4 +34,4 @@ plugins:
   - search
   - redirects:
       redirect_maps:
-        aggdocs.md: AGG User group documentation/Finding a marker or gene on a genome.md
+        aggdocs.md: AGG-User-group-documentation/Finding-a-marker-or-gene-on-a-genome.md
