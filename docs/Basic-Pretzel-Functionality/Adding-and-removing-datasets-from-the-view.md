@@ -1,4 +1,4 @@
-# Adding and removing genetic maps from the view
+# Adding and removing datasets from the view
 
 1. Under the explore tab scroll down to the Datasets section
 
