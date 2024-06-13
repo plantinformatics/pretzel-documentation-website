@@ -23,6 +23,8 @@ theme:
     - navigation.top
     - toc.follow
     - navigation.sections
+    - content.tabs.link
+    - content.code.copy
 markdown_extensions:
   - toc:
       permalink: true
@@ -33,6 +35,8 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
 plugins:
   - search
   - redirects:
