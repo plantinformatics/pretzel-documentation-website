@@ -25,6 +25,24 @@ theme:
     - navigation.sections
     - content.tabs.link
     - content.code.copy
+    - navigation.indexes
+nav:
+  - About Pretzel:
+    - index.md
+  - User Stories:
+    - User-Stories/placeholder.md
+  - Use Cases:
+    - Use-Cases/placeholder.md
+  - Basic Functions:
+    - Basic-Functions/Adding-and-removing-datasets-from-the-view.md
+    - Basic-Functions/Search-and-filter-datasets.md
+    - Basic-Functions/Zooming-in-and-out-of-datasets.md
+  - AGG User group documentation:
+    - AGG-User-group-documentation/Finding-a-marker-or-gene-on-a-genome.md
+    - AGG-User-group-documentation/View-a-summary-of-accessions-for-a-searched-subset-of-markers.md
+    - AGG-User-group-documentation/Visualise-the-location-of-a-subset-of-markers.md
+  - Local Setup:
+    - Local-Setup/setup.md
 markdown_extensions:
   - toc:
       permalink: true
