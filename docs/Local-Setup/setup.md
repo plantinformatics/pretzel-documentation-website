@@ -2,6 +2,101 @@
 
 The follow sections are only relevant if you wish to set up your own instance of pretzel.
 
+---
+
+## Combined setup of Pretzel with supporting Database server and Blast server
+
+This section is for running mongo + pretzel + blastserver using docker-componse on new instance.
+
+If you want to run Pretzel without setting up the Blast server, which is used for DNA Sequence search, then you may use the following section, Quick Start (using docker), which uses docker run for each of the servers : Pretzel and Mongo database.
+
+### Configuration
+
+Change to the directory where you want to install the Pretzel source working directory.
+```
+cd
+git clone  https://github.com/plantinformatics/pretzel.git
+```
+
+Create an environment file defining the configuration of directories, names and ports for the servers.
+This is used by pretzel/lb4app/lb3app/scripts/docker-compose/combined.yaml
+
+```
+envFile=~/pretzel.compose.env
+
+cat > $envFile <<EOF
+DATA_DIR=/mnt/mongodb/db0
+mntData=/mnt/data
+
+#PORT=3010
+
+DB_NAME=admin
+API_HOST=localhost
+API_PORT_EXT=3010
+# The value of API_PORT_PROXY is not (currently) a port, it is just defined or undefined.
+API_PORT_PROXY=80
+MONGO_DEFAULT_PORT=27017
+EMAIL_VERIFY=ADMIN
+EMAIL_ADMIN=...
+EMAIL_HOST=...
+EMAIL_PORT=25
+EMAIL_USER=...
+EMAIL_PASS=...
+EMAIL_FROM=...
+use_value_0=1
+germinate_password=...
+EOF
+
+```
+
+
+Create a directory for the resultsCache file.
+```
+mkdir -p ~/log/resultsCache
+# If you have an existing cache file, copy the directory, e.g. :
+cp -pr pretzel/lb4app/node_modules/flat-cache/.cache ~/log/resultsCache
+```
+
+Configuration for building the blastserver image - not required if using a prepared image from local Docker daemon or from dockerhub.
+```
+mkdir -p ~/log/build/docker
+logDate=$(date +%Y%b%d)
+export DOCKER_BUILDKIT=1
+```
+
+```
+cd ~/pretzel
+# I haven't yet pushed blastserver image to dockerhub; it can be built locally :
+docker build -t blastserver -f lb4app/lb3app/scripts/docker-compose/blastServer.Dockerfile . >&  ~/log/build/docker/blastserver.$logDate
+# Configure .yaml to use the current version of pretzel, or build :
+# build pretzel container as usual (without  --build-arg ROOT_URL=/pretzelUpdate)
+docker build  -t pretzel . >& ~/log/build/docker/pretzel.${logDate}
+```
+
+### Install and start Pretzel
+
+Define a bash function which factors the docker-compose up and down commands, making them briefer.
+```
+unset API_PORT_EXT
+function dcCombined() {
+  docker-compose --file ~/pretzel/lb4app/lb3app/scripts/docker-compose/docker-compose.combined.yaml --env-file $envFile $*
+}
+```
+
+# up
+```
+dcCombined up >& ~/log/docker-compose.combined &
+tail ~/log/docker-compose.combined
+```
+
+# down
+```
+dcCombined down
+```
+
+---
+
+
 ## Quick Start (using docker)
 
 For a quick start without installing any of the dependencies you will need docker engine running on your system.
