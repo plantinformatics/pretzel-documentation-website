@@ -83,15 +83,39 @@ In the centre view click on the title of the right axis at the top to bring up t
 ![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/user-stories/user-story-1/us-1-8.png)
 
 ### Load KASP marker positions in the genome assembly
+In the explore tab and Datasets box find
 
+    Field pea KASP markers for PSbMV (Swisher 2020)
+and select 
+
+    chr1LG6
 ![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/user-stories/user-story-1/us-1-9.png)
 
 ### Locate sbm-1 gene in genome assembly using BLAST search
+Navigate to search tab, scroll down to DNA Sequence Blast Search and input the following text into the search box
 
     >AY423375.2
     GGAGAAAGAAACCGAGAGAGAGCAAAAATGGTTGTAGAAGAAACCCCCAAATCCATCATCACCGACGATCAAATCACAACAAACCCTAATCGCGTTATCGAAGACGACAACAATCTTGAAGAAGGAGAGATCCTCGATGAAGACGATTCCTCCGCCACTTCCAAACCCGTCGTCCACCAACCTCACCTCCTCGAGAATTCTTGGACTTTCTGGTTTGATACCCCCGCAGCAAAATCCAAACAAGCCGCTTGGGGTAGCTCAATGCGACCCATCTACACTTTCTCCACTGTTGAAGAGTTTTGGAGCATTTACAATAACATTCATCATCCTGGTAAGTTGGCTGTGGGAGCAGATTTCTATTGTTTCAAGCATAAAATTGAACCTAAATGGGAGGATCCCATTTGTGCTAATGGTGGGAAATGGACTGCGAACTATCCGAAGGGAAAATCTGATACCAGTTGGTTATACACGTTGTTGGCAATGATTGGAGAACAATTTGATCATGGAGATGAAATTTGCGGAGCGGTTGTGAATGTAAGGGGTAGGGCTGAGAAGATTTCTATTTGGACTAAGAATGCTTCAAATGAAGCTGCTCAGGTGAGCATTGGAAAACAGTGGAAGGAGTTTCTTGATTATAATGAGACCATGGGCTTTATATTTCATGATGATGCAAGGAAACTCGACAGAAATGCTAAAAACAAATATGTTGTGTGAACTGTATTGCGTTCTTACATGGTAGCAAACTAGCAATTGCATGAGATGCCTCTCCGATATTCAACATGTTGCTTAATGCTTTCTAAGCCTTTTAAATCTCGTATTGAGTAGTATTTCCAGATTTGTGTGCGGATAATCTTTTGACTGTAGACGATGTTTCATCAATAATAGAGTGATTTAGTCAAAAAAAAAA
 
+![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/user-stories/user-story-1/us-1-10.png)
+
+Scroll down even further and select
+
+    Field pea reference genome (Cameor v1)
+
+![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/user-stories/user-story-1/us-1-11.png)
+
+This will then make the search button clickable and then press the search button. 
+
+![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/user-stories/user-story-1/us-1-12.png)
+
+Scroll up and a new tab will appear in the DNA Sequence Blast Search titled "Blast output"
+
+![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/user-stories/user-story-1/us-1-13.png)
+
 ### (optional) Inspect BLAST results
+
+![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/user-stories/user-story-1/us-1-14.png)
 
 ### Zoom to region around sbm-1 gene
 
