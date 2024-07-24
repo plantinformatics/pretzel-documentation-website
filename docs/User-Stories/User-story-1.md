@@ -18,7 +18,7 @@ Overview of Key Steps To Visualise Results in Pretzel
 
 ## Login
 
-Log in with the provided details:
+Log in with the provided details on [https://agg.plantinformatics.io/login](https://agg.plantinformatics.io/login):
 
 Email Address (username)
 
@@ -48,6 +48,7 @@ and select
 
     Ps VI
 ![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/user-stories/user-story-1/us-1-1.png)
+
 ### Load SNP marker locations in the genome assembly
 In the same 'Explorer' tab and Datasets box find
 
@@ -56,6 +57,9 @@ and select
 
     chr1LG6
 ![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/user-stories/user-story-1/us-1-2.png)
+
+![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/user-stories/user-story-1/us-1-2-extra.png)
+
 ### Invert the orientation of the axis
 In the centre view click on the title of the axis at the top
 
@@ -121,7 +125,7 @@ Full details of the BLAST results are shown in the table. Control the hits shown
 
 ### Zoom to region around sbm-1 gene
 
-Use Pretzel's zoom functions (https://docs.plantinformatics.io/Basic-Functions/Zooming-in-and-out-of-datasets/) to refine the view. Zoom in to the region around the sbm-1 gene.
+Use Pretzel's zoom functions [Zooming in and out of datasets](https://docs.plantinformatics.io/Basic-Functions/Zooming-in-and-out-of-datasets/) to refine the view. Zoom in to the region around the sbm-1 gene.
 
 ![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/user-stories/user-story-1/us-1-15.png)
 
@@ -163,13 +167,21 @@ Click and drag on the right-hand axis to select the region around the gene.
 
 In the right panel, click the Genotypes tab. Click and drag the resize bar to expand the width of the right panel.
 
+![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/user-stories/user-story-1/us-1-20.png)
+
 ### Load genotype data for resistant and susceptible accessions
 
 Click the icon at the right of the Genotypes to open the Genotypes dialog menu. While holding Shift, click on the first sample in the list, scroll down to the bottom and click on the last sample, to select all samples. Then click VCF Lookup.
 
+![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/user-stories/user-story-1/us-1-21.png)
+
+![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/user-stories/user-story-1/us-1-22.png)
+
 ### Sort accessions based on haplotype around the KASP marker position
 
 Click on the ALT column in line with the KASP marker (the dark purple square in the 3rd column of the table). The cell should change to a green colour when it has been clicked. This will order the samples based on their allele at this position.
+
+![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/user-stories/user-story-1/us-1-23.png)
 
 ### Load Multispecies Pulse 30K SNP array AGG field pea PGR genotype dataset
 
@@ -181,18 +193,30 @@ and select
 
     chr1LG6
 
+![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/user-stories/user-story-1/us-1-24.png)
+
 ### Identify SNP on Pulse 30K array that tags identified haplotype
 
 In the Genotypes tab in the right panel, Pulse 30K positions are now indicated by orange squares in the second column of the table.
+
+![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/user-stories/user-story-1/us-1-25.png)
 
 ### Remove WGS data from the view
 
 Click on the axis title at the top of the right-hand axis and click the X to the left of the WGS dataset to remove it from the view.
 
+![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/user-stories/user-story-1/us-1-26.png)
+
 ### Load genotypes from AGG field pea PGR
 
 Click the icon at the right of the Genotypes to open the Genotypes dialog menu. While holding Shift, click on the first sample in the list, scroll down to the bottom and click on the last sample, to select all samples. Then click VCF Lookup.
 
+![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/user-stories/user-story-1/us-1-27.png)
+
+![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/user-stories/user-story-1/us-1-28.png)
+
 ### Sort accessions based on allele at the identified SNP
 
 Click on the ALT column in line with the Pulse 30K marker identified in the previous steps. The cell should change to a green colour when it has been clicked. This will order the samples based on their allele at this position.
+
+![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/user-stories/user-story-1/us-1-29.png)
