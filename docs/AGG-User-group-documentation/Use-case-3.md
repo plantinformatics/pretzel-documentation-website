@@ -1,4 +1,4 @@
-# Use case 1
+# Use case 3
 
 Log in with the provided details on [https://dev2.plantinformatics.io/](https://dev2.plantinformatics.io/):
 
