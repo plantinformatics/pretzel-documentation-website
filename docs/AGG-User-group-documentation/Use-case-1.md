@@ -1,5 +1,20 @@
 # Use case 1
 
+Log in with the provided details on [https://dev2.plantinformatics.io/](https://dev2.plantinformatics.io/):
+
+Email Address (username)
+
+    UserStory1@AGG
+Password
+
+    UserStory1
+
+!!! note
+
+    Please use the provided login account so you have access to all the relevant data 
+
+![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/user-stories/user-story-1/us-1-0.png)
+
 Navigate to the 'Search' tab in the left pannel
 ![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/use-case/use-case-1/uc-1-1.png)
 Within the 'VCF Genotype Search' box, select the drop down menu under 'VCF to search :' select 
