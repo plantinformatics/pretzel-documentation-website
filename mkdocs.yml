@@ -38,6 +38,7 @@ nav:
     - Basic-Functions/Search-and-filter-datasets.md
     - Basic-Functions/Zooming-in-and-out-of-datasets.md
   - AGG User group documentation:
+    - AGG-User-group-documentation/Use-case-1.md
     - AGG-User-group-documentation/Finding-a-marker-or-gene-on-a-genome.md
     - AGG-User-group-documentation/View-a-summary-of-accessions-for-a-searched-subset-of-markers.md
     - AGG-User-group-documentation/Visualise-the-location-of-a-subset-of-markers.md
