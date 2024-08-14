@@ -2,13 +2,6 @@ site_name: Pretzel Documentation
 theme:
   name: material
   palette: 
-    # Palette toggle for dark mode
-    - scheme: slate
-      primary: blue
-      accent: deep orange
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
     # Palette toggle for light mode
     - scheme: default
       primary: black
@@ -16,6 +9,13 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: blue
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
   features:
     - navigation.instant.prefetch
     - navigation.tabs
