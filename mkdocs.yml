@@ -33,7 +33,7 @@ nav:
     - User-Stories/User-story-1.md
   - Use Cases:
     - Use-Cases/Finding-a-marker-or-gene-on-a-genome.md
-    - Use-Cases/View-a-summary-of-accessions-for-a-searched-subset-of-markers.md
+    - Use-Cases/Visualise-genotype-data-for-a-subset-of-accessions-around-specific-genomic-regions.md
     - Use-Cases/Visualise-the-location-of-a-subset-of-markers.md
   - Basic Functions:
     - Basic-Functions/Adding-and-removing-datasets-from-the-view.md
@@ -61,5 +61,5 @@ plugins:
       redirect_maps:
         'aggdocs.md': 'Use-Cases/Finding-a-marker-or-gene-on-a-genome.md'
         'AGG-User-group-documentation/Finding-a-marker-or-gene-on-a-genome.md': 'Use-Cases/Finding-a-marker-or-gene-on-a-genome.md'
-        'AGG-User-group-documentation/View-a-summary-of-accessions-for-a-searched-subset-of-markers.md': 'Use-Cases/View-a-summary-of-accessions-for-a-searched-subset-of-markers.md'
+        'AGG-User-group-documentation/View-a-summary-of-accessions-for-a-searched-subset-of-markers.md': 'Use-Cases/Visualise-genotype-data-for-a-subset-of-accessions-around-specific-genomic-regions.md'
         'AGG-User-group-documentation/Visualise-the-location-of-a-subset-of-markers.md': 'Use-Cases/Visualise-the-location-of-a-subset-of-markers.md'
