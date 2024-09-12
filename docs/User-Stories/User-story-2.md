@@ -6,7 +6,7 @@ In this User Story we will achieve the following in Prezel:
 
 2. Identify the Yr34/Yr48 region of 5AL based on results in Qureshi et al. 2017
 
-3. Define the Wheat Barley 40K SNP array haplotype carried by wheat accession WAWHT2024 in the Yr34/Yr48 region
+3. Define the Wheat Barley 40K SNP array haplotype carried by wheat accession WAWHT2024 (AGG91389WHEA) in the Yr34/Yr48 region
 
 4. Filter for AGG accessions matching the Yr34/Yr48 haplotype
 
@@ -83,4 +83,20 @@ into the Feature Search input box, then click Search. The location of Yr34 will 
 
 ### Define the WAWHT2024 haplotype in the Yr34/Yr48 region
 
-Now we have defined the region of interest - the end of chromosome 5AL - we will load the genotype data for the accession Yr34 was originally discovered in, WAWHT2024.
+Now we have defined the region of interest - the end of chromosome 5AL - we will load the genotype data for the accession Yr34 was originally discovered in, WAWHT2024, genotyped on the Wheat Barley 40K SNP array by the AGG Strategic Partnership as AGG91389WHEA1.
+
+In the 'Explorer' tab, locate the following dataset:
+
+        Triticum aestivum - IWGSC_RefSeq_v2.1 - WAWHT2046 genotype
+
+Only Chr5A has been included for the User Story.
+
+Now "split" the Chr5A axis by clicking the axis title and then the third button on the right as shown in the screenshot. This opens the axis to display the features that have been loaded within the chromosome.
+
+Select the IWGSC RefSeq v2.1 Chr5A axis from around 700Mb to the end of the chromosome. In the right panel, select the Genotypes tab.
+
+The right panel now displays the SNPs within the region we selected, with overlaps between datasets shown by the different colours.
+
+Now load the genotype data for WAWHT2024 by clicking the button indicated in the screenshot, selecting AGG91389WHEA1 in the list, then clicking 'VCF Lookup'. Scroll down to the bottom to see the haplotype at the end of the chromosome. Since WAWHT2024 is the original accession where Yr34 was discovered, we have now defined the Wheat Barley 40K SNP array haplotype corresponding to Yr34.
+
+
