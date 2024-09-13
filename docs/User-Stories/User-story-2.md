@@ -37,15 +37,13 @@ Navigate to the 'Explorer' tab and find the dataset in the list, then click the 
 
     Triticum aestivum - IWGSC_RefSeq_v1.0 - QTL - Yellow Rust - Cheng 2024
 
-![image](https://github.com/user-attachments/assets/9709df54-f424-4ca6-a079-cbbb2ae14937)
-
 This dataset only includes Yellow Rust QTLs on chromosome 5A. Load chr5A from this dataset by clicking the green '+' next to 'chr5A'.
 
-![image](https://github.com/user-attachments/assets/05b0980f-768a-4aac-9152-ac3e110a45aa)
+![Peek 2024-09-13 20-30](https://github.com/user-attachments/assets/49acc28c-c198-4d59-9b71-e28d35e8a3d1)
 
 (Optional) Move the bottom panel to the right to better view the contents of the panel and create more vertical space in the visualisation (middle) panel.
 
-
+![image](https://private-user-images.githubusercontent.com/20571319/367255423-9e187d73-3143-4189-8c73-937fec4547dc.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjYyMjM1NTQsIm5iZiI6MTcyNjIyMzI1NCwicGF0aCI6Ii8yMDU3MTMxOS8zNjcyNTU0MjMtOWUxODdkNzMtMzE0My00MTg5LThjNzMtOTM3ZmVjNDU0N2RjLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTEzVDEwMjczNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTczMTQwNzc1ZWIzZTRhNjVmMTk0ZDJiYzI0NDg4MzE1ZjQ2M2Q0MmEyZTc3NjEyNjM0MTYyZDIzMWNkMmQxYWImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.bfTtjoynJ8wQdMl1KDM5aVVh2yba9ih_-9Zex22cxc8)
 
 Navigate to the 'Explorer' tab and find the dataset
 
@@ -53,9 +51,17 @@ Navigate to the 'Explorer' tab and find the dataset
 
 This dataset only includes Yellow Rust QTLs on chromosome 5A. Load Chr5A from this dataset.
 
+![Peek 2024-09-13 20-33](https://github.com/user-attachments/assets/7583ee78-7681-4bab-8fed-8aec9b16ab3f)
+
 We can now see the QTLs displayed against IWGSC RefSeq v1.0 (intervals shown as bars against the axis) and IWGSC RefSeq v2.1 (peak markers shown as diamonds against the axis).
 
 To increase the size of the diamonds indicating the peak markers from the Tong 2024 QTLs, navigate to the 'View' tab and scroll down to the 'QTL: Diamond Size' slider and increase the value.
+
+![Peek 2024-09-13 20-35](https://github.com/user-attachments/assets/64b92083-a3f5-4a62-b093-2f128753ec98)
+
+(Optional) Still in the View tab, find the slider for 'Outside Axis Margin' and reduce the value to increase the distance between axis in the plot.
+
+![Peek 2024-09-13 20-38](https://github.com/user-attachments/assets/59621ccd-1a87-47e2-91c8-6c947aaf9c2b)
 
 Next we will load SNP positions on the Wheat Barley 40K SNP array in both assemblies, to be able to compare positions across the assemblies.
 
