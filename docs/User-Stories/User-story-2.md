@@ -127,11 +127,11 @@ In the 'Explorer' tab, locate the following dataset:
 
 Only Chr5A has been included for the User Story; load it into the view, then "split" the Chr5A axis by clicking the axis title and then the third button on the right as shown in the screenshot. This opens the axis to display the features that have been loaded within the chromosome. If the diamond indicating the QTL location becomes too big, use the 'QTL: Diamond Size' slider to adjust accordingly.
 
-![Peek 2024-09-13 21-34](https://github.com/user-attachments/assets/893b40f8-503b-4e97-a343-d0f7f4954b88)
+![Peek 2024-09-13 21-39](https://github.com/user-attachments/assets/6b88a73a-ae13-451c-8fff-98c550f71bcb)
 
 Click and drag on the IWGSC RefSeq v2.1 Chr5A axis to select it from around 700Mb to the end of the chromosome. In the right panel, select the Genotypes tab. Adjust the width of the right panel so you can see the list of SNPs (this may depend on the resolution of the screen you are using, for example).
 
-![Peek 2024-09-13 21-39](https://github.com/user-attachments/assets/6b88a73a-ae13-451c-8fff-98c550f71bcb)
+![Peek 2024-09-13 21-42](https://github.com/user-attachments/assets/6390cfb1-0278-40de-ab91-b09c2a99b849)
 
 The right panel now displays the SNPs within the region we selected, with overlaps between datasets shown by the different colours.
 
