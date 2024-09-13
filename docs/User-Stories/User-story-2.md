@@ -21,6 +21,8 @@ Password
 
     UserStory2
 
+![image](https://github.com/user-attachments/assets/e84c6263-d342-4dd4-a738-d486385ba5ca)
+
 !!! note
 
     Please use the provided login account so you have access to all the relevant data 
@@ -31,11 +33,19 @@ Password
 
 Recent publications Cheng et al. 2024 and Tong et al. 2024 have reported Yellow Rust QTLs on chromosome 5A.
 
-Navigate to the 'Explorer' tab and find the dataset
+Navigate to the 'Explorer' tab and find the dataset in the list, then click the '+' icon next to it to list the chromosomes for which data is available.
 
     Triticum aestivum - IWGSC_RefSeq_v1.0 - QTL - Yellow Rust - Cheng 2024
 
-This dataset only includes Yellow Rust QTLs on chromosome 5A. Load chr5A from this dataset.
+![image](https://github.com/user-attachments/assets/9709df54-f424-4ca6-a079-cbbb2ae14937)
+
+This dataset only includes Yellow Rust QTLs on chromosome 5A. Load chr5A from this dataset by clicking the green '+' next to 'chr5A'.
+
+![image](https://github.com/user-attachments/assets/05b0980f-768a-4aac-9152-ac3e110a45aa)
+
+(Optional) Move the bottom panel to the right to better view the contents of the panel and create more vertical space in the visualisation (middle) panel.
+
+
 
 Navigate to the 'Explorer' tab and find the dataset
 
