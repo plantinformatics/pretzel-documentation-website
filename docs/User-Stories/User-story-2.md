@@ -2,7 +2,7 @@
 
 In this User Story we will achieve the following in Prezel:
 
-1. Explore and compare Yellow Rust QTLs on chromosome 5A from *Cheng at al. 2024* and *Tong et al. 2024* defined in different versions of the wheat genome reference assembly (IWGSC RefSeq v1.0 and IWGSC RefSeq v2.1)
+1. Explore and compare Yellow Rust QTLs on chromosome 5A from *Cheng at al. 2024* and *Tong et al. 2024* (a meta study collecting QTLs from many other studies) defined in different versions of the wheat genome reference assembly (IWGSC RefSeq v1.0 and IWGSC RefSeq v2.1)
 
 2. Identify the Yr34/Yr48 region of 5AL based on results in *Qureshi et al. 2017*
 
@@ -107,24 +107,62 @@ into the Feature Search input box, then click Search. The location of Yr34 will 
 
 !!! note
 
-    We have now related QTLs defined in IWGSC RefSeq v1.0, IWGSC RefSeq v2.1, and two genetic maps. Based on the alignment of the genetic maps from *Qureshi et al. 2018*, it is highly likely that the QTL from *Tong et al. 2024* is Yr34, while the QTL reported in *Cheng et al. 2024* is likely to be a different QTL.
+    We have now related QTLs defined in IWGSC RefSeq v1.0, IWGSC RefSeq v2.1, and two genetic maps. Based on the alignment of the genetic maps from *Qureshi et al. 2018*, it is highly likely that the QTL from *Tong et al. 2024* is Yr34, while the QTL reported in *Cheng et al. 2024* is likely to be a different QTL. Also note the re-arrangement at the end of chromosome 5A in the two genome assemblies.
+
+We can select ("brush") the IWGSC RefSeq v2.1 Chr5A axis around the QTL and navigate to the 'Features' tab in the right pan to examine more information about the QTL (directly loaded into Pretzel from the paper). We find this is a QTL from *Joukhadar et al. 2020*.
+
+![Peek 2024-09-13 21-34](https://github.com/user-attachments/assets/20bb12bf-4c37-4d15-b616-83b77d88f9cb)
+
+While holding Ctrl, click and hold the mouse on any part of the WAWHT2046xAvocetS axis and drag it to the left of the IWGSC RefSeq v2.1 Chr5A axis so we can see the projection of both maps to the genome assembly at the same time.
+
+![Peek 2024-09-13 21-31](https://github.com/user-attachments/assets/81b2ed2c-5b39-4b42-912b-b7815672cd3d)
 
 ### Define the WAWHT2024 haplotype in the Yr34/Yr48 region
 
-Now we have defined the region of interest - the end of chromosome 5AL - we will load the genotype data for the accession Yr34 was originally discovered in, WAWHT2024, genotyped on the Wheat Barley 40K SNP array by the AGG Strategic Partnership as AGG91389WHEA1.
+Now we have defined the region of interest - the end of chromosome 5AL - we will load the genotype data for the accession Yr34 was originally discovered in, WAWHT2024, genotyped on the Wheat Barley 40K SNP array by the AGG Strategic Partnership as AGG accession AGG91389WHEA1.
 
 In the 'Explorer' tab, locate the following dataset:
 
         Triticum aestivum - IWGSC_RefSeq_v2.1 - WAWHT2046 genotype
 
-Only Chr5A has been included for the User Story.
+Only Chr5A has been included for the User Story; load it into the view, then "split" the Chr5A axis by clicking the axis title and then the third button on the right as shown in the screenshot. This opens the axis to display the features that have been loaded within the chromosome. If the diamond indicating the QTL location becomes too big, use the 'QTL: Diamond Size' slider to adjust accordingly.
 
-Now "split" the Chr5A axis by clicking the axis title and then the third button on the right as shown in the screenshot. This opens the axis to display the features that have been loaded within the chromosome.
+![Peek 2024-09-13 21-34](https://github.com/user-attachments/assets/893b40f8-503b-4e97-a343-d0f7f4954b88)
 
-Select the IWGSC RefSeq v2.1 Chr5A axis from around 700Mb to the end of the chromosome. In the right panel, select the Genotypes tab.
+Click and drag on the IWGSC RefSeq v2.1 Chr5A axis to select it from around 700Mb to the end of the chromosome. In the right panel, select the Genotypes tab. Adjust the width of the right panel so you can see the list of SNPs (this may depend on the resolution of the screen you are using, for example).
+
+![Peek 2024-09-13 21-39](https://github.com/user-attachments/assets/6b88a73a-ae13-451c-8fff-98c550f71bcb)
 
 The right panel now displays the SNPs within the region we selected, with overlaps between datasets shown by the different colours.
 
 Now load the genotype data for WAWHT2024 by clicking the button indicated in the screenshot, selecting AGG91389WHEA1 in the list, then clicking 'VCF Lookup'. Scroll down to the bottom to see the haplotype at the end of the chromosome. Since WAWHT2024 is the original accession where Yr34 was discovered, we have now defined the Wheat Barley 40K SNP array haplotype corresponding to Yr34.
+
+![Peek 2024-09-13 21-57](https://github.com/user-attachments/assets/f449729d-3c0d-4b9e-adf6-c4ab62fff735)
+
+### Compare other AGG accessions against the WAWHT2024 haplotype
+
+In the 'Explorer' tab, locate the following dataset:
+
+        Triticum aestivum - IWGSC_RefSeq_v2.1 - Genotypes - AGG Filled-in Release 1
+
+This dataset includes all the AGG hexaploid wheat genotype data released so far (as of September 2024). Load Chr5A.
+
+![Peek 2024-09-13 22-00](https://github.com/user-attachments/assets/5fba2bfb-a9b0-4e42-bd48-9c28cc20153b)
+
+Now open the Genotype data pop-up menu by clicking the button next to the 'Genotypes' tab, then select the tab marked 'Wheat_CSv2.1_VCF-AGG-imp-r1'. The list includes over 12,000 wheat accessions in the AGG. Here you can select accessions of interest, or select a random set of accessions. Then click 'VCF Lookup' to request and display the data.
+
+![Peek 2024-09-13 22-09](https://github.com/user-attachments/assets/2e2e24b9-e4b3-446d-bd17-49a4e0aae3e0)
+
+By clicking on the Ref/Alt columns against each SNP, we can sort the genotypes by their distance from a particular haplotype. Scroll to the end of 5AL and click the Ref/Alt pattern corresponding to WAWHT2024 (AGG91389WHEA1).
+
+![Peek 2024-09-13 22-10](https://github.com/user-attachments/assets/53458683-909e-49a2-b497-1d66816ee10f)
+
+!!! note
+
+    We have identified two more accessions with the same haplotype at the end of chromosome 5A as WAWHT2024 (AGG91389WHEA1). Note the two markers named Yr34-Yr48-sunKASP109-F and Yr34-Yr48-sunKASP112-F. These are *trait linked markers* included on the Wheat Barley 40K SNP array based on SNPs reported in *Qureshi et al. 2018*. The Yr34-Yr48-sunKASP112-F is monomorphic and from this we can conclude it did not translate to a SNP marker for some reason. The other marker Yr34-Yr48-sunKASP109-F is polymorphic and from the final image below, we can see the AGG accessions matching the WAWHT2024 (AGG91389WHEA1) haplotype carry the alternate allele for this marker. However, we also find two accessions that carry the alternate allele but which have a different allele for the last two markers in the chromosome, AVRIG28079 and AVRIG28078.
+
+![finalimage](https://github.com/user-attachments/assets/554294c5-4d9e-4900-b90b-074db6995921)
+
+
 
 
