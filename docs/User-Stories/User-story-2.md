@@ -2,11 +2,11 @@
 
 In this User Story we will achieve the following in Prezel:
 
-1. Explore and compare Yellow Rust QTLs on chromosome 5A from Cheng at al. 2024 and Tong et al. 2024 defined in different versions of the wheat genome reference assembly (IWGSC RefSeq v1.0 and IWGSC RefSeq v2.1)
+1. Explore and compare Yellow Rust QTLs on chromosome 5A from *Cheng at al. 2024* and *Tong et al. 2024* defined in different versions of the wheat genome reference assembly (IWGSC RefSeq v1.0 and IWGSC RefSeq v2.1)
 
-2. Identify the Yr34/Yr48 region of 5AL based on results in Qureshi et al. 2017
+2. Identify the Yr34/Yr48 region of 5AL based on results in *Qureshi et al. 2017*
 
-3. Define the Wheat Barley 40K SNP array haplotype carried by wheat accession WAWHT2024 (AGG91389WHEA) in the Yr34/Yr48 region
+3. Define the Wheat Barley 40K SNP array haplotype carried by wheat accession WAWHT2024 (AGG accession: AGG91389WHEA) in the Yr34/Yr48 region
 
 4. Filter for AGG accessions matching the Yr34/Yr48 haplotype
 
@@ -75,11 +75,13 @@ and load chr5A. Then find the dataset
 
 and load Chr5A.
 
+![Peek 2024-09-13 20-52](https://github.com/user-attachments/assets/22a3b55a-c3f2-434c-8973-8fca105988bf)
+
 Green lines are drawn between the positions of markers in each assembly.
 
 ### Identify the Yr34/Yr48 region
 
-We will use two genetic maps covering the Yr34/Yr48 region published in Qureshi et al. 2018 to define our region of interest.
+We will use two genetic maps covering the Yr34/Yr48 region published in *Qureshi et al. 2018* to define our region of interest.
 
 Load the following datasets:
 
@@ -89,13 +91,23 @@ Load the following datasets:
 
     Triticum aestivum - Qureshi 2018 markers anchored to genome assembly IWGSC v2.1
 
-Re-arrange the axes and zoom the region in IWGSC RefSeq v2.1 to focus on the end of 5AL.
+![Peek 2024-09-13 21-00](https://github.com/user-attachments/assets/73cd5641-adb3-40ac-abe8-30bdbe3abbcb)
+
+Zoom the axes to focus on the end of 5AL.
+
+![Peek 2024-09-13 21-16](https://github.com/user-attachments/assets/83a716ca-aa3c-4d39-997c-abf0c28f7256)
 
 Navigate to the Search tab and type
 
     Yr38
 
 into the Feature Search input box, then click Search. The location of Yr34 will be indicated by triangles in the two genetic maps loaded previously. Click the triangles to label them with 'Yr34'.
+
+![Peek 2024-09-13 21-17](https://github.com/user-attachments/assets/41501924-d2e4-4f4e-8059-68daa0816b1a)
+
+!!! note
+
+    We have now related QTLs defined in IWGSC RefSeq v1.0, IWGSC RefSeq v2.1, and two genetic maps. Based on the alignment of the genetic maps from *Qureshi et al. 2018*, it is highly likely that the QTL from *Tong et al. 2024* is Yr34, while the QTL reported in *Cheng et al. 2024* is likely to be a different QTL.
 
 ### Define the WAWHT2024 haplotype in the Yr34/Yr48 region
 
