@@ -43,7 +43,7 @@ This dataset only includes Yellow Rust QTLs on chromosome 5A. Load chr5A from th
 
 (Optional) Move the bottom panel to the right to better view the contents of the panel and create more vertical space in the visualisation (middle) panel.
 
-![image](https://private-user-images.githubusercontent.com/20571319/367255423-9e187d73-3143-4189-8c73-937fec4547dc.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjYyMjM1NTQsIm5iZiI6MTcyNjIyMzI1NCwicGF0aCI6Ii8yMDU3MTMxOS8zNjcyNTU0MjMtOWUxODdkNzMtMzE0My00MTg5LThjNzMtOTM3ZmVjNDU0N2RjLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTEzVDEwMjczNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTczMTQwNzc1ZWIzZTRhNjVmMTk0ZDJiYzI0NDg4MzE1ZjQ2M2Q0MmEyZTc3NjEyNjM0MTYyZDIzMWNkMmQxYWImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.bfTtjoynJ8wQdMl1KDM5aVVh2yba9ih_-9Zex22cxc8)
+![Peek 2024-09-13 20-24](https://github.com/user-attachments/assets/9e187d73-3143-4189-8c73-937fec4547dc)
 
 Navigate to the 'Explorer' tab and find the dataset
 
