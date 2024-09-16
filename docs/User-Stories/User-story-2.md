@@ -6,7 +6,7 @@ In this User Story we will achieve the following in Prezel:
 
 2. Identify the Yr34/Yr48 region of 5AL based on results in *Qureshi et al. 2017*
 
-3. Define the Wheat Barley 40K SNP array haplotype carried by wheat accession WAWHT2046 (AGG accession: AGG91389WHEA) in the Yr34/Yr48 region
+3. Define the Wheat Barley 40K SNP array haplotype carried by wheat accession WAWHT2046 (AGG accession: AGG91389WHEA), the original accession where Yr34 was discovered in *Bariana et al. 2006*, in the Yr34/Yr48 region
 
 4. Filter for AGG accessions matching the Yr34/Yr48 haplotype
 
