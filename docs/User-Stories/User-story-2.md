@@ -6,7 +6,7 @@ In this User Story we will achieve the following in Prezel:
 
 2. Identify the Yr34/Yr48 region of 5AL based on results in *Qureshi et al. 2017*
 
-3. Define the Wheat Barley 40K SNP array haplotype carried by wheat accession WAWHT2024 (AGG accession: AGG91389WHEA) in the Yr34/Yr48 region
+3. Define the Wheat Barley 40K SNP array haplotype carried by wheat accession WAWHT2046 (AGG accession: AGG91389WHEA) in the Yr34/Yr48 region
 
 4. Filter for AGG accessions matching the Yr34/Yr48 haplotype
 
@@ -117,9 +117,9 @@ While holding Ctrl, click and hold the mouse on any part of the WAWHT2046xAvocet
 
 ![Peek 2024-09-13 21-31](https://github.com/user-attachments/assets/81b2ed2c-5b39-4b42-912b-b7815672cd3d)
 
-### Define the WAWHT2024 haplotype in the Yr34/Yr48 region
+### Define the WAWHT2046 haplotype in the Yr34/Yr48 region
 
-Now we have defined the region of interest - the end of chromosome 5AL - we will load the genotype data for the accession Yr34 was originally discovered in, WAWHT2024, genotyped on the Wheat Barley 40K SNP array by the AGG Strategic Partnership as AGG accession AGG91389WHEA1.
+Now we have defined the region of interest - the end of chromosome 5AL - we will load the genotype data for the accession Yr34 was originally discovered in, WAWHT2046, genotyped on the Wheat Barley 40K SNP array by the AGG Strategic Partnership as AGG accession AGG91389WHEA1.
 
 In the 'Explorer' tab, locate the following dataset:
 
@@ -135,11 +135,11 @@ Click and drag on the IWGSC RefSeq v2.1 Chr5A axis to select it from around 700M
 
 The right panel now displays the SNPs within the region we selected, with overlaps between datasets shown by the different colours.
 
-Now load the genotype data for WAWHT2024 by clicking the button indicated in the screenshot, selecting AGG91389WHEA1 in the list, then clicking 'VCF Lookup'. Scroll down to the bottom to see the haplotype at the end of the chromosome. Since WAWHT2024 is the original accession where Yr34 was discovered, we have now defined the Wheat Barley 40K SNP array haplotype corresponding to Yr34.
+Now load the genotype data for WAWHT2046 by clicking the button indicated in the screenshot, selecting AGG91389WHEA1 in the list, then clicking 'VCF Lookup'. Scroll down to the bottom to see the haplotype at the end of the chromosome. Since WAWHT2046 is the original accession where Yr34 was discovered, we have now defined the Wheat Barley 40K SNP array haplotype corresponding to Yr34.
 
 ![Peek 2024-09-13 21-57](https://github.com/user-attachments/assets/f449729d-3c0d-4b9e-adf6-c4ab62fff735)
 
-### Compare other AGG accessions against the WAWHT2024 haplotype
+### Compare other AGG accessions against the WAWHT2046 haplotype
 
 In the 'Explorer' tab, locate the following dataset:
 
@@ -153,13 +153,13 @@ Now open the Genotype data pop-up menu by clicking the button next to the 'Genot
 
 ![Peek 2024-09-13 22-09](https://github.com/user-attachments/assets/2e2e24b9-e4b3-446d-bd17-49a4e0aae3e0)
 
-By clicking on the Ref/Alt columns against each SNP, we can sort the genotypes by their distance from a particular haplotype. Scroll to the end of 5AL and click the Ref/Alt pattern corresponding to WAWHT2024 (AGG91389WHEA1).
+By clicking on the Ref/Alt columns against each SNP, we can sort the genotypes by their distance from a particular haplotype. Scroll to the end of 5AL and click the Ref/Alt pattern corresponding to WAWHT2046 (AGG91389WHEA1).
 
 ![Peek 2024-09-13 22-10](https://github.com/user-attachments/assets/53458683-909e-49a2-b497-1d66816ee10f)
 
 !!! note
 
-    We have identified two more accessions with the same haplotype at the end of chromosome 5A as WAWHT2024 (AGG91389WHEA1). Note the two markers named Yr34-Yr48-sunKASP109-F and Yr34-Yr48-sunKASP112-F. These are *trait linked markers* included on the Wheat Barley 40K SNP array based on SNPs reported in *Qureshi et al. 2018*. The Yr34-Yr48-sunKASP112-F is monomorphic and from this we can conclude it did not translate to a SNP marker for some reason. The other marker Yr34-Yr48-sunKASP109-F is polymorphic and from the final image below, we can see the AGG accessions matching the WAWHT2024 (AGG91389WHEA1) haplotype carry the alternate allele for this marker. However, we also find two accessions that carry the alternate allele but which have a different allele for the last two markers in the chromosome, AVRIG28079 and AVRIG28078.
+    We have identified two more accessions with the same haplotype at the end of chromosome 5A as WAWHT2046 (AGG91389WHEA1). Note the two markers named Yr34-Yr48-sunKASP109-F and Yr34-Yr48-sunKASP112-F. These are *trait linked markers* included on the Wheat Barley 40K SNP array based on SNPs reported in *Qureshi et al. 2018*. The Yr34-Yr48-sunKASP112-F is monomorphic and from this we can conclude it did not translate to a SNP marker for some reason. The other marker Yr34-Yr48-sunKASP109-F is polymorphic and from the final image below, we can see the AGG accessions matching the WAWHT2046 (AGG91389WHEA1) haplotype carry the alternate allele for this marker. However, we also find two accessions that carry the alternate allele but which have a different allele for the last two markers in the chromosome, AVRIG28079 and AVRIG28078.
 
 ![finalimage](https://github.com/user-attachments/assets/554294c5-4d9e-4900-b90b-074db6995921)
 
