@@ -12,7 +12,7 @@ In this User Story we will achieve the following in Prezel:
 
 ## Login
 
-Log in with the provided details on [https://agg.plantinformatics.io/login](https://agg.plantinformatics.io/login):
+Log in with the provided details at <a href="#" target="_blank" rel="noopener noreferrer">https://agg.plantinformatics.io/login</a>:
 
 Email Address (username)
 
@@ -99,7 +99,7 @@ Zoom the axes to focus on the end of 5AL.
 
 Navigate to the Search tab and type
 
-    Yr38
+    Yr34
 
 into the Feature Search input box, then click Search. The location of Yr34 will be indicated by triangles in the two genetic maps loaded previously. Click the triangles to label them with 'Yr34'.
 
@@ -109,7 +109,7 @@ into the Feature Search input box, then click Search. The location of Yr34 will 
 
     We have now related QTLs defined in IWGSC RefSeq v1.0, IWGSC RefSeq v2.1, and two genetic maps. Based on the alignment of the genetic maps from *Qureshi et al. 2018*, it is highly likely that the QTL from *Tong et al. 2024* is Yr34, while the QTL reported in *Cheng et al. 2024* is likely to be a different QTL. Also note the re-arrangement at the end of chromosome 5A in the two genome assemblies.
 
-We can select ("brush") the IWGSC RefSeq v2.1 Chr5A axis around the QTL and navigate to the 'Features' tab in the right pan to examine more information about the QTL (directly loaded into Pretzel from the paper). We find this is a QTL from *Joukhadar et al. 2020*.
+We can select the region in the IWGSC RefSeq v2.1 Chr5A axis around the QTL and navigate to the 'Features' tab in the right pan to examine more information about the QTL (directly loaded into Pretzel from the paper). We find this is a QTL from *Joukhadar et al. 2020*.
 
 ![Peek 2024-09-13 21-34](https://github.com/user-attachments/assets/20bb12bf-4c37-4d15-b616-83b77d88f9cb)
 
