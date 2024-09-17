@@ -4,7 +4,7 @@ In this User Story we will achieve the following in Prezel:
 
 1. Explore and compare Yellow Rust QTLs on chromosome 5A from *Cheng at al. 2024* and *Tong et al. 2024* (a meta study collecting QTLs from many other studies) defined in different versions of the wheat genome reference assembly (IWGSC RefSeq v1.0 and IWGSC RefSeq v2.1)
 
-2. Identify the Yr34/Yr48 region of 5AL based on results in *Qureshi et al. 2017*
+2. Identify the Yr34/Yr48 region of 5AL based on results in *Qureshi et al. 2018*
 
 3. Define the Wheat Barley 40K SNP array haplotype carried by wheat accession WAWHT2046 (AGG accession: AGG91389WHEA), the original accession where Yr34 was discovered in *Bariana et al. 2006*, in the Yr34/Yr48 region
 
