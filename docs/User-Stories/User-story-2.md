@@ -12,7 +12,7 @@ In this User Story we will achieve the following in Prezel:
 
 ## Login
 
-Log in with the provided details at <a href="#" target="_blank" rel="noopener noreferrer">https://agg.plantinformatics.io/login</a>:
+Log in with the provided details at <a href="https://agg.plantinformatics.io/login" target="_blank" rel="noopener noreferrer">https://agg.plantinformatics.io/login</a>:
 
 Email Address (username)
 
