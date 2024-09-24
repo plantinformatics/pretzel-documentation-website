@@ -1,0 +1,21 @@
+name: Auto update develop branch
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  auto-merge:
+    runs-on: ubuntu-ladevelop
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Merge main -> develop
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git checkout develop
+          git merge --no-ff origin/main
+          git push origin develop
