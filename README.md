@@ -1,15 +1,19 @@
-# Readme
+# Setup 
 
-### Setup 
-Run the following in the directory where you have pulled the repo.
+## Local setup
 
-    docker run --rm -it -v ${PWD}:/docs squidfunk/mkdocs-material new .
+Please make sure docker is installed on your machine before running the following
+[https://www.docker.com/](https://www.docker.com/)
 
-For it to track edits, add this into cron tasks
+Run the following in the directory where you have pulled the repo. This will run an interactive preview while you make changes
 
->     crontab -e    
-    */29 * * * * bash -c 'DIR=~/AGG_pretzel/AGG-pretzel-documentation-website/tools; [ ! -d $DIR/logs ] && mkdir $DIR/logs; bash $DIR/automated-pull-from-github.bash >> $DIR/logs/update.log'
+    docker run --rm -it -p 8000:8000 -v ${PWD}:/docs squidfunk/mkdocs-material
 
-*** Adding to the readme
+This can be accessed locally at
+    
+    http://0.0.0.0:8000/
 
-When a new page is created make sure to edit mkdocs.yml, in the Nav section so that the new page is located in the correct navigation menu.
+## Deployment
+Below is a version where process is started in the background
+
+    docker run --rm -it -p 8000:8000 -v ${PWD}:/docs squidfunk/mkdocs-material
