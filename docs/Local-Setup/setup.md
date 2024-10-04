@@ -1,111 +1,155 @@
 # Local setup
 
-The follow sections are only relevant if you wish to set up your own instance of pretzel.
+!!! warning
 
----
+    The following sections are for setting up your own instance of pretzel to load in non-public data for use in your own organisation.
+    For the latest public datasets please access them at [agg.plantinformatics.io](https://agg.plantinformatics.io/)
 
-## Combined setup of Pretzel with supporting Database server and Blast server
+The following set up will be predominantly for linux users using docker. A windows version will be coming soon.
 
-This section is for running mongo + pretzel + blastserver using docker-componse on new instance.
-
-If you want to run Pretzel without setting up the Blast server, which is used for DNA Sequence search, then you may use the following section, [Quick Start (using docker)](#quick-start-using-docker), which uses docker run for each of the servers : Pretzel and Mongo database.
-
-### Configuration
-
-Change to the directory where you want to place the environment file and docker-compose.combined.yaml
-
-Get the [docker-compose.combined.yaml](https://github.com/plantinformatics/pretzel/blob/feature/workingGroup3_383_GenotypeSearch/lb4app/lb3app/scripts/docker-compose/docker-compose.combined.yaml) file.
+## Required Software
+Please make sure [docker](https://www.docker.com/products/docker-desktop/) is installed before you proceed any further.
 
 
-Create an environment file defining the configuration of directories, names and ports for the servers.
+## Creating the configuration files
+
+Change to the directory where you want to place the relevant config files.
+An example is shown below
+
+``` bash 
+mkdir pretzel-docker-config && cd pretzel-docker-config && touch docker-compose.prod.yaml && touch pretzel.compose.prod.env
+```
+
+Using your text editor of choice create an environment file defining the configuration of directories, names and ports for the servers.
+
+Sample files are shown below
+
+``` env title="pretzel.compose.prod.env"
+# prod
+
+DATA_DIR= # mongoDB directory
+mntData= # blastBD and VCF file directroy
+landingPage= # optional accepts basic HTML and CSS
+
+DB_NAME=admin # used to specify mongo db name
+API_HOST= # URL for pretzel if public, used for email verification
+API_PORT_PROXY=80 # used for email verification
+API_PORT_EXT=3000
+BLASTSERVER_PORT=4000
+# The value of API_PORT_PROXY is not (currently) a port, it is just defined or undefined.
+MONGO_DEFAULT_PORT=27017
+EMAIL_VERIFY=NONE # can be NONE (no verification) or ADMIN 
+EMAIL_ADMIN= # used if email verification is used
+EMAIL_HOST= # used if email verification is used
+EMAIL_PORT=25
+EMAIL_PASS= # used if email verification is used
+EMAIL_USER= # used if email verification is used
+EMAIL_FROM= # used if email verification is used
+use_value_0=1
+# in future use_value_0 will always be true (1) and this variable will be deprecated. Indicates that the database Feautures contain .value_0 which is equal to .value[0] and is used to make location-based search query faster.
+germinate_password= # optional
+handsOnTableLicenseKey=non-commercial-and-evaluation
 
 ```
-cat > pretzel.compose.env <<EOF
-DATA_DIR=/mnt/mongodb/db0
-mntData=/mnt/data
 
-#PORT=3010
+``` yaml title="pretzel.compose.prod.yaml"
+# NOTE refer to the accompanying '.env' file in this folder to access
+# environment variables which are passed through to docker-compose.yaml
+# at run time
 
-DB_NAME=admin
-API_HOST=localhost
-API_PORT_EXT=3010
-# The value of API_PORT_PROXY is not (currently) a port, it is just defined or undefined.
-API_PORT_PROXY=80
-MONGO_DEFAULT_PORT=27017
-EMAIL_VERIFY=ADMIN
-EMAIL_ADMIN=...
-EMAIL_HOST=...
-EMAIL_PORT=25
-EMAIL_USER=...
-EMAIL_PASS=...
-EMAIL_FROM=...
-use_value_0=1
-germinate_password=...
-EOF
+# NOTE this has been updated to the docker compose V2 format, this will not work with docker-compose
 
+name: pretzel-prod
+
+networks:
+  pretzel-prod:
+    driver: bridge
+
+services:
+  database: # mongo database
+    image: 9b5c4a4fdcb5 # 4.2.24.  library/mongo-4.2.24 # base image off dockerhub
+#    environment:
+#      - "MONGO_INITDB_ROOT_USERNAME=${DB_USER}"
+#      - "MONGO_INITDB_ROOT_PASSWORD=${DB_PASS}"
+    volumes:
+      - ${DATA_DIR}:/data/db
+    expose:
+      - "${MONGO_DEFAULT_PORT}"
+    networks:
+      - pretzel-prod
+
+  api: # node environment
+    depends_on:
+      - database
+      # Could have depends_on: blastserver, but it is not a critical dependency
+    build:
+      context: .
+      dockerfile: ./scripts/Dockerfile
+    image: plantinformaticscollaboration/pretzel:v2.17.7b # specifying name for built container
+    command: node /app/lb3app/server/server.js
+    environment:
+      - "API_HOST=${API_HOST}"
+      - "API_PORT_EXT=${API_PORT_EXT}"
+      - "API_PORT_PROXY=${API_PORT_PROXY}"
+      - "hostIp=${hostIp}"
+      - "FLASK_PORT=4000"       # ${BLASTSERVER_PORT}"
+      - "DB_HOST=database"
+      - "DB_PORT=${MONGO_DEFAULT_PORT}"
+      - "DB_NAME=${DB_NAME}"
+      - "DB_USER=${DB_USER}"
+      - "DB_PASS=${DB_PASS}"
+      - "EMAIL_HOST=${EMAIL_HOST}"
+      - "EMAIL_PORT=${EMAIL_PORT}"
+      - "EMAIL_USER=${EMAIL_USER}"
+      - "EMAIL_PASS=${EMAIL_PASS}"
+      - "EMAIL_FROM=${EMAIL_FROM}"
+      - "EMAIL_VERIFY=${EMAIL_VERIFY}"
+      - "EMAIL_ADMIN=${EMAIL_ADMIN}"
+      - "mntData=${mntData}"
+      - "handsOnTableLicenseKey=${handsOnTableLicenseKey}"
+    volumes:
+      # landingPage
+      # - $landingPage:/app/client/landingPageContent
+      # blastVolume
+      - $mntData/blast:$mntData/blast
+      # vcfVolume
+      - $mntData/vcf:$mntData/vcf
+    ports:
+      # match ext / int ports for loopback
+      - "${API_PORT_EXT}:${API_PORT_EXT}"
+    networks:
+      - pretzel-prod
+
+  blastserver: # Python Flask blastn server, used for DNA Sequence Search
+    image: plantinformaticscollaboration/blastserver:latest # based on python
+    environment:
+      - "FLASK_PORT=${BLASTSERVER_PORT}"
+    volumes:
+      # mntData=/mnt/data_blast
+      - $mntData/blast:$mntData/blast
+      # Enables scripts/blastn_cont.bash to run blastn via docker
+      - /usr/bin/docker:/usr/bin/docker
+      - /var/run/docker.sock:/var/run/docker.sock
+    expose:
+      - "4000"
+    networks:
+      - pretzel-prod
 ```
 
 ### Create Data directories
 
 Create directories for the Pretzel MongoDb database, Blast database, and results cache, as defined by the paths in the environment file.
 
+It is recommended to use the following directory structure
+
+```
+DATA_DIR= mongodb/db0 # mongoDB directory
+mntData= data_blast# blastBD and VCF file directroy
+```
+
 
 ### Install and start Pretzel
 
 ```
-docker-compose --file docker-compose.combined.yaml --env-file pretzel.compose.env up
+docker compose --file docker-compose.prod.yaml --env-file pretzel.compose.prod.env up -d
 ```
-
----
-
-
-## Quick Start (using docker)
-
-For a quick start without installing any of the dependencies you will need docker engine running on your system.
-
-### Environment variables passed to Docker 
-
-As noted below in [Enable Use Of HandsOnTable](#enable-use-of-handsontable),
-the License Key for HandsOnTable can be passed in to the server via this environment variable : $handsOnTableLicenseKey
-
-This can be passed via the docker run command via -e, e.g.
-for a non-commercial project, e.g. research, it is permitted to define :
-`docker run --name pretzel -e "handsOnTableLicenseKey=non-commercial-and-evaluation" ...`
-
-### Docker on linux
-
-```
-mkdir -p ~/mongodata \
- && docker run --name mongo --detach --volume ~/mongodata:/data/db --net=host mongo:5.0 \
- && until $(curl --silent --output /dev/null localhost:27017 || \
-    [ $(docker inspect -f '{{.State.Running}}' mongo) = "false" ]); do printf '.'; sleep 1; done \
- && docker run --name pretzel --detach --net=host plantinformaticscollaboration/pretzel:stable  \
- && until $(curl --silent --output /dev/null localhost:3000 || \
-    [ $(docker inspect -f '{{.State.Running}}' pretzel) = "false" ] ); do printf '.'; sleep 1; done \
- && docker logs pretzel
-```
-
-mongoDb versions 4 and 5 have been tested with Pretzel.
-
-### Docker on windows
-
-```
-md mongodata
-docker run --name mongo --detach --publish 27017:27017 --volume mongodata:/data/db mongo
-docker run --name pretzel -e "DB_HOST=host.docker.internal" --publish 3000:3000 plantinformaticscollaboration/pretzel:stable
-```
-
-### Checking things are running
-
-If everything has worked so far, you should be able to open [http://localhost:3000](http://localhost:3000) in a browser and see a landing page.
-You can create a user by signing up, then logging in with these details (by default, the user is created immediately without any extra verification).
-
-### Loading data
-
-Once your pretzel instance is running you may want to populate it with some data.
-
-
-### Using pretzel web interface
-
-You can start by downloading and decompressing datasets (3 genetic maps) we have made available [here](https://github.com/plantinformatics/pretzel/releases/download/v1.1.5/public_maps.zip).
-In your instance of Pretzel, navigate to the Upload tab on the left panel, select JSON and browse to the location where you extracted the content of the downloaded file. Select and submit each of the three JSON files in turn. Once submitted, the maps should be visible in the Explorer tab.
