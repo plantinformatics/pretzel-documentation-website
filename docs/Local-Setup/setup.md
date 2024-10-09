@@ -153,3 +153,8 @@ mntData= data_blast# blastBD and VCF file directroy
 ```
 docker compose --file docker-compose.prod.yaml --env-file pretzel.compose.prod.env up -d
 ```
+
+If this has been successfully set up you should see this screen.
+
+<img width="1446" alt="Screenshot 2024-10-09 at 10 57 16 am" src="https://github.com/user-attachments/assets/799ac851-ed09-4a33-bd57-54f2e410d564">
+ 
