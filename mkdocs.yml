@@ -40,6 +40,7 @@ nav:
     - Basic-Functions/Adding-and-removing-datasets-from-the-view.md
     - Basic-Functions/Search-and-filter-datasets.md
     - Basic-Functions/Zooming-in-and-out-of-datasets.md
+    - Basic-Functions/Moving-axes.md
   - Local Setup:
     - Local-Setup/setup.md
 markdown_extensions:
