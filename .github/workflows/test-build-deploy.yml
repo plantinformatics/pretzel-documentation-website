@@ -1,4 +1,4 @@
-name: ci 
+name: Automated build for test env
 on:
   push:
     branches:
