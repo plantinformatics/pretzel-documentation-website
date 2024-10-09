@@ -3,7 +3,7 @@ name: Automated Deploy - documentation website
 on:
   push:
     branches:
-      - master  # Trigger on pushes to master branch
+      - main  # Trigger on pushes to master branch
   workflow_dispatch:  # Allow manual triggering
 
 jobs:
