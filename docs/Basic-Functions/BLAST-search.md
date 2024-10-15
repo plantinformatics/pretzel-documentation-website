@@ -6,4 +6,7 @@ ATGAACCTACTGCCTCACCACCACCTGTCGCTGCCGTCTGGGCCTGGCCGCCGCCCCTCCTCTGCGGCGGAGGCGGTGGA
 
 Scroll down to select for Reference and user defined search parameters (Rows, Length of Hit, % Identity, and % Coverage) to best meet the search objective. Scroll up, select Search and then select BLAST output.
 
+![BLAST](https://github.com/user-attachments/assets/2049f998-d241-41d4-a696-bd198337cfab)
+
+
 
