@@ -36,6 +36,7 @@ nav:
     - Use-Cases/Finding-a-marker-or-gene-on-a-genome.md
     - Use-Cases/Visualise-genotype-data-for-a-subset-of-accessions-around-specific-genomic-regions.md
     - Use-Cases/Visualise-the-location-of-a-subset-of-markers.md
+    - Use-Cases/VCF-genotype-search.md
   - Basic Functions:
     - Basic-Functions/Adding-and-removing-datasets-from-the-view.md
     - Basic-Functions/Search-and-filter-datasets.md
