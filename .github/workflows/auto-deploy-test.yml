@@ -1,4 +1,4 @@
-name: Automated Deploy - documentation website 
+name: TEST DOCUMENTATION - auto update
 
 on:
   push:
