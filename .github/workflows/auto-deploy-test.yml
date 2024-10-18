@@ -1,0 +1,31 @@
+name: Automated Deploy - documentation website 
+
+on:
+  push:
+    branches:
+      - test-space/pk  # Trigger on pushes to master branch
+  workflow_dispatch:  # Allow manual triggering
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Install SSH key
+      uses: shimataro/ssh-key-action@v2
+      with:
+        key: ${{ secrets.EC2_SSH_PRIVATE_KEY }}
+        known_hosts: ${{ secrets.KNOWN_HOSTS }}
+
+    - name: Pull latest changes
+      env:
+        HOST: ${{ secrets.EC2_HOST }}
+        USER: ${{ secrets.EC2_USER }}
+      run: |
+        ssh $USER@$HOST <<EOF
+          cd test/pretzel-documentation-website/
+          git fetch
+          git pull
+        EOF
