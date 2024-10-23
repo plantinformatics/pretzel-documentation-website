@@ -43,6 +43,7 @@ nav:
     - Basic-Functions/Zooming-in-and-out-of-datasets.md
     - Basic-Functions/Moving-axes.md
     - Basic-Functions/BLAST-search.md
+    - Basic-Functions/Axis-flip-orientation.md
 
   - Local Setup:
     - Local-Setup/setup.md
