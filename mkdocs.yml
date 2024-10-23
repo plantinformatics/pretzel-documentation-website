@@ -36,11 +36,15 @@ nav:
     - Use-Cases/Finding-a-marker-or-gene-on-a-genome.md
     - Use-Cases/Visualise-genotype-data-for-a-subset-of-accessions-around-specific-genomic-regions.md
     - Use-Cases/Visualise-the-location-of-a-subset-of-markers.md
+    - Use-Cases/VCF-genotype-search.md
   - Basic Functions:
     - Basic-Functions/Adding-and-removing-datasets-from-the-view.md
     - Basic-Functions/Search-and-filter-datasets.md
     - Basic-Functions/Zooming-in-and-out-of-datasets.md
     - Basic-Functions/Moving-axes.md
+    - Basic-Functions/BLAST-search.md
+    - Basic-Functions/Axis-flip-orientation.md
+
   - Local Setup:
     - Local-Setup/setup.md
 markdown_extensions:
