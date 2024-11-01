@@ -47,7 +47,7 @@ Metadata about the assemblies can be viewed by clicking on the respective Genome
 
 ## Gene annotations by PGSB
 
-De novo gene annotations from *White et al. 2024* (https://doi.org/10.1101/2024.01.09.574802) are available.
+The latest de novo gene annotations from *White et al. 2024* (https://doi.org/10.1101/2024.01.09.574802) have been loaded into Pretzel.
 
 ### Example: Viewing a genome annotation
 
@@ -83,7 +83,9 @@ The SSR map for 7AL and SSR marker positions against IWGSC RefSeq v2.1 have been
 
 ![Peek 2024-11-01 16-17](https://github.com/user-attachments/assets/c11f75aa-2852-4b32-ab53-7b0c567842b9)
 
-Ten years later, *Su et al. 2016* reported a QTL for Thousand Kernel Weight (TKW) on 7AL. In 2019, two studies (*Kuzay et al. 2019* and *Voss-Fels et al. 2019*) reported QTLs for SNS and NRN in the same region.
+Ten years later, *Su et al. 2016* reported a QTL for Thousand Kernel Weight (TKW) on 7AL. *Keeble-Gagnère et al. 2018* also reported a similar yield QTL from a RAC785 x Kukri cross.
+
+In 2019, two studies (*Kuzay et al. 2019* and *Voss-Fels et al. 2019*) reported QTLs for SNS and NRN in the same region.
 
 This set of QTLs have been curated in the dataset ```User Story 3 - Wheat yield QTLs on 7A```, defined as intervals against IWGSC RefSeq v2.1, based on curation of the marker intervals reported in the papers.
 
@@ -91,21 +93,37 @@ In Pretzel we can integrate all these results together and see how the interval 
 
 First, load the ```User Story 3 - Wheat yield QTLs on 7A``` dataset. Then switch to the View tab, and under the Displayed Data section at the top, click the Trait tab. Then tick the box titled **Show / Hide QTLs of all Traits**.
 
-![Peek 2024-11-01 16-19](https://github.com/user-attachments/assets/a1a71588-3ce6-4118-867d-58ab52acf97f)
+![Peek 2024-11-01 21-10](https://github.com/user-attachments/assets/b96de8e6-ea96-4303-86a0-52c6e6a463eb)
+
+## A brief detour into wheat-rice synteny, or, how we found the WAPO1 gene
+
+*Note: This brief section can only be reproduced on <a href="https://plantinformatics.io" target="_blank" rel="noopener noreferrer">https://plantinformatics.io</a> for now. Datasets from plantinformatics.io will be transfered to AGG Pretzel over the next 6 months. Those interested in studying wheat-rice syntenic alignments can sign up for a free account at <a href="https://plantinformatics.io/signup" target="_blank" rel="noopener noreferrer">https://plantinformatics.io/signup</a>.*
+
+Sign in to <a href="https://plantinformatics.io" target="_blank" rel="noopener noreferrer">https://plantinformatics.io</a> and load the following datasets: chromosomes 6 and 8 from ```Oryza_sativa_IRGSP-1.0_genes``` and chr7A from ```Triticum_aestivum_IWGSC_RefSeq_v1.0_HC_genes```. Re-order the axes so that 7A is in the middle.
+
+![Peek 2024-11-01 21-33](https://github.com/user-attachments/assets/a7cea75b-17bf-478e-9f8c-23005fd0137c)
+
+Next, we can search for the rice <a href="https://www.uniprot.org/uniprotkb/Q655Y0/entry#sequences" target="_blank" rel="noopener noreferrer">ABERRANT PANICLE ORGANIZATION (APO)</a> gene ID, Os06g0665400. The search results identify the rice gene but also the orthologous wheat ID, TraesCS7A01G481600.
+
+![Peek 2024-11-01 21-36](https://github.com/user-attachments/assets/64b44d9c-4084-4068-a1e0-3bdd999376fe)
 
 ## Confirming the location of the WAPO1 gene
 
 We can use the WAPO1 gene sequence to locate the gene in the genome. Copy the sequence from the BLAST Use Case and follow the steps in that Use Case to search the IWGSC RefSeq v2.1 assembly. If searching with default parameters (as in the animation below), the BLAST results identify the 7A, 7B and 7D homoeologs of the gene. Remove the 7B and 7D chromosomes from the view.
 
-![Peek 2024-11-01 16-23](https://github.com/user-attachments/assets/a25b38cc-69de-4910-ba8a-0678ffac6d17)
+![Peek 2024-11-01 21-12](https://github.com/user-attachments/assets/1efeed08-d861-4854-9a64-0db0c6ddb4e6)
 
-We can now zoom closer to the region to find that the gene falls exactly within the set of overlapping intervals.
+We can now zoom closer to the region to find that the gene falls exactly within the set of overlapping intervals, but outside the interval from *Quarrie et al. 2006*.
 
-![Peek 2024-11-01 16-27](https://github.com/user-attachments/assets/d97c25d2-89b1-4e98-839e-2b526d24962e)
+![Peek 2024-11-01 21-15](https://github.com/user-attachments/assets/44aea8c0-4828-4510-b24b-8a40c4c69c78)
 
 Before we proceed, we will remove the SSR map from the view, split the IWGSC RefSeq v2.1 chromosome 7A axis and adjust the view to capture the complete region of interest.
 
-![Peek 2024-11-01 16-30](https://github.com/user-attachments/assets/f15e5d9b-5be4-457e-9c62-6934eac4b2d8)
+![Peek 2024-11-01 21-17](https://github.com/user-attachments/assets/fae80ebc-a538-4945-9c5e-8163a52295de)
+
+Note that we can view details about the QTLs by selecting the region and inspecting the Features tab in the right panel.
+
+![Peek 2024-11-01 21-18](https://github.com/user-attachments/assets/cfa97643-2a62-4593-b678-334f4c38bca1)
 
 # Studying the WAPO1 region in the 10+ Wheat genomes
 
@@ -115,9 +133,9 @@ A key result from *Kuzay et al. 2019* and *Voss-Fels et al. 2019* was that only 
 
 Using Brioche, a tool developed in the Australian Grains Genebank Strategic Partnership, we have in-silico genotyped the 10+ Wheat genome assemblies with the Wheat Barley 40K v1.1 SNP array. This dataset is available on AGG Pretzel as ```Triticum aestivum - IWGSC RefSeq v2.1 - Genotypes - 10 Wheat Genomes```.
 
-Continuing from the above analysis where we have located the WAPO1 region, we can load this dataset, select the region around the gene, and load genotypes for the 10+ Wheat genomes. Clicking the ALT column, we can sort the accessions based on their genotype.
+Continuing from the above analysis where we have located the WAPO1 region, we can load this dataset, select the region around the gene, and load genotypes for the 10+ Wheat genomes. Clicking the ALT column, we can sort the accessions based on their allele at the selected SNP.
 
-![Peek 2024-11-01 16-33](https://github.com/user-attachments/assets/50f5b106-d21e-4964-bf31-cfc3f8895265)
+![Peek 2024-11-01 21-20](https://github.com/user-attachments/assets/22e6d8a1-5dc7-41d1-8fbc-267a6552f43b)
 
 We have reproduced the same haplotype classification as reported in *Kuzay et al. 2019*. This shows that the Wheat Barley 40K v1.1 SNP array is able to correctly differentiate the haplotypes reported in the paper, noting that exome sequence was used in the 2019 study.
 
@@ -126,6 +144,8 @@ We have reproduced the same haplotype classification as reported in *Kuzay et al
 We have so far identified the WAPO1 region on chromosome 7AL through the integration of a number of yield QTLs over almost 20 years of research. We have reproduced the haplotype analysis reported in *Kuzay et al. 2019*, confirming the Wheat Barley 40K v1.1 SNP array detects the main haplotypes found in modern wheat.
 
 We can now use Pretzel to directly relate these results to the AGG. We will achieve two main things: 1) Confirm that most wheat accessions in the AGG carry one of the two dominant haplotypes (HAP1 and HAP2) in the WAPO1 region; 2) Identify rarer haplotypes carried by PGR accessions in the AGG.
+
+![Peek 2024-11-01 21-23](https://github.com/user-attachments/assets/41daaab6-7123-4e09-aa42-eafd5180772e)
 
 
 
