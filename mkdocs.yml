@@ -32,6 +32,7 @@ nav:
   - User Stories:
     - User-Stories/User-story-1.md
     - User-Stories/User-story-2.md
+    - User-Stories/User-story-3.md
   - Use Cases:
     - Use-Cases/Finding-a-marker-or-gene-on-a-genome.md
     - Use-Cases/Visualise-genotype-data-for-a-subset-of-accessions-around-specific-genomic-regions.md
