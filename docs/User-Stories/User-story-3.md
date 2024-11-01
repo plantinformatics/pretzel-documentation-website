@@ -71,6 +71,18 @@ We can clearly see the long arm of 7B has joined with the long arm of 5B in Arin
 
 ![Peek 2024-11-01 16-13](https://github.com/user-attachments/assets/30276a07-95c2-4432-bc6d-bda2452e0c86)
 
+### Example: Identifying the genes underlying the *Thinopyrum ponticum* introgression in LongReach Lancer at the end of 3DL
+
+First, we load the Wheat Barley 40K marker mapping for chromosome 3D in both IWGSC RefSeq v2.1 and LongReach Lancer.
+
+![Peek 2024-11-01 21-42](https://github.com/user-attachments/assets/36507934-788b-4a24-b651-9a52eb125fe4)
+
+Note that the LongReach Lancer chromosome 3D is longer than the Chinese Spring 3D.
+
+Next, we can load the PGSB gene annotation for LongReach Lancer chromosome 3D, split the axis to be able to view the features, then zoom in to the region. We can see a list of the genes by selecting the region and inspecting the Features tab in the right panel. We can reduce the threshold Pretzel uses to display features as histograms by increasing the Threshold slider in the Selected Axis Options section of the View tab in the left panel until features are displayed. Once features are displayed, they will be listed in the Features table when selected.
+
+![Peek 2024-11-01 21-53](https://github.com/user-attachments/assets/df84fe7f-a442-4c8e-97ee-e79e0f0a3b59)
+
 ## BLAST search
 
 Each of the 10+ Wheat genome assemblies can be searched by nucleotide sequence using Pretzel's BLAST search feature. Note that currently, searches can only be done against a single assembly at a time.
