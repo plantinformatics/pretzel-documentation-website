@@ -1,4 +1,4 @@
-# User Story 3 - Exploring the wheat pan genome and yield QTLs on chromosome 7A in Pretzel
+# User Story 3 - From SSRs to pan genomes with Pretzel: Two decades of wheat yield QTLs on chromosome 7A
 
 There are three main parts to this User Story:
 
