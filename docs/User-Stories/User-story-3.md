@@ -8,9 +8,9 @@ There are three main parts to this User Story:
 
 3. Finally, we will combine the first two parts to:
 
-   - Reproduce results reported in *Kuzay et al. 2019* and *Voss-Fels et al. 2019* relating to haplotypes carried by the 10+ Wheat Genomes in the WAPO1 region of chromosome 7A
-   - Extend these results to classify wheat PGR accessions in the AGG
-   - Identify wheat PGR accessions in the AGG carrying rare haplotypes in the WAPO1 region
+* Reproduce results reported in *Kuzay et al. 2019* and *Voss-Fels et al. 2019* relating to haplotypes carried by the 10+ Wheat Genomes in the WAPO1 region of chromosome 7A
+* Extend these results to classify wheat PGR accessions in the AGG
+* Identify wheat PGR accessions in the AGG carrying rare haplotypes in the WAPO1 region
 
 ## Login
 
