@@ -7,7 +7,6 @@ There are three main parts to this User Story:
 2. In the second part, we will briefly summarise results from the last 20 years around yield on chromosome 7A. We will use Pretzel to integrate a range of QTL studies and ultimately identify the WAPO1 gene.
 
 3. Finally, we will combine the first two parts to:
-
 * Reproduce results reported in *Kuzay et al. 2019* and *Voss-Fels et al. 2019* relating to haplotypes carried by the 10+ Wheat Genomes in the WAPO1 region of chromosome 7A
 * Extend these results to classify wheat PGR accessions in the AGG
 * Identify wheat PGR accessions in the AGG carrying rare haplotypes in the WAPO1 region
