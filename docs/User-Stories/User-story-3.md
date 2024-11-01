@@ -55,7 +55,7 @@ Each of the 10+ Wheat genome assemblies can be searched by nucleotide sequence u
 
 The mapping of markers across the genomes enables chromosome-scale alignments to be visualised, and regions to be projected from one genome to another (similar to how regions were projected between IWGSC RefSeq v1.0 and IWGSC RefSeq v2.1 in User Story 2).
 
-### A history of wheat yield QTLs on chromosome 7AL
+# A history of wheat yield QTLs on chromosome 7AL
 
 Yield and yield-related QTLs have been reported on 7AL since at least 2006. *Quarrie et al. 2006* reported a QTL in the centromere (Qyld.csdh.7AC) and on 7AL (Qyld.csdh.7AL), defined in an SSR-based genetic map from SQ1 x Chinese Spring.
 
@@ -71,7 +71,7 @@ In Pretzel we can integrate all these results together and see how the interval 
 
 ID search against v1.0, or BLAST.
 
-### Studying the WAPO1 region in the 10+ Wheat genomes
+# Studying the WAPO1 region in the 10+ Wheat genomes
 
 A key result from *Kuzay et al. 2019* and *Voss-Fels et al. 2019* was that only two major haplotypes in the WAPO1 region of 7A, named HAP1 and HAP2, dominate modern hexaploid wheat. A less common haplotype, HAP3, was found to have a positive impact on yield. *Kuzay et al. 2019* classified the haplotypes of the 10+ Wheat genomes and found Chinese Spring, CDC Stanley, Mace and Norin61 to carry HAP1, while ArinaLrFor, CDC Landmark, Jagger, Julius, LongReach Lancer and SY Mattis carry HAP2. The spelt accession included in the 10+ Wheat genomes carried a different haplotype.
 
@@ -83,7 +83,7 @@ Continuing from the above analysis where we have located the WAPO1 region, we ca
 
 We have reproduced the same haplotype classification as reported in *Kuzay et al. 2019*. This shows that the Wheat Barley 40K v1.1 SNP array is able to correctly differentiate the haplotypes reported in the paper, noting that exome sequence was used in the 2019 study.
 
-### Connecting the pan genome to the AGG
+# Connecting the pan genome to the AGG
 
 We have so far identified the WAPO1 region on chromosome 7AL through the integration of a number of yield QTLs over almost 20 years of research. We have reproduced the haplotype analysis reported in *Kuzay et al. 2019*, confirming the Wheat Barley 40K v1.1 SNP array detects the main haplotypes found in modern wheat.
 
