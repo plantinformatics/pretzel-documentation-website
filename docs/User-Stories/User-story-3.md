@@ -35,33 +35,33 @@ After logging in, click Map Viewer in the top left to enter the Pretzel applicat
 
 ## Step by step with screenshots
 
-### Assemblies from the 10+ Wheat Genome project in Pretzel
+## Assemblies from the 10+ Wheat Genome project in Pretzel
 
 The 10 chromosome-scale assemblies from *Walkowiak et al. 2020* have been curated and made available in AGG Pretzel: ArinaLrFor, CDC Landmark, CDC Stanley, Jagger, Julius, LongReach Lancer, Mace, Norin 61, SY Mattis and spelt wheat PI 190962.
 
-## Assembly metadata
+### Assembly metadata
 
 Metadata about the assemblies can be viewed by clicking on the respective Genome entry in the Pretzel Datasets Explorer. The metadata has been extracted from *Walkowiak et al. 2020* and includes accession name, pedigree, growth habit, origin and EBI-ENA ID.
 
 ![Peek 2024-11-01 15-57](https://github.com/user-attachments/assets/2db7d760-01bd-48f8-ac6b-aa685a2d8dc0)
 
-## Gene annotations by PGSB
+### Gene annotations by PGSB
 
 The latest de novo gene annotations from *White et al. 2024* (https://doi.org/10.1101/2024.01.09.574802) have been loaded into Pretzel.
 
-### Example: Viewing a genome annotation
+#### Example: Viewing a genome annotation
 
 For example, we can load the PGSB annotation for CDC Landmark chromosome 2B by selecting ```chr2B``` from the ```Triticum aestivum - CDC Landmark - Genes PGSBv2.1``` dataset. We can click the axis title to open the axis title menu, split the axis, zoom in and select a region. The selected genes are shown in the Features tab in the right panel.
 
 ![Peek 2024-11-01 16-00](https://github.com/user-attachments/assets/6e59004c-495a-429f-86d7-4789c5927816)
 
-## Infinium Wheat Barley 40K v1.1 SNP array marker mappings
+### Infinium Wheat Barley 40K v1.1 SNP array marker mappings
 
 Markers from the Infinium Wheat Barley 40K v1.1 SNP array, which is being used to genotype the AGG wheat collection, have been mapped to each of the 10+ Wheat genomes using <a href="https://github.com/plantinformatics/brioche" target="_blank" rel="noopener noreferrer">Brioche</a>.
 
 The mapping of markers across the genomes enables chromosome-scale alignments to be visualised, and regions to be projected from one genome to another (similar to how regions were projected between IWGSC RefSeq v1.0 and IWGSC RefSeq v2.1 in User Story 2).
 
-### Example: Visualising the 5B/7B translocation in ArinaLrFor and SY Mattis
+#### Example: Visualising the 5B/7B translocation in ArinaLrFor and SY Mattis
 
 *Walkowiak et al. 2020* reported a striking translocation between 5B and 7B found in ArinaLrFor and SY Mattis. We can visualise this by loading the Wheat Barley 40K marker mapping in IWGSC RefSeq v2.1 for chromosomes 5B and 7B, and the same chromosomes in ArinaLrFor and/or SY Mattis.
 
@@ -71,7 +71,7 @@ We can clearly see the long arm of 7B has joined with the long arm of 5B in Arin
 
 ![Peek 2024-11-01 16-13](https://github.com/user-attachments/assets/30276a07-95c2-4432-bc6d-bda2452e0c86)
 
-### Example: Identifying the genes underlying the *Thinopyrum ponticum* introgression in LongReach Lancer at the end of 3DL
+#### Example: Identifying the genes underlying the *Thinopyrum ponticum* introgression in LongReach Lancer at the end of 3DL
 
 First, we load the Wheat Barley 40K marker mapping for chromosome 3D in both IWGSC RefSeq v2.1 and LongReach Lancer.
 
@@ -83,11 +83,12 @@ Next, we can load the PGSB gene annotation for LongReach Lancer chromosome 3D, s
 
 ![Peek 2024-11-01 21-53](https://github.com/user-attachments/assets/df84fe7f-a442-4c8e-97ee-e79e0f0a3b59)
 
-## BLAST search
+### BLAST search
 
 Each of the 10+ Wheat genome assemblies can be searched by nucleotide sequence using Pretzel's BLAST search feature. Note that currently, searches can only be done against a single assembly at a time.
 
-# A history of wheat yield QTLs on chromosome 7AL
+
+## A history of wheat yield QTLs on chromosome 7AL
 
 Yield and yield-related QTLs have been reported on 7AL since at least 2006. *Quarrie et al. 2006* reported a QTL in the centromere (Qyld.csdh.7AC) and on 7AL (Qyld.csdh.7AL), defined in an SSR-based genetic map from SQ1 x Chinese Spring.
 
@@ -107,7 +108,7 @@ First, load the ```User Story 3 - Wheat yield QTLs on 7A``` dataset. Then switch
 
 ![Peek 2024-11-01 21-10](https://github.com/user-attachments/assets/b96de8e6-ea96-4303-86a0-52c6e6a463eb)
 
-## A brief detour into wheat-rice synteny, or, how we found the WAPO1 gene
+### A brief detour into wheat-rice synteny, or, how we found the WAPO1 gene
 
 *Note: This brief section can only be reproduced on <a href="https://plantinformatics.io" target="_blank" rel="noopener noreferrer">https://plantinformatics.io</a> for now. Datasets from plantinformatics.io will be transfered to AGG Pretzel over the next 6 months. Those interested in studying wheat-rice syntenic alignments can sign up for a free account at <a href="https://plantinformatics.io/signup" target="_blank" rel="noopener noreferrer">https://plantinformatics.io/signup</a>.*
 
@@ -119,7 +120,7 @@ Next, we can search for the rice <a href="https://www.uniprot.org/uniprotkb/Q655
 
 ![Peek 2024-11-01 21-36](https://github.com/user-attachments/assets/64b44d9c-4084-4068-a1e0-3bdd999376fe)
 
-## Confirming the location of the WAPO1 gene
+### Confirming the location of the WAPO1 gene
 
 We can use the WAPO1 gene sequence to locate the gene in the genome. Copy the sequence from the BLAST Use Case and follow the steps in that Use Case to search the IWGSC RefSeq v2.1 assembly. If searching with default parameters (as in the animation below), the BLAST results identify the 7A, 7B and 7D homoeologs of the gene. Remove the 7B and 7D chromosomes from the view.
 
@@ -137,11 +138,11 @@ Note that we can view details about the QTLs by selecting the region and inspect
 
 ![Peek 2024-11-01 21-18](https://github.com/user-attachments/assets/cfa97643-2a62-4593-b678-334f4c38bca1)
 
-# Studying the WAPO1 region in the 10+ Wheat genomes
+## Studying the WAPO1 region in the 10+ Wheat genomes
 
 A key result from *Kuzay et al. 2019* and *Voss-Fels et al. 2019* was that only two major haplotypes in the WAPO1 region of 7A, named HAP1 and HAP2, dominate modern hexaploid wheat. A less common haplotype, HAP3, was found to have a positive impact on yield. *Kuzay et al. 2019* classified the haplotypes of the 10+ Wheat genomes and found Chinese Spring, CDC Stanley, Mace and Norin61 to carry HAP1, while ArinaLrFor, CDC Landmark, Jagger, Julius, LongReach Lancer and SY Mattis carry HAP2. The spelt accession included in the 10+ Wheat genomes carried a different haplotype.
 
-## Reproducing the haplotype classification from *Kuzay et al. 2019*
+### Reproducing the haplotype classification from *Kuzay et al. 2019*
 
 Using Brioche, a tool developed in the Australian Grains Genebank Strategic Partnership, we have in-silico genotyped the 10+ Wheat genome assemblies with the Wheat Barley 40K v1.1 SNP array. This dataset is available on AGG Pretzel as ```Triticum aestivum - IWGSC RefSeq v2.1 - Genotypes - 10 Wheat Genomes```.
 
@@ -151,7 +152,8 @@ Continuing from the above analysis where we have located the WAPO1 region, we ca
 
 We have reproduced the same haplotype classification as reported in *Kuzay et al. 2019*. This shows that the Wheat Barley 40K v1.1 SNP array is able to correctly differentiate the haplotypes reported in the paper, noting that exome sequence was used in the 2019 study.
 
-# Connecting the pan genome to the AGG
+
+## Connecting the pan genome to the AGG
 
 We have so far identified the WAPO1 region on chromosome 7AL through the integration of a number of yield QTLs over almost 20 years of research. We have reproduced the haplotype analysis reported in *Kuzay et al. 2019*, confirming the Wheat Barley 40K v1.1 SNP array detects the main haplotypes found in modern wheat.
 
