@@ -2,14 +2,14 @@
 
 There are three main parts to this User Story:
 
-1. In the first part, we will learn how to navigate the wheat pan genome in Pretzel, and visualise some well known results such as the 5B/7B translocation in ArinaLrFor and SY Mattis as well as the *Thinopyrum ponticum* introgression in LongReach Lancer at the end of 3DL.
+- In the first part, we will learn how to navigate the wheat pan genome in Pretzel, and visualise some well known results such as the 5B/7B translocation in ArinaLrFor and SY Mattis as well as the *Thinopyrum ponticum* introgression in LongReach Lancer at the end of 3DL.
 
-2. In the second part, we will briefly summarise results from the last 20 years around yield on chromosome 7A. We will use Pretzel to integrate a range of QTL studies and ultimately identify the WAPO1 gene.
+- In the second part, we will briefly summarise results from the last 20 years around yield on chromosome 7A. We will use Pretzel to integrate a range of QTL studies and ultimately identify the WAPO1 gene.
 
-3. Finally, we will combine the first two parts to:
-* Reproduce results reported in *Kuzay et al. 2019* and *Voss-Fels et al. 2019* relating to haplotypes carried by the 10+ Wheat Genomes in the WAPO1 region of chromosome 7A
-* Extend these results to classify wheat PGR accessions in the AGG
-* Identify wheat PGR accessions in the AGG carrying rare haplotypes in the WAPO1 region
+- Finally, we will combine the first two parts to:
+    * Reproduce results reported in *Kuzay et al. 2019* and *Voss-Fels et al. 2019* relating to haplotypes carried by the 10+ Wheat Genomes in the WAPO1 region of chromosome 7A
+    * Extend these results to classify wheat PGR accessions in the AGG
+    * Identify wheat PGR accessions in the AGG carrying rare haplotypes in the WAPO1 region
 
 ## Login
 
