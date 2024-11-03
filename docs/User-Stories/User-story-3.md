@@ -139,7 +139,7 @@ Note that we can view details about the QTLs by selecting the region and inspect
 
 ## Studying the WAPO1 region in the 10+ Wheat genomes
 
-A key result from *Kuzay et al. 2019* and *Voss-Fels et al. 2019* was that only two major haplotypes in the WAPO1 region of 7A, named HAP1 and HAP2, dominate modern hexaploid wheat. A less common haplotype, HAP3, was found to have a positive impact on yield. *Kuzay et al. 2019* classified the haplotypes of the 10+ Wheat genomes and found Chinese Spring, CDC Stanley, Mace and Norin61 to carry HAP1, while ArinaLrFor, CDC Landmark, Jagger, Julius, LongReach Lancer and SY Mattis carry HAP2. The spelt accession included in the 10+ Wheat genomes carried a different haplotype.
+A key result from *Kuzay et al. 2019* and *Voss-Fels et al. 2019* was that only two major haplotypes in the WAPO1 region of 7A, named HAP1 and HAP2, dominate modern hexaploid wheat. A less common haplotype, HAP3, was found to have a positive impact on yield. *Kuzay et al. 2019* classified the haplotypes of the 10+ Wheat genomes and found that ArinaLrFor, CDC Landmark, Jagger, Julius, LongReach Lancer and SY Mattis carry HAP1 while Chinese Spring, CDC Stanley, Mace and Norin61 carry HAP2. The spelt accession included in the 10+ Wheat genomes carried a different haplotype.
 
 ### Reproducing the haplotype classification from *Kuzay et al. 2019*
 
@@ -157,6 +157,10 @@ We have reproduced the same haplotype classification as reported in *Kuzay et al
 We have so far identified the WAPO1 region on chromosome 7AL through the integration of a number of yield QTLs over almost 20 years of research. We have reproduced the haplotype analysis reported in *Kuzay et al. 2019*, confirming the Wheat Barley 40K v1.1 SNP array detects the main haplotypes found in modern wheat.
 
 We can now use Pretzel to directly relate these results to the AGG. We will achieve two main things: 1) Confirm that most wheat accessions in the AGG carry one of the two dominant haplotypes (HAP1 and HAP2) in the WAPO1 region; 2) Identify rarer haplotypes carried by PGR accessions in the AGG.
+
+Continuing from the previous step where we visualised genotypes for the 10 Wheat genomes, we will now bring in genotypes for wheat PGR accessions in the AGG. In the Dataset Explorer, add chromosome 7A from the ```Triticum aestivum - IWGSC_RefSeq_v2.1 - Genotypes - AGG Filled-in Release 1``` dataset. In the Genotypes menu there are now two tabs - the first - ```Wheat_pangenomes_IWGSC_v2.1``` - is the 10 Wheat genomes, the second - ```Wheat_CSv2.1_VCF-AGG-imp-r1``` - is the AGG data. Select the second tab then select some accessions from the list. To select multiple accessions in a row, click on the first accession in the list, then while holding Shift, click an accession further down the list to select all accessions in between. In this example we select the first 150 or so accessions. If you have accessions of interest, you could search for them and add those to the list. Clicking VCF Lookup will request the genotype data for these accessions and add them to the genotype table.
+
+Clicking the ALT allele for each of the 5 SNPs that make up the haplotype will order accessions based on their distance from HAP1 (all 5 ALT alleles). Scrolling to the right we can see most of the AGG accessions carry either HAP1 or HAP2 (all REF alleles). In between we can clearly see accessions carrying rarer haplotypes, including the haplotype carried by the spelt accession. We have achieved our initial aim of finding accessions in the AGG carrying rare haplotypes in the WAPO1 region.
 
 ![Peek 2024-11-01 21-23](https://github.com/user-attachments/assets/41daaab6-7123-4e09-aa42-eafd5180772e)
 
