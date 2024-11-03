@@ -13,7 +13,7 @@ There are three main parts to this User Story:
 
 ## Login
 
-Log in with the provided details at <a href="https://agg.plantinformatics.io/login" target="_blank" rel="noopener noreferrer">https://agg.plantinformatics.io/login</a>:
+Log in at <a href="https://agg.plantinformatics.io/login" target="_blank" rel="noopener noreferrer">https://agg.plantinformatics.io/login</a> using the details below:
 
 Email Address (username)
 
@@ -58,7 +58,7 @@ For example, we can load the PGSB annotation for CDC Landmark chromosome 2B by s
 
 Markers from the Infinium Wheat Barley 40K v1.1 SNP array, which is being used to genotype the AGG wheat collection, have been mapped to each of the 10+ Wheat genomes using <a href="https://github.com/plantinformatics/brioche" target="_blank" rel="noopener noreferrer">Brioche</a>.
 
-The mapping of markers across the genomes enables chromosome-scale alignments to be visualised, and regions to be projected from one genome to another (similar to how regions were projected between IWGSC RefSeq v1.0 and IWGSC RefSeq v2.1 in User Story 2).
+The mapping of markers across the genomes enables chromosome-scale alignments to be visualised, and regions to be projected from one genome to another (similar to how regions were projected between IWGSC RefSeq v1.0 and IWGSC RefSeq v2.1 in <a href="https://docs.plantinformatics.io/User-Stories/User-story-2/" target="_blank" rel="noopener noreferrer">User Story 2</a>).
 
 #### Example: Visualising the 5B/7B translocation in ArinaLrFor and SY Mattis
 
@@ -66,7 +66,7 @@ The mapping of markers across the genomes enables chromosome-scale alignments to
 
 ![Peek 2024-11-01 16-09](https://github.com/user-attachments/assets/166c40e5-7711-4b2e-93a0-651da39bf8fa)
 
-We can clearly see the long arm of 7B has joined with the long arm of 5B in ArinaLrFor. Rearranging the order of the chromosomes (while holding Ctrl, click on the axis and drag it), we can also see how the short arm of 5B has joined to the short arm of 7B in ArinaLrFor.
+We can clearly see the long arm of 7B has joined with the long arm of 5B in ArinaLrFor. Rearranging the order of the chromosomes, we can also see how the short arm of 5B has joined to the short arm of 7B in ArinaLrFor. To re-order the axes, hold Ctrl then click on the axis and drag it.
 
 ![Peek 2024-11-01 16-13](https://github.com/user-attachments/assets/30276a07-95c2-4432-bc6d-bda2452e0c86)
 
