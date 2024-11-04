@@ -139,7 +139,7 @@ Note that we can view details about the QTLs by selecting the region and inspect
 
 ## Studying the WAPO1 region in the 10+ Wheat genomes
 
-A key result from *Kuzay et al. 2019* and *Voss-Fels et al. 2019* was that only two major haplotypes in the WAPO1 region of 7A, named HAP1 and HAP2, dominate modern hexaploid wheat. A less common haplotype, HAP3, was found to have a positive impact on yield. *Kuzay et al. 2019* classified the haplotypes of the 10+ Wheat genomes and found that ArinaLrFor, CDC Landmark, Jagger, Julius, LongReach Lancer and SY Mattis carry HAP1 while Chinese Spring, CDC Stanley, Mace and Norin61 carry HAP2. The spelt accession included in the 10+ Wheat genomes carried a different haplotype.
+A key result from *Kuzay et al. 2019* and *Voss-Fels et al. 2019* was that only two major haplotypes in the WAPO1 region of 7A, named HAP1 and HAP2, dominate modern hexaploid wheat, with HAP2 associated with increased grain yield. *Kuzay et al. 2019* classified the haplotypes of the 10+ Wheat genomes and found that ArinaLrFor, CDC Landmark, Jagger, Julius, LongReach Lancer and SY Mattis carry HAP1 while Chinese Spring, CDC Stanley, Mace and Norin61 carry HAP2. The spelt accession included in the 10+ Wheat genomes carried a different haplotype.
 
 ### Reproducing the haplotype classification from *Kuzay et al. 2019*
 
