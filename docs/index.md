@@ -4,7 +4,7 @@
 
 Pretzel is an interactive web application designed to enable rapid translation of genomics outputs for any species into concrete answers to research and breeding questions
 
-Learn about how Pretzel can connect legacy QTL results and pan genomes to the AGG with ![User Story 3 - From SSRs to pan genomes with Pretzel: Two decades of wheat yield QTLs on chromosome 7A](https://docs.plantinformatics.io/User-Stories/User-story-3/).
+Learn about how Pretzel can connect legacy QTL results and pan genomes to the AGG with [User Story 3 - From SSRs to pan genomes with Pretzel: Two decades of wheat yield QTLs on chromosome 7A](https://docs.plantinformatics.io/User-Stories/User-story-3/).
 
 ![Peek 2024-11-01 21-23](https://github.com/user-attachments/assets/41daaab6-7123-4e09-aa42-eafd5180772e)
 
