@@ -31,7 +31,6 @@ The search results and the total number of hits will be displayed under the Feat
 ```
 
 ![Adding features](https://github.com/user-attachments/assets/ab9e781f-a8fa-474e-bc9d-2c17bbd775d1)
-
 2. To remove a displayed feature, simply remove the feature name from the input list and click search again.
 
 ![Remove features](https://github.com/user-attachments/assets/58283bca-355b-4ee0-84e1-19dfefa6526d)
