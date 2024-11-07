@@ -28,7 +28,7 @@ The search results and the total number of hits will be displayed under the Feat
         AVRIG33950
         IWB31543
         IWB65513 
- ```
+```
 
 ![Adding features](https://github.com/user-attachments/assets/ab9e781f-a8fa-474e-bc9d-2c17bbd775d1)
 
