@@ -2,7 +2,7 @@
  
 !!!note
 
-Feature search is case-sensitive, and the user needs to enter the full feature name for the search to work.
+     Feature search is case-sensitive, and the user needs to enter the full feature name for the search to work.
 
 ## Search
  
