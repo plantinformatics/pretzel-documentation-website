@@ -1,4 +1,8 @@
-name: Automated build for test env
+# When ever any commit is pushed to the develop branch, this action will auto trigger and update 
+# https://plantinformatics.github.io/pretzel-documentation-website/
+# NOTE: A hard refresh might be needed to see the changes (ctrl + R)
+
+name: test__auto-deploy-docs
 on:
   push:
     branches:

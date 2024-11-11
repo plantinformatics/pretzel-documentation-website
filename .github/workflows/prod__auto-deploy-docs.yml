@@ -1,4 +1,8 @@
-name: Automated Deploy - documentation website 
+# When ever any commit is pushed to the main branch, this action will auto trigger and update 
+# https://docs.plantinformatics.io/
+# NOTE: A hard refresh might be needed to see the changes (ctrl + R)
+
+name: prod__auto-deploy-docs
 
 on:
   push:
