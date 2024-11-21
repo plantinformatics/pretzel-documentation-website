@@ -1,4 +1,4 @@
-# Local setup
+# Quick setup
 
 !!! warning
 
@@ -22,33 +22,41 @@ mkdir pretzel-docker-config && cd pretzel-docker-config && touch docker-compose.
 
 Using your text editor of choice create an environment file defining the configuration of directories, names and ports for the servers.
 
-Sample files are shown below
+Sample files are shown below, latest version can be found on our [github](https://github.com/plantinformatics/pretzel/tree/develop/doc/adminGuides/)
 
 ``` env title="pretzel.compose.prod.env"
-# prod
+# Prod
 
-DATA_DIR= # mongoDB directory
-mntData= # blastBD and VCF file directroy
-landingPage= # optional accepts basic HTML and CSS
+# DATA_DIR= # directory for mongoDb database
+# mntData= # directory for Blast and VCF databases
+# landingPage= # directory containing index.html and web page content to display on the home page before the user logs in.
+# This dir maps to /app/node_modules/flat-cache/.cache and contains 1 file : resultsCache
+# resultsCacheDir=/home/ec2-user/home/resultsCache/prod
+#PORT=3010
 
-DB_NAME=admin # used to specify mongo db name
-API_HOST= # URL for pretzel if public, used for email verification
-API_PORT_PROXY=80 # used for email verification
-API_PORT_EXT=3000
+# Not used ?
+# INSTANCE=agg
+DB_NAME=pretzel
+# API_HOST=agg.plantinformatics.io
+API_PORT_PROXY=80
+API_PORT_EXT=3010
+hostIp=blastserver
+# Flask port is now internal to the compose network, so use fixed (default) 4000; 
+# no need to configure via FLASK_PORT / BLASTSERVER_PORT.
 BLASTSERVER_PORT=4000
 # The value of API_PORT_PROXY is not (currently) a port, it is just defined or undefined.
 MONGO_DEFAULT_PORT=27017
-EMAIL_VERIFY=NONE # can be NONE (no verification) or ADMIN 
-EMAIL_ADMIN= # used if email verification is used
-EMAIL_HOST= # used if email verification is used
+EMAIL_VERIFY=ADMIN
+# EMAIL_ADMIN=user-email-admin@example.com
+# EMAIL_HOST=email-smtp.<region>.amazonaws.com
 EMAIL_PORT=25
-EMAIL_PASS= # used if email verification is used
-EMAIL_USER= # used if email verification is used
-EMAIL_FROM= # used if email verification is used
+# EMAIL_PASS=...
+# EMAIL_USER=...
+# EMAIL_FROM=admin@example.com
+# This enables using Feature.value_0 as an index field; all datbases now contain this field and this option can be made to default to true (1).
 use_value_0=1
-# in future use_value_0 will always be true (1) and this variable will be deprecated. Indicates that the database Feautures contain .value_0 which is equal to .value[0] and is used to make location-based search query faster.
-germinate_password= # optional
-handsOnTableLicenseKey=non-commercial-and-evaluation
+# If a handsOnTableLicenseKey is not provided, a prompt message will be displayed in the GUI. Insert your license here; Hands On Table allows non-commercial and evaluation use.
+# handsOnTableLicenseKey=non-commercial-and-evaluation
 
 ```
 
@@ -67,7 +75,8 @@ networks:
 
 services:
   database: # mongo database
-    image: 9b5c4a4fdcb5 # 4.2.24.  library/mongo-4.2.24 # base image off dockerhub
+    # MongoDb up to v5 has been tested OK
+    image: mongo:4.2.24
 #    environment:
 #      - "MONGO_INITDB_ROOT_USERNAME=${DB_USER}"
 #      - "MONGO_INITDB_ROOT_PASSWORD=${DB_PASS}"
@@ -85,13 +94,15 @@ services:
     build:
       context: .
       dockerfile: ./scripts/Dockerfile
-    image: plantinformaticscollaboration/pretzel:v2.17.7b # specifying name for built container
+    image: plantinformaticscollaboration/pretzel:v3.1.0
     command: node /app/lb3app/server/server.js
     environment:
       - "API_HOST=${API_HOST}"
       - "API_PORT_EXT=${API_PORT_EXT}"
       - "API_PORT_PROXY=${API_PORT_PROXY}"
       - "hostIp=${hostIp}"
+      # Flask port is now internal to the compose network, so use fixed (default) 4000; 
+      # no need to configure via FLASK_PORT / BLASTSERVER_PORT.
       - "FLASK_PORT=4000"       # ${BLASTSERVER_PORT}"
       - "DB_HOST=database"
       - "DB_PORT=${MONGO_DEFAULT_PORT}"
@@ -109,24 +120,26 @@ services:
       - "handsOnTableLicenseKey=${handsOnTableLicenseKey}"
     volumes:
       # landingPage
-      # - $landingPage:/app/client/landingPageContent
+      - $landingPage:/app/client/landingPageContent
       # blastVolume
       - $mntData/blast:$mntData/blast
       # vcfVolume
       - $mntData/vcf:$mntData/vcf
+      - ${resultsCacheDir}:/app/node_modules/flat-cache/.cache
+
     ports:
       # match ext / int ports for loopback
       - "${API_PORT_EXT}:${API_PORT_EXT}"
     networks:
       - pretzel-prod
 
-  blastserver: # Python Flask blastn server, used for DNA Sequence Search
-    image: plantinformaticscollaboration/blastserver:latest # based on python
+  blastserver: # Python Flask blastn server, based on a python image, used for DNA Sequence Search
+    image: plantinformaticscollaboration/blastserver:latest
     environment:
       - "FLASK_PORT=${BLASTSERVER_PORT}"
     volumes:
       # mntData=/mnt/data_blast
-      - $mntData/blast:$mntData/blast
+      - $mntData/blast:/mnt/data/blast
       # Enables scripts/blastn_cont.bash to run blastn via docker
       - /usr/bin/docker:/usr/bin/docker
       - /var/run/docker.sock:/var/run/docker.sock
