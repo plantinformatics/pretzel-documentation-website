@@ -48,21 +48,17 @@ To flip or invert the axis, open the Axis Title menu and select the icon with up
 
 === "Specific Dataset"
 
-    ```specific dataset
     Open the Axis Title menu and click the cross icon next to a specific dataset to remove it from the displayed view.
     
     ![5a  remove selected dataset](https://github.com/user-attachments/assets/ec022dd1-6f93-4448-b89c-bb2c86b46f54)
     
-    ```
-    
+       
 === "All Datasets"
 
-    ```all datasets
     To remove all datasets from view, open the Axis Title menu and click the cross icon located above the axis name.
     
     ![5b  Removing all datasets](https://github.com/user-attachments/assets/038e5990-b8cd-4e99-bbf3-32903739f647)
     
-    ```
 ## Rename Axis title
 
 To rename the axis title, open the Axis Title menu and click the pen icon to access the text bar. Enter a new axis title that aligns with your objective.
