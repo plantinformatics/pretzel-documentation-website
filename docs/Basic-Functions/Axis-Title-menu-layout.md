@@ -6,7 +6,7 @@ Click on the axis title to open the Axis Title menu. This offers several functio
 ## Split Axis
 To view multiple data sets simultaneously, such as different marker types or genes aligned against the same genome or chromosome, the axis-split-axis feature is very useful. To enable it, click on the axis menu layout, select the downward-slanting arrow, and close the menu by clicking the cross in the top right corner.
 
-Split axis could be done by either first adding multiple datasets and then selecting to split axis icon or vice-versa.
+Split axis could be done either before or after adding datasets to the axis.
 
 ![2a-split-axis](https://github.com/user-attachments/assets/26e7b4a8-b6e3-42f1-a8c3-c9110efe06ac)
 
@@ -20,15 +20,15 @@ Upon zooming in the axis (Click and drag) the representation of individual featu
 
 === "Adding Feature"
 
-    ```adding feature
-    Selecting an individual fingerprint band allows the user to view the feature's location, represented by an arrow, and   selecting the arrow displays the feature name. 
+    ```Selecting an individual fingerprint band allows the user to view the feature's location, represented by an arrow, and   selecting the arrow displays the feature name. 
+    
         ![2c-split-axis-add-feature](https://github.com/user-attachments/assets/30f19a38-cc6c-4792-9f6f-bf568122ef2a)
     ```
     
 === "Hiding Feature"
     
-    ```hiding feature
-    Clicking the feature arrow hides the feature name, and selecting the fingerprint band again hides the feature entirely.
+    ```Clicking the feature arrow hides the feature name, and selecting the fingerprint band again hides the feature entirely.
+    
         ![2d-split-axis-remove-feature](https://github.com/user-attachments/assets/2cc78f74-0d63-4d5c-890a-b344e8c9456c)
     ```
 !!!note
@@ -36,7 +36,7 @@ Upon zooming in the axis (Click and drag) the representation of individual featu
 
 ## Flip Axis
 
-To flip or invert the axis, open the Axis Title menu nad select the icon with up and down pointing arrows. For instance, 
+To flip or invert the axis, open the Axis Title menu and select the icon with up and down pointing arrows. For instance, 
 
 ![3-flip-axis](https://github.com/user-attachments/assets/d617c796-1ab5-4382-a063-66d9861ca70f)
 
@@ -50,6 +50,7 @@ To flip or invert the axis, open the Axis Title menu nad select the icon with up
     Open the Axis Title menu and click the cross icon next to a specific dataset to remove it from the displayed view.
     
     ![5a  remove selected dataset](https://github.com/user-attachments/assets/ec022dd1-6f93-4448-b89c-bb2c86b46f54)
+    
     ```
     
 === "All Datasets"
@@ -58,6 +59,7 @@ To flip or invert the axis, open the Axis Title menu nad select the icon with up
     To remove all datasets from view, open the Axis Title menu and click the cross icon located above the axis name.
     
     ![5b  Removing all datasets](https://github.com/user-attachments/assets/038e5990-b8cd-4e99-bbf3-32903739f647)
+    
     ```
 ## Rename Axis title
 
