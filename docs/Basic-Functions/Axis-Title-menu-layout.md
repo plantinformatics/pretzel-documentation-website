@@ -20,19 +20,16 @@ Upon zooming in the axis (Click and drag) the representation of individual featu
 
 === "Adding Feature"
 
-    ``` 
     Selecting an individual fingerprint band allows the user to view the feature's location, represented by an arrow, and   selecting the arrow displays the feature name. 
     
     ![2c-split-axis-add-feature](https://github.com/user-attachments/assets/30f19a38-cc6c-4792-9f6f-bf568122ef2a)
-    
-    ```
-    
+     
 === "Hiding Feature"
     
-    ```Clicking the feature arrow hides the feature name, and selecting the fingerprint band again hides the feature entirely.
+    Clicking the feature arrow hides the feature name, and selecting the fingerprint band again hides the feature entirely.
     
-        ![2d-split-axis-remove-feature](https://github.com/user-attachments/assets/2cc78f74-0d63-4d5c-890a-b344e8c9456c)
-    ```
+    ![2d-split-axis-remove-feature](https://github.com/user-attachments/assets/2cc78f74-0d63-4d5c-890a-b344e8c9456c)
+    
 !!!note
   Deselect any displayed feature to ensure it is not automatically displayed the next time the same dataset is opened.
 
