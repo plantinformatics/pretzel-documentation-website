@@ -66,9 +66,13 @@ To rename the axis title, open the Axis Title menu and click the pen icon to acc
 
 Open the Axis Title menu and click the eye icon to toggle the display of a particular dataset, showing or hiding it from view.
 
-![6a-hide-features](https://github.com/user-attachments/assets/e0d58454-09b0-4466-b51b-db4d98df0c65)
+=== "Display feature"
 
-![6b-display-features](https://github.com/user-attachments/assets/a123b35a-f335-4cbb-832d-6b119734e6e2)
+    ![6a-hide-features](https://github.com/user-attachments/assets/e0d58454-09b0-4466-b51b-db4d98df0c65)
+
+=== "Hide feature"
+
+    ![6b-display-features](https://github.com/user-attachments/assets/a123b35a-f335-4cbb-832d-6b119734e6e2)
 
 ## Selected / total features of a dataset
 
