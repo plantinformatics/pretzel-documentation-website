@@ -23,7 +23,7 @@ Upon zooming in the axis (Click and drag) the representation of individual featu
     ``` 
     Selecting an individual fingerprint band allows the user to view the feature's location, represented by an arrow, and   selecting the arrow displays the feature name. 
     
-![2c-split-axis-add-feature](https://github.com/user-attachments/assets/30f19a38-cc6c-4792-9f6f-bf568122ef2a)
+    ![2c-split-axis-add-feature](https://github.com/user-attachments/assets/30f19a38-cc6c-4792-9f6f-bf568122ef2a)
     
     ```
     
