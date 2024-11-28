@@ -62,7 +62,7 @@ To rename the axis title, open the Axis Title menu and click the pen icon to acc
 
 ![4 rename](https://github.com/user-attachments/assets/62495c11-99c1-4f73-b101-c3e2a47e258a)
 
-## Display / hide features of dataset
+## Display and hide features of dataset
 
 Open the Axis Title menu and click the eye icon to toggle the display of a particular dataset, showing or hiding it from view.
 
@@ -74,7 +74,7 @@ Open the Axis Title menu and click the eye icon to toggle the display of a parti
 
     ![6b-display-features](https://github.com/user-attachments/assets/a123b35a-f335-4cbb-832d-6b119734e6e2)
 
-## Selected / total features of a dataset
+## Selected features vs total features of a dataset
 
 When zooming in on a specific genomic segment, the Axis Title menu displays the number of features within the selected region relative to the total features on the chromosome.
 
