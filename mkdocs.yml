@@ -39,13 +39,12 @@ nav:
     - Use-Cases/Visualise-the-location-of-a-subset-of-markers.md
     - Use-Cases/VCF-genotype-search.md
   - Basic Functions:
+    - Basic-Functions/Search-tab.md
     - Basic-Functions/Adding-and-removing-datasets-from-the-view.md
     - Basic-Functions/Search-and-filter-datasets.md
     - Basic-Functions/Zooming-in-and-out-of-datasets.md
     - Basic-Functions/Moving-axes.md
-    - Basic-Functions/BLAST-search.md
     - Basic-Functions/Axis-flip-orientation.md
-    - Basic-Functions/Feature-search.md
 
   - Self Hosting:
     - Self-Hosting/Quick-setup.md
