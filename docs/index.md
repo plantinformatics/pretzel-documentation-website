@@ -6,10 +6,12 @@ hide:
 
 # About Pretzel
 
-![Image title](https://github.com/user-attachments/assets/e3326edb-1a3c-4bbe-830e-8298ff995e88){ align=left width="600" }
-![Peek 2024-11-01 21-23](https://github.com/user-attachments/assets/41daaab6-7123-4e09-aa42-eafd5180772e){ align=left width="600" }
+![Image title](https://github.com/user-attachments/assets/e3326edb-1a3c-4bbe-830e-8298ff995e88){ align=left width="45%" }
+![Peek 2024-11-01 21-23](https://github.com/user-attachments/assets/41daaab6-7123-4e09-aa42-eafd5180772e){ align=left width="50%" }
 
+<div style="clear:both;" markdown>
 Pretzel is an interactive web application designed to enable rapid translation of genomics outputs for any species into concrete answers to research and breeding questions
+</div>
 
 <br>
 
