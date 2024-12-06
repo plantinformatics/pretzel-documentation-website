@@ -15,14 +15,14 @@ Password
 
 ![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/user-stories/user-story-1/us-1-0.png)
 
-Navigate to the 'Search' tab in the left pannel
+Navigate to the 'Search' tab in the left panel
 ![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/use-case/use-case-1/uc-1-1.png)
 Within the 'VCF Genotype Search' box, select the drop down menu under 'VCF to search :' select 
     
     Field pea AGG 30K genotype data sample
     
 ![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/use-case/use-case-1/uc-1-2.png)
-Witin the same pannel input the following into 'Samples input :'
+Witin the same panel input the following into 'Samples input :'
 
     Pulse.30K-0046-07-04|AGG2653PEAS2-B00001-6-04
     Pulse.30K-0046-07-93|AGG3349PEAS2-B00001-6-93

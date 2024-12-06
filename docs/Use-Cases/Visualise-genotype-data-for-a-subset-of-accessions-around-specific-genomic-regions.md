@@ -31,7 +31,7 @@ If needed, reselect a given area to zoom in further to select only the required 
 
 ![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/use-case/summary-accessions/sa-5.png)
 
-Click the Genotype tab in the right hand pannel to switch to Genotype view then press the button highlighted by the red arrow in the screenshot
+Click the Genotype tab in the right hand panel to switch to Genotype view then press the button highlighted by the red arrow in the screenshot
 
 ![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/use-case/summary-accessions/sa-6.png)
 

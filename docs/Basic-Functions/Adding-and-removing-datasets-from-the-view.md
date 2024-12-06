@@ -7,7 +7,7 @@
     By default, when the page loads it will always be on the Explorer Tab
 ![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/pretzel-basic/adding-and-removing-dataset-from-view/add-remove01.png)
 2. Clicking on the name of a dataset will highlight it and show information 
-about the data set on the right hand pannel
+about the data set on the right hand panel
 
 ![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/pretzel-basic/adding-and-removing-dataset-from-view/add-remove02.png)
 3. Pressing the plus button will expand the dataset to reveal items that can be loaded into the view  

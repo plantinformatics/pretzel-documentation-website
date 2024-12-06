@@ -4,7 +4,8 @@
 
 !!! example "New feature"
     
-    This search allows a user to view the genotypes for a set of accessions of interest at a small subset of trait linked markers. This is useful for making decisions on which accessions to use in an experiment.
+    This search allows a user to view the genotypes for a set of accessions of interest at a small subset of markers. The user only needs to know the accessions of interest and marker names to generate a summary table in a few seconds.
+ 
 
 ![vcf-feature-search](https://github.com/user-attachments/assets/f29743ac-29ff-4660-a384-5991cc48028c)
 
@@ -22,12 +23,12 @@ AVRIG00246
 AVRIG00484
 ```
 
-While these inputs can be manually inputted, the easiest way to get the sample names is to load a VCF file and select the samples of interest.
+While these inputs can be entered manually, the easiest way to get the sample names is to load a VCF file and select the samples of interest.
 
 Within the box, first select your VCF to search. This will load the VCF and give you a list of all the available samples.
 ![vcf-feature-search-02](https://github.com/user-attachments/assets/2028eec5-6a25-4120-882b-1806266943c1)
 
-If anything entered into the Search/Filter box, the list will be filtered to match the search term. Clicking on a sample will add it to the list of samples to be searched.
+If anything is entered into the Search/Filter box, the list will be filtered to match the search term. Clicking on a sample will add it to the list of samples to be searched.
 
 ![vcf-feature-search-03](https://github.com/user-attachments/assets/
 1c71f8d7-1a41-485f-9c1f-bff6339f51c6)
@@ -36,14 +37,14 @@ Features can be added by entering the feature names into the Features input text
 #### (Optional) Loading multiple samples 
 !!! note
 
-    The following search has only been tested up to 1000 samples. The interface will become extremely slow if a larger number of samples are selected. If it does become slow efresh the page to restart.
-To select a range of samples, hold down the CRTL key and select another sample in the list.
+    The following search has only been tested up to 1000 samples. The interface will become extremely slow if a larger number of samples are selected. If it does become slow refresh the page to restart.
+To select a range of samples, hold down the CTRL key and select another sample in the list.
 ![vcf-feature-search-04](https://github.com/user-attachments/assets/f2acc5dc-7c31-4fd2-a9fa-37ab09ba7e47)
 
 
 
 ### View results
-Once the search button is pressed the results will be displayed in a table on the right hand pannel in the Genotypes tab.
+Once the search button is pressed the results will be displayed in a table on the right hand panel in the Genotypes tab.
 ![vcf-feature-search-06](https://github.com/user-attachments/assets/44b9ca10-cb88-4342-b5ef-06ac47faf054)
 
 ### (Optional) Selecting additional features from the view
@@ -56,7 +57,7 @@ Adding additional features to the search can be done by entering the feature nam
 ### VCF Search inputs
 !!!note
 
-    Only full names will be accepted by the feature search and there needs to be an exact match including capitalisation. Most features are usually stored in its capitalised format. 
+    Only full names will be accepted by the feature search, and there needs to be an exact match including capitalisation. Most features are stored in their capitalised format. 
  
 Once the feature names have been inputted into the search box. Please press the search button to view the search results.
 
@@ -103,7 +104,7 @@ Brush the axes between the features, and select the Features tab on the right si
 
 ### BLAST search inputs
 
-To perform a BLAST seach, please input both a DNA sequence and select a reference genome to search against.
+To perform a BLAST search, please input both a DNA sequence and select a reference genome to search against.
 
 An example search is shown below:
 
@@ -131,6 +132,6 @@ The following search parameters can also be added to search to filter the return
 
 ### View Results 
 
-To view results, user can select/deselect the hits by clicking on square boxes under view tab in raw output data. Further, by clicking on the expand arrow (top right corner of BLAST output), user can view the BLAST results in table format and can also select/deslect the samples.  
+To view results, the user can select/deselect the hits by clicking on square boxes under the view tab in the raw output data. Further, by clicking on the expand arrow (top right corner of BLAST output), the user can view the BLAST results in table format and can also select/deselect the samples.  
 
 ![BLAST results](https://github.com/user-attachments/assets/cf27a9fb-9851-451f-b2ed-f894c36c9919)
