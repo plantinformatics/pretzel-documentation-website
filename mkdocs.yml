@@ -40,6 +40,7 @@ nav:
     - Use-Cases/VCF-genotype-search.md
   - Basic Functions:
     - Basic-Functions/Search-tab.md
+    - Basic-Functions/Features-tab.md
     - Basic-Functions/Adding-and-removing-datasets-from-the-view.md
     - Basic-Functions/Search-and-filter-datasets.md
     - Basic-Functions/Zooming-in-and-out-of-datasets.md
