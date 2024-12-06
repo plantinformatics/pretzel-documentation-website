@@ -1,6 +1,6 @@
 # Visualise the location of a subset of markers​
 
-Click on the "Search" button the left hand search pannel
+Click on the "Search" button the left hand search panel
 
 ![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/use-case/visualise-subset-of-markers%E2%80%8B/sm-1.png)
 
