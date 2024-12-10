@@ -32,7 +32,7 @@
     
 === "Access via View tab"
 
-        **Axis width and outside axis margin**:
-        In the view tab, axis width and the outside axis margins could be re-sized using the slider to either increase or decrease them. 
+    **Axis width and outside axis margin**:
+    In the view tab, axis width and the outside axis margins could be re-sized using the slider to either increase or decrease them. 
 
     
