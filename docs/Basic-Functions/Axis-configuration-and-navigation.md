@@ -4,12 +4,9 @@
 
     1. **Moving the Axis**: 
       Holding Ctrl, click and drag an axis to re-organise the view.
-
       ![basic-function_moving-axes](https://github.com/user-attachments/assets/002c5fca-12d5-447e-ac6e-a2ba676fcb1e)
-
     2. **Stacking the Axis**:
       Hold Ctrl and drag axis on top of another.
-
     3. **Zoom the Axis**: 
       Upon zooming in the axis (Click and drag) the representation of individual features transitions from a histogram to a more distinct fingerprint view.
 
