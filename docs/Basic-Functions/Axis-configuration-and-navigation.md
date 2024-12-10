@@ -13,37 +13,27 @@
         
 === "Access via Axis title menu"
     
-    1. Split Axis
+    1. **Split Axis**:
      To view multiple data sets simultaneously, such as different marker types or genes aligned against the same genome or chromosome, the split axis feature is very useful. To enable it, click on the axis menu layout, select the downward-slanting arrow, and close the menu by clicking the cross in the top right corner.
     Split axis could be done either before or after adding datasets to the axis.
     ![2a-split-axis](https://github.com/user-attachments/assets/26e7b4a8-b6e3-42f1-a8c3-c9110efe06ac)
-
-    2. Flip Axis
+    2. **Flip Axis**:
     To flip or invert the axis, open the Axis Title menu and select the icon with up and down pointing arrows. See the image below for a visual representation.
-
     ![3-flip-axis](https://github.com/user-attachments/assets/d617c796-1ab5-4382-a063-66d9861ca70f)
-
     ![basic-function_axis-flip-orientation](https://github.com/user-attachments/assets/2bd66224-a23e-47e0-8c18-5aeeb9ec6e3a)
-
-    3. Remove Axis
-        * Specific Axis (dataset)
-
+    3. **Remove Axis**:
+        * **Specific Axis (dataset)**:
         Open the Axis Title menu and click the cross icon next to a specific dataset to remove it from the displayed view.
-    
         ![5a  remove selected dataset](https://github.com/user-attachments/assets/ec022dd1-6f93-4448-b89c-bb2c86b46f54)
-    
        
-        * All Axis (datasets)
-
+        * **All Axis (datasets)**:
         To remove all datasets from view, open the Axis Title menu and click the cross icon located above the axis name.
-    
         ![5b  Removing all datasets](https://github.com/user-attachments/assets/038e5990-b8cd-4e99-bbf3-32903739f647)
 
     
-    === Access via View tab
+=== "Access via View tab"
 
-        * "Axis width and outside axis margin"
-        
+        * **Axis width and outside axis margin**:
         In the view tab, axis width and the outside axis margins could be re-sized using the slider to either increase or decrease them. 
 
     
