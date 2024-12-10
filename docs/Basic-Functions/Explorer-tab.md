@@ -13,7 +13,7 @@ https://agg.plantinformatics.io/
 Results could be filtered based on either of the following:
 
 | Parameter     | Description                         |
-| :............ | :.................................. |
+| : ----------- | :---------------------------------- |
 | Alignment     | Refers to genes and genetic markers |
 | Genome        | Refers to whole genome assemblies   |
 | VCF           | Refers to genotypes                 |
