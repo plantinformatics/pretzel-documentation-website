@@ -16,7 +16,7 @@ Results could be filtered based on either of the following:
 | : ----------- | :---------------------------------- |
 | Alignment     | Refers to genes and genetic markers |
 | Genome        | Refers to whole genome assemblies   |
-| VCF           | Refers to genotypes                 |
+| VCF           | Refers to genotype calls            |
 
 
 Currently, sorting the results based on Traits and Ontology is not functioning.
