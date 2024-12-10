@@ -18,7 +18,11 @@ Results could be filtered based on either of the following:
 | **Genome**    | Refers to whole genome assemblies   |
 | **VCF**       | Refers to genotypes                 |
 
+
 Currently, sorting the results based on Traits and Ontology is not functioning.
+
+## Upload new data
+The green plus icon at the top-right corner of the listed datasets allows users to upload new data tailored to their objectives. The uploaded data remains confidential to the user until they choose to make it public.
 
 ## Search and filter the datasets
 
