@@ -8,7 +8,7 @@ Searching datasets could be done either under **case sensitive/insensitive** mod
 List of the _Triticum aestivum_, _Hordeum vulgare_ and _Cicer arietinium_ datasets currenty housed in Pretzel could be assessed using the following link:
 
 ```text title="Link"
-(https://agg.plantinformatics.io/)
+https://agg.plantinformatics.io/
 ```
 Results could be filtered based on either of the following:
 
