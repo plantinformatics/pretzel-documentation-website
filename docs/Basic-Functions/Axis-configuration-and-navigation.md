@@ -22,10 +22,10 @@
     ![3-flip-axis](https://github.com/user-attachments/assets/d617c796-1ab5-4382-a063-66d9861ca70f)
     ![basic-function_axis-flip-orientation](https://github.com/user-attachments/assets/2bd66224-a23e-47e0-8c18-5aeeb9ec6e3a)
     3. **Remove Axis**:
-    $Specific Axis (dataset):
+        a) Specific Axis (dataset):
       Open the Axis Title menu and click the cross icon next to a specific dataset to remove it from the displayed view.
       ![5a  remove selected dataset](https://github.com/user-attachments/assets/ec022dd1-6f93-4448-b89c-bb2c86b46f54)
-    $All Axis (datasets):
+         b) All Axis (datasets):
       To remove all datasets from view, open the Axis Title menu and click the cross icon located above the axis name.
       ![5b  Removing all datasets](https://github.com/user-attachments/assets/038e5990-b8cd-4e99-bbf3-32903739f647)
      
