@@ -1,6 +1,6 @@
 # Axis configuration and navigation
 
-=== "Direct access via Axis"
+=== "Access directly via Axis"
 
      1. **Move the Axis**: 
         Holding Ctrl, click and drag an axis to re-organise the view.
