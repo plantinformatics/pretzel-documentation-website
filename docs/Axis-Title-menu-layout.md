@@ -1,7 +1,7 @@
 # Axis Title menu layout
 Click on the axis title to open the Axis Title menu. This offers several functionalities, as shown below, enabling users to visualize data in a way that best aligns with their objectives.
 
-![Axis Title Menu Layout- final](https://github.com/user-attachments/assets/f4853b09-806a-451b-845b-d89acdfbc495)
+![Axis Title Menu Updated- final](https://github.com/user-attachments/assets/c39d9534-34c1-406c-ac6a-1d268d846cea)
 
 ## Split Axis
 To view multiple data sets simultaneously, such as different marker types or genes aligned against the same genome or chromosome, the axis-split-axis feature is very useful. To enable it, click on the axis menu layout, select the downward-slanting arrow, and close the menu by clicking the cross in the top right corner.
@@ -74,8 +74,10 @@ Open the Axis Title menu and click the eye icon to toggle the display of a parti
 
     ![6b-display-features](https://github.com/user-attachments/assets/a123b35a-f335-4cbb-832d-6b119734e6e2)
 
-## Selected features vs total features of a dataset
+## Requested features vs total features of a dataset
 
-When zooming in on a specific genomic segment, the Axis Title menu displays the number of features within the selected region relative to the total features on the chromosome.
+!!!note
+    This is an advanced feature used to debug technical issues with Pretzel. It is a technical counter taht tracks the number of features requested from the backend.
 
-![7  Selected and total features](https://github.com/user-attachments/assets/b712a1bc-c69a-4ae7-bff5-800ec4b5a37f)
+![7Requested feature vs total feature](https://github.com/user-attachments/assets/d70269f6-bdb3-41d1-a595-2498ee66bafb)
+
