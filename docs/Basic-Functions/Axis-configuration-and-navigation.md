@@ -7,7 +7,7 @@
       ![basic-function_moving-axes](https://github.com/user-attachments/assets/002c5fca-12d5-447e-ac6e-a2ba676fcb1e)
     2. **Stacking the Axis**:
       Hold Ctrl and drag axis on top of another.
-    3. **Zoom the Axis**: 
+    3. **Zooming the Axis**: 
       Upon zooming in the axis (Click and drag) the representation of individual features transitions from a histogram to a more distinct fingerprint view.
       ![2b-split-axis-zoom-in](https://github.com/user-attachments/assets/9a4f931e-5cda-450f-92c6-75f93d4ba1e7)
         ```
@@ -15,9 +15,7 @@
     
     1. Split Axis
      To view multiple data sets simultaneously, such as different marker types or genes aligned against the same genome or chromosome, the split axis feature is very useful. To enable it, click on the axis menu layout, select the downward-slanting arrow, and close the menu by clicking the cross in the top right corner.
-
     Split axis could be done either before or after adding datasets to the axis.
-
     ![2a-split-axis](https://github.com/user-attachments/assets/26e7b4a8-b6e3-42f1-a8c3-c9110efe06ac)
 
     2. Flip Axis
