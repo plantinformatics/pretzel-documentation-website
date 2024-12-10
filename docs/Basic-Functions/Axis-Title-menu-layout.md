@@ -4,7 +4,7 @@ Click on the axis title to open the Axis Title menu. This offers several functio
 ![Axis Title Menu Updated- final](https://github.com/user-attachments/assets/c39d9534-34c1-406c-ac6a-1d268d846cea)
 
 ## Split Axis
-To view multiple data sets simultaneously, such as different marker types or genes aligned against the same genome or chromosome, the axis-split-axis feature is very useful. To enable it, click on the axis menu layout, select the downward-slanting arrow, and close the menu by clicking the cross in the top right corner.
+To view multiple data sets simultaneously, such as different marker types or genes aligned against the same genome or chromosome, the split axis feature is very useful. To enable it, click on the axis menu layout, select the downward-slanting arrow, and close the menu by clicking the cross in the top right corner.
 
 Split axis could be done either before or after adding datasets to the axis.
 
@@ -20,7 +20,7 @@ Upon zooming in the axis (Click and drag) the representation of individual featu
 
 === "Adding Feature"
 
-    Selecting an individual fingerprint band allows the user to view the feature's location, represented by an arrow, and   selecting the arrow displays the feature name. 
+    Selecting an individual fingerprint band allows the user to view the feature's location, represented by an arrow, and selecting the arrow displays the feature name. 
     
     ![2c-split-axis-add-feature](https://github.com/user-attachments/assets/30f19a38-cc6c-4792-9f6f-bf568122ef2a)
      
@@ -35,7 +35,7 @@ Upon zooming in the axis (Click and drag) the representation of individual featu
 
 ## Flip Axis
 
-To flip or invert the axis, open the Axis Title menu and select the icon with up and down pointing arrows. For instance, 
+To flip or invert the axis, open the Axis Title menu and select the icon with up and down pointing arrows. See the image below for a visual representation.
 
 ![3-flip-axis](https://github.com/user-attachments/assets/d617c796-1ab5-4382-a063-66d9861ca70f)
 
@@ -62,7 +62,7 @@ To rename the axis title, open the Axis Title menu and click the pen icon to acc
 
 ![4 rename](https://github.com/user-attachments/assets/62495c11-99c1-4f73-b101-c3e2a47e258a)
 
-## Display and hide features of dataset
+## Display and hide features of a dataset
 
 Open the Axis Title menu and click the eye icon to toggle the display of a particular dataset, showing or hiding it from view.
 
@@ -77,7 +77,7 @@ Open the Axis Title menu and click the eye icon to toggle the display of a parti
 ## Requested features vs total features of a dataset
 
 !!!note
-    This is an advanced feature used to debug technical issues with Pretzel. It is a technical counter taht tracks the number of features requested from the backend.
+    This is an advanced feature used to debug technical issues with Pretzel. It is a technical counter that tracks the number of features requested from the backend.
 
 ![7Requested feature vs total feature](https://github.com/user-attachments/assets/d70269f6-bdb3-41d1-a595-2498ee66bafb)
 
