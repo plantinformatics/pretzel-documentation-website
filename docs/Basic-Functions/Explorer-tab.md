@@ -7,7 +7,7 @@ By default, when the page loads it will always be on the Explorer Tab. This tab 
 
  List of the _Triticum aestivum_, _Hordeum vulgare_ and _Cicer arietinium_ datasets currenty housed in Pretzel could be assessed using the following link:
 
-   ```[link] (https://agg.plantinformatics.io/)
+   ``` https://agg.plantinformatics.io/
    ```
 
 ## Search and filter the datasets 
@@ -15,11 +15,9 @@ By default, when the page loads it will always be on the Explorer Tab. This tab 
 1. Scroll down to the datasets box and enter your search term in the text box. The search results will appear in the bottom-most blue-colored section.
 
 ![1 Explorertab_Search](https://github.com/user-attachments/assets/fc31fd68-a27a-4b5c-8f03-6f0adf97b5e5)
-  
 2. Searching datasets could be done either under **case sensitive/insensitive** mode and to show results that **Match all/any** (if selected 'any' - search will return the results that match its individual components) dataset using the toggle button. By default, the search is conducted under case insensitive and match all parameters.
 
 ![2 Explorertab_Caseinsensitive-any](https://github.com/user-attachments/assets/90db919b-c190-426d-a515-a4420de6c7c0) 
-
 3. Results could be filtered based on either of the following:
 
 | Parameter     | Description                         |
