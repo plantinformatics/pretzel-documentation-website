@@ -31,8 +31,8 @@ Currently, sorting the results based on Traits and Ontology is not functioning.
 ## Adding and removing datasets from the view
 
 1. Clicking on the name of a dataset will highlight it and show information about the data set on the right hand panel
-   !!!note
-   Datasets with a lock icon on the right side are private and accessible only to authorized users. 
+!!!note
+Datasets with a lock icon on the right side are private and accessible only to authorized users. 
 
 ![3 Explorertab_Viewdatasetinfo](https://github.com/user-attachments/assets/a62f451e-1039-4079-b4e8-572bde00fe1c)
 2. Pressing the plus button expands the dataset, revealing items that can be added to the view by clicking their respective green plus buttons. This action loads the selected item into the view.  
