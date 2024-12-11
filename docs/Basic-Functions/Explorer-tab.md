@@ -1,7 +1,7 @@
 # Explorer tab
 
 !!! Info
-By default, when the page loads it will always be on the Explorer Tab. This tab allows users to quickly navigate and open all datasets, recently viewed chromosomes, or favorite datasets. It also enables users within a specific group to access and use data categorized under that group, which is typically not public.
+ By default, when the page loads it will always be on the Explorer Tab. This tab allows users to quickly navigate and open all datasets, recently viewed chromosomes, or favorite datasets. It also enables users within a specific group to access and use data categorized under that group, which is typically not public.
 
 ## Datasets included in Pretzel
 
