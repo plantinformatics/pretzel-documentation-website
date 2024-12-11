@@ -1,16 +1,26 @@
 # Explorer tab
 
 !!! Info
- This tab allows users to quickly navigate and open all datasets, recently viewed chromosomes, or favorite datasets. It also enables users within a specific group to access and use data categorized under that group, which is typically not public.
+By default, when the page loads it will always be on the Explorer Tab. This tab allows users to quickly navigate and open all datasets, recently viewed chromosomes, or favorite datasets. It also enables users within a specific group to access and use data categorized under that group, which is typically not public.
 
-## Search bar 
-Searching datasets could be done either under **case sensitive/insensitive** mode and to show results that **Match all/any** dataset. 
-List of the _Triticum aestivum_, _Hordeum vulgare_ and _Cicer arietinium_ datasets currenty housed in Pretzel could be assessed using the following link:
+## Datasets included in Pretzel
 
-```text title="Link"
-https://agg.plantinformatics.io/
-```
-Results could be filtered based on either of the following:
+ List of the _Triticum aestivum_, _Hordeum vulgare_ and _Cicer arietinium_ datasets currenty housed in Pretzel could be assessed using the following link:
+
+   ```[link] (https://agg.plantinformatics.io/)
+   ```
+
+## Search and filter the datasets 
+
+1. Scroll down to the datasets box and enter your search term in the text box. The search results will appear in the bottom-most blue-colored section.
+
+![1 Explorertab_Search](https://github.com/user-attachments/assets/fc31fd68-a27a-4b5c-8f03-6f0adf97b5e5)
+  
+2. Searching datasets could be done either under **case sensitive/insensitive** mode and to show results that **Match all/any** (if selected 'any' - search will return the results that match its individual components) dataset using the toggle button. By default, the search is conducted under case insensitive and match all parameters.
+
+![2 Explorertab_Caseinsensitive-any](https://github.com/user-attachments/assets/90db919b-c190-426d-a515-a4420de6c7c0) 
+
+3. Results could be filtered based on either of the following:
 
 | Parameter     | Description                         |
 | : ----------- | :---------------------------------- |
@@ -18,55 +28,31 @@ Results could be filtered based on either of the following:
 | Genome        | Refers to whole genome assemblies   |
 | VCF           | Refers to genotype calls            |
 
-
 Currently, sorting the results based on Traits and Ontology is not functioning.
-
-## Upload new data
-The green plus icon at the top-right corner of the listed datasets allows users to upload new data tailored to their objectives. The uploaded data remains confidential to the user until they choose to make it public.
-
-## Search and filter the datasets
-
-1. Navigate to the explore tab and scroll down to the Datasets box and put your search term into the text box.
-!!! note
-
-    By default, when the page loads it will always be on the Explorer Tab
-![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/search-and-filter/search-and-filter-01.png)
-2. The results of the search will up down in the bottom most area coloured in blue. With the number just above the number of returned results.
-
-![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/search-and-filter/search-and-filter-02.png)
-!!! note
-
-    By default the search will search just the input (eg. "8 way magic"), toggling the search to "any" by pressing the green "all" button, will return any results that match its individual components (eg. "8", "way" and "magic").
-![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/search-and-filter/search-and-filter-03.png)
-!!! note
-
-    By default the search will not care about capitalisation of letters, by pressing the "insensitive" green button it will toggle the search to be "sensitive" to capitalisation, meaning it will only return results that match the word and exact capitalisation.
-![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/search-and-filter/search-and-filter-04.png)
 
 ## Adding and removing datasets from the view
 
-1. Under the explore tab scroll down to the Datasets section
+1. Clicking on the name of a dataset will highlight it and show information about the data set on the right hand panel
 
-!!! note
+![3 Explorertab_Viewdatasetinfo](https://github.com/user-attachments/assets/a62f451e-1039-4079-b4e8-572bde00fe1c)
 
-    By default, when the page loads it will always be on the Explorer Tab
-![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/pretzel-basic/adding-and-removing-dataset-from-view/add-remove01.png)
-2. Clicking on the name of a dataset will highlight it and show information 
-about the data set on the right hand panel
+2. Pressing the plus button expands the dataset, revealing items that can be added to the view by clicking their respective green plus buttons. This action loads the selected item into the view.  
 
-![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/pretzel-basic/adding-and-removing-dataset-from-view/add-remove02.png)
-3. Pressing the plus button will expand the dataset to reveal items that can be loaded into the view  
+![4 Explorertab_Add dataset](https://github.com/user-attachments/assets/1398934b-9344-4012-8ca9-72d3d3633ed8)
 
+ *To view the data set, user needs to open the axis title menu and click on the split axis icon.
 
-![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/pretzel-basic/adding-and-removing-dataset-from-view/add-remove03.png)
-4. Pressing the green plus buttons will then bring that item into the view
+ ![5 Explorertab_Add dataset_splitaxis](https://github.com/user-attachments/assets/4f4ab41d-13a5-4640-8cab-6fdf1dd8572d)
 
-![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/pretzel-basic/adding-and-removing-dataset-from-view/add-remove04.png)
-5. If the item is no longer need it can be removed by clicking on the title of the item in the view to reveal an additional menu. Then select the cross button in the centre
-!!! note
+ *User can add further datasets and view them simultaneously.
 
-    The cross on the top right hand corner will close the box and not remove the dataset
-![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/pretzel-basic/adding-and-removing-dataset-from-view/add-remove05.png)
-6. The dataset is now removed from view
+ ![6 Explorertab_Add dataset_moredatasets](https://github.com/user-attachments/assets/1623d85b-0946-46e0-8e65-25b0d54b4460)
 
-![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/pretzel-basic/adding-and-removing-dataset-from-view/add-remove06.png)
+3. If the dataset is no longer needed it can be removed by opening the axis title menu and clicking on the left cross icon in the middle panel.
+
+![7 Explorertab_Add dataset_clear datasets](https://github.com/user-attachments/assets/228bf9ba-0386-4603-856c-d8d497e8e981)
+
+For more information on split axis and to view/remove particular datasets, refer to the **Axis title menu layout**.
+
+## Upload new data
+The green plus icon at the top-right corner of the listed datasets allows users to upload new data tailored to their objectives. The uploaded data remains confidential to the user until they choose to make it public. 
