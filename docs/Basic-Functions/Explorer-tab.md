@@ -33,19 +33,17 @@ Currently, sorting the results based on Traits and Ontology is not functioning.
 1. Clicking on the name of a dataset will highlight it and show information about the data set on the right hand panel
 
 ![3 Explorertab_Viewdatasetinfo](https://github.com/user-attachments/assets/a62f451e-1039-4079-b4e8-572bde00fe1c)
-
 2. Pressing the plus button expands the dataset, revealing items that can be added to the view by clicking their respective green plus buttons. This action loads the selected item into the view.  
 
 ![4 Explorertab_Add dataset](https://github.com/user-attachments/assets/1398934b-9344-4012-8ca9-72d3d3633ed8)
 
- *To view the data set, user needs to open the axis title menu and click on the split axis icon.
+* To view the data set, user needs to open the axis title menu and click on the split axis icon.
 
  ![5 Explorertab_Add dataset_splitaxis](https://github.com/user-attachments/assets/4f4ab41d-13a5-4640-8cab-6fdf1dd8572d)
 
- *User can add further datasets and view them simultaneously.
+* User can add further datasets and view them simultaneously.
 
  ![6 Explorertab_Add dataset_moredatasets](https://github.com/user-attachments/assets/1623d85b-0946-46e0-8e65-25b0d54b4460)
-
 3. If the dataset is no longer needed it can be removed by opening the axis title menu and clicking on the left cross icon in the middle panel.
 
 ![7 Explorertab_Add dataset_clear datasets](https://github.com/user-attachments/assets/228bf9ba-0386-4603-856c-d8d497e8e981)
