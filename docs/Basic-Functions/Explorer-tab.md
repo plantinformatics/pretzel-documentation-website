@@ -17,6 +17,9 @@ By default, when the page loads it will always be on the Explorer Tab. This tab 
 ![1 Explorertab_Search](https://github.com/user-attachments/assets/fc31fd68-a27a-4b5c-8f03-6f0adf97b5e5)
 2. Searching datasets could be done either under **case sensitive/insensitive** mode and to show results that **Match all/any** (if selected 'any' - search will return the results that match its individual components) dataset using the toggle button. By default, the search is conducted under case insensitive and match all parameters.
 
+!!!note
+Datasets with a lock icon on the right side are private and accessible only to authorized users. 
+
 ![2 Explorertab_Caseinsensitive-any](https://github.com/user-attachments/assets/90db919b-c190-426d-a515-a4420de6c7c0) 
 3. Results could be filtered based on either of the following:
 
@@ -31,8 +34,6 @@ Currently, sorting the results based on Traits and Ontology is not functioning.
 ## Adding and removing datasets from the view
 
 1. Clicking on the name of a dataset will highlight it and show information about the data set on the right hand panel
-!!!note
-Datasets with a lock icon on the right side are private and accessible only to authorized users. 
 
 ![3 Explorertab_Viewdatasetinfo](https://github.com/user-attachments/assets/a62f451e-1039-4079-b4e8-572bde00fe1c)
 2. Pressing the plus button expands the dataset, revealing items that can be added to the view by clicking their respective green plus buttons. This action loads the selected item into the view.  
