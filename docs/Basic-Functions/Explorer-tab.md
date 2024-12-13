@@ -8,10 +8,10 @@
 
 ## Datasets included in Pretzel
 
- List of the _Triticum aestivum_, _Hordeum vulgare_ and _Cicer arietinium_ datasets currenty housed in Pretzel could be assessed using the following link:
+List of the _Triticum aestivum_, _Hordeum vulgare_ and _Cicer arietinium_ datasets currenty housed in Pretzel could be assessed using the following link:
 
-   ``` https://agg.plantinformatics.io/
-   ```
+``` https://agg.plantinformatics.io/
+```
 
 ## Search and filter the datasets 
 
@@ -41,14 +41,14 @@
 
 Currently, sorting the results based on Traits and Ontology is not functioning.
 
-  *  Alignment mode
-    ![Alignment-mode](https://github.com/user-attachments/assets/68186cec-7768-43bf-bd38-0f6ec6256e54)
+*  Alignment mode
+  ![Alignment-mode](https://github.com/user-attachments/assets/68186cec-7768-43bf-bd38-0f6ec6256e54)
 
-  *  Genome mode
-    ![Genome-mode](https://github.com/user-attachments/assets/97cae7e6-3b9a-4ead-a473-66d18ad65645)
-  
-  *  All datasets
-    ![All-datasets](https://github.com/user-attachments/assets/c897e4bd-2452-40c0-8b58-32d0724a1f44)
+*  Genome mode
+  ![Genome-mode](https://github.com/user-attachments/assets/97cae7e6-3b9a-4ead-a473-66d18ad65645)
+
+*  All datasets
+  ![All-datasets](https://github.com/user-attachments/assets/c897e4bd-2452-40c0-8b58-32d0724a1f44)
 ## Adding and removing datasets from the view
 
 1. Clicking on the name of a dataset will highlight it and show information about the data set on the right hand panel
