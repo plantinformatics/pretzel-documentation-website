@@ -2,7 +2,7 @@
 # https://test.docs.plantinformatics.io/
 # NOTE: A hard refresh might be needed to see the changes (ctrl + R)
 
-name: test-pk__auto-deploy-docs
+name: test__auto-deploy-docs
 
 on:
   push:
@@ -31,5 +31,6 @@ jobs:
         ssh $USER@$HOST <<EOF
           cd test/pretzel-documentation-website/
           git fetch
-          git pull
+          git checkout test-space/pk
+          git reset --hard origin/test-space/pk
         EOF
