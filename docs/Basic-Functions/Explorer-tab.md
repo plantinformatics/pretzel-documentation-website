@@ -54,18 +54,12 @@ Pressing the plus button expands the dataset, revealing items that can be added 
 
 ![4 Explorertab_Add dataset](https://github.com/user-attachments/assets/1398934b-9344-4012-8ca9-72d3d3633ed8)
 
-* To view the data set, user needs to open the axis title menu and click on the split axis icon.
+To view the data set, user needs to open the axis title menu and click on the split axis icon.
 
- ![5 Explorertab_Add dataset_splitaxis](https://github.com/user-attachments/assets/4f4ab41d-13a5-4640-8cab-6fdf1dd8572d)
+![5 Explorertab_Add dataset_splitaxis](https://github.com/user-attachments/assets/4f4ab41d-13a5-4640-8cab-6fdf1dd8572d)
 
-* User can add further datasets and view them simultaneously.
+User can add further datasets and view them simultaneously.
 
- ![Add-more-datasets-revised](https://github.com/user-attachments/assets/b606e67e-6fa3-49f6-9144-244353c5f8af)
-3. If the dataset is no longer needed it can be removed by opening the axis title menu and clicking on the left cross icon in the middle panel.
-
-![Clear-datasets-revised](https://github.com/user-attachments/assets/f70a6846-e1f7-49bd-b4d8-861a80a07ea4)
+![Add-more-datasets-revised](https://github.com/user-attachments/assets/b606e67e-6fa3-49f6-9144-244353c5f8af)
 
 For more information on split axis and to view/remove particular datasets, refer to the [Axis title menu layout](../Basic-Functions/Axis-title-menu.md).
-
-## Upload new data
-The green plus icon at the top-right corner of the listed datasets allows users to upload new data tailored to their objectives. The uploaded data remains confidential to the user until they choose to make it public. 
