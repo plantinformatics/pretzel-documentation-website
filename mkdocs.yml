@@ -47,10 +47,11 @@ nav:
     - Basic-Functions/Moving-axes.md
     - Basic-Functions/Axis-flip-orientation.md
     - Basic-Functions/Axis-Title-menu-layout.md
-
   - Self Hosting:
     - Self-Hosting/Quick-setup.md
     - Self-Hosting/Extended-features.md
+  - Lamington:
+    - lamington/setup.md
 markdown_extensions:
   - toc:
       permalink: true
