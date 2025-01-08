@@ -30,15 +30,18 @@ nav:
   - About Pretzel:
     - index.md
   - User Stories:
+    - User-Stories/index.md
     - User-Stories/User-story-1.md
     - User-Stories/User-story-2.md
     - User-Stories/User-story-3.md
   - Use Cases:
+    - Use-Cases/index.md
     - Use-Cases/Finding-a-marker-or-gene-on-a-genome.md
     - Use-Cases/Visualise-genotype-data-for-a-subset-of-accessions-around-specific-genomic-regions.md
     - Use-Cases/Visualise-the-location-of-a-subset-of-markers.md
     - Use-Cases/VCF-genotype-search.md
   - Basic Functions:
+    - Basic-Functions/index.md
     - Basic-Functions/Search-tab.md
     - Basic-Functions/Features-tab.md
     - Basic-Functions/Adding-and-removing-datasets-from-the-view.md

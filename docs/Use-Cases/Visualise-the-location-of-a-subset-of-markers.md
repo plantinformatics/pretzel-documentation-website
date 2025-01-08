@@ -5,9 +5,10 @@ Click on the "Search" button the left hand search panel
 ![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/use-case/visualise-subset-of-markers%E2%80%8B/sm-1.png)
 
 Enter the a list of feature names into the search text box input and press the search button
-
-    AVRIG00246
-    AVRIG00484
+``` text title="Feature names"
+AVRIG00246
+AVRIG00484
+```
 
 ![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/use-case/visualise-subset-of-markers%E2%80%8B/sm-2.png)
 
