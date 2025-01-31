@@ -4,7 +4,7 @@
 
     The following documentation assumes that you already know how to Add a dataset into the view. To see details on how to view this please see: 
     
-    - [Adding and removing datasets from the view](https://docs.plantinformatics.io/Basic-Pretzel-Functionality/Adding-and-removing-datasets-from-the-view/)
+    - [Adding and removing datasets from the view](/Basic-Pretzel-Functionality/Adding-and-removing-datasets-from-the-view/)
 
 Zooming in and out on a dataset can be done in one of two ways, scrolling and selecting
 

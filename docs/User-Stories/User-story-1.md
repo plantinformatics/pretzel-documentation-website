@@ -125,7 +125,7 @@ Full details of the BLAST results are shown in the table. Control the hits shown
 
 ### Zoom to region around sbm-1 gene
 
-Use Pretzel's zoom functions [Zooming in and out of datasets](https://docs.plantinformatics.io/Basic-Functions/Zooming-in-and-out-of-datasets/) to refine the view. Zoom in to the region around the sbm-1 gene.
+Use Pretzel's zoom functions [Zooming in and out of datasets](/Basic-Functions/Zooming-in-and-out-of-datasets/) to refine the view. Zoom in to the region around the sbm-1 gene.
 
 ![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/user-stories/user-story-1/us-1-15.png)
 
