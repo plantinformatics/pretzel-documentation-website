@@ -15,41 +15,27 @@ Overview of Key Steps To Visualise Results in Pretzel
 
 6. Examine PGRs from the AGG using the identified marker(s) to identify PGRs likely carrying the PSbMV resistance allele
 
-
-## Login
-
-Log in with the provided details on [https://agg.plantinformatics.io/login](https://agg.plantinformatics.io/login):
-
-Email Address (username)
-
-    UserStory1@AGG
-Password
-
-    UserStory1
-
-!!! note
-
-    Please use the provided login account so you have access to all the relevant data 
-
-![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/user-stories/user-story-1/us-1-0.png)
-
+<!-- 
+Removed this video tutorial because the ways to access the datasets have changed.
 ## Video tutorial
 
-<iframe width="1020" height="630" src="https://www.youtube.com/embed/7bd6uX_NvZw?si=lrJGFGMdBA3akTV9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="1020" height="630" src="https://www.youtube.com/embed/7bd6uX_NvZw?si=lrJGFGMdBA3akTV9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
 
-## Step by step with screenshots
+## Step by step instructions with screenshots
 
-### Load genetic map and QTL
-Navigate to the 'Explorer' tab and scroll down to the Datasets box find
+To quickly filter for all datasets used for this user story use the catagory drop down menu in the 'Explorer' tab and select User Story 1.
+
+![enter image description here](https://github.com/user-attachments/assets/bc0d0bdf-9355-4622-8c7c-e9f49fa17e77)
+
+In the 'Explorer' tab and Datasets box find
 
     Field pea PSbMV QTL mapped in Kaspa x Yarrum
-
 and select
 
     Ps VI
 ![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/user-stories/user-story-1/us-1-1.png)
 
-### Load SNP marker locations in the genome assembly
+
 In the same 'Explorer' tab and Datasets box find
 
     Field pea genetic map SNP markers anchored to genome assembly (Cameor v1)
@@ -60,7 +46,7 @@ and select
 
 ![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/user-stories/user-story-1/us-1-2-extra.png)
 
-### Invert the orientation of the axis
+
 In the centre view click on the title of the axis at the top
 
     Kaspa x Yarrum : Ps IV
@@ -125,7 +111,7 @@ Full details of the BLAST results are shown in the table. Control the hits shown
 
 ### Zoom to region around sbm-1 gene
 
-Use Pretzel's zoom functions [Zooming in and out of datasets](https://docs.plantinformatics.io/Basic-Functions/Zooming-in-and-out-of-datasets/) to refine the view. Zoom in to the region around the sbm-1 gene.
+Use Pretzel's zoom functions [Zooming in and out of datasets](/Basic-Functions/Zooming-in-and-out-of-datasets/) to refine the view. Zoom in to the region around the sbm-1 gene.
 
 ![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/user-stories/user-story-1/us-1-15.png)
 

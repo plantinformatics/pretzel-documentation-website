@@ -31,7 +31,7 @@ Pretzel is an interactive web application designed to enable rapid translation o
 
     Learn about how Pretzel can connect legacy QTL results and pan genomes to AGG data
 
-    [:octicons-arrow-right-24: Try our worked example](https://docs.plantinformatics.io/User-Stories/User-story-3/)
+    [:octicons-arrow-right-24: Try our worked example](/User-Stories/User-story-3/)
 
 
 -   :material-pretzel:{ .lg .middle } __Host your own instance of Pretzel__
