@@ -1,10 +1,13 @@
 # Genotype tab
 
-The Genotype is used to display genotypes for selected features.
+The main purpose of the genotype tab is to display a genotype matrix for a set of accessions and markers. To ... (Gabriel input)
+
+The genotype matrix requires two inputs, the features which can be selected using the view 
+
+and the samples which can be selected using a menu within the genotype tab.
 
 !!!note
 
-    This tab is only available for datasets that contain genotypes, such as VCF files.
-
-The button to the right of the Genotype tab will open a menu with a list of VCF files that can be used to display genotypes for the selected features.
+    The search function on the Genotype tab is only available once a VCF dataset has been loaded. 
+    VCF Genotype datasets can be added using the search function in the explore tab. For more information see [Searching for a dataset](/Basic-Functions/Explore-tab/#searching-for-a-dataset)
 
