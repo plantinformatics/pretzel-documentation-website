@@ -36,16 +36,18 @@ nav:
     - User-Stories/User-story-3.md
   - Use Cases:
     - Use-Cases/index.md
+    - Use-Cases/Adding-and-removing-datasets-from-the-view.md
   - Basic Functions:
     - Basic-Functions/index.md
+    - Basic-Functions/Explore-tab.md
     - Basic-Functions/Search-tab.md
     - Basic-Functions/Features-tab.md
-    - Basic-Functions/Adding-and-removing-datasets-from-the-view.md
+    - Basic-Functions/Axis-Title-menu-layout.md
+    - Basic-Functions/Genotype-tab.md
     - Basic-Functions/Search-and-filter-datasets.md
     - Basic-Functions/Zooming-in-and-out-of-datasets.md
     - Basic-Functions/Moving-axes.md
-    - Basic-Functions/Axis-flip-orientation.md
-    - Basic-Functions/Axis-Title-menu-layout.md
+
   - Self Hosting:
     - Self-Hosting/Quick-setup.md
     - Self-Hosting/Extended-features.md
