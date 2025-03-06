@@ -28,6 +28,7 @@ If the exact feature names are known, it can be inputted using the [VCF Genotype
 
 ## Interpreting the genotype matrix
 
+<!-- Image of the genotype matrix -->
 <img width="400" alt="Image" src="https://github.com/user-attachments/assets/9e4830c9-ed95-4565-ad9c-e901cb0fcb06" />
 
 | Display | Meaning      | Colour     |
@@ -39,4 +40,5 @@ If the exact feature names are known, it can be inputted using the [VCF Genotype
 
 ## Ordering the genotype matrix
 
+<!-- Image for ordering the SNPs -->
 <img width="600" alt="Image" src="https://github.com/user-attachments/assets/debc7622-8a60-48b2-98b8-b544f3c49e7d" />
