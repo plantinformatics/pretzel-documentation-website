@@ -37,6 +37,10 @@ nav:
   - Use Cases:
     - Use-Cases/index.md
     - Use-Cases/Adding-and-removing-datasets-from-the-view.md
+    - Use-Cases/Creating-a-summary-of-acessions-for-a-known-set-of-SNPs.md
+    - Use-Cases/Finding-a-marker-or-gene-on-a-genome.md
+    - Use-Cases/Visualise-genotype-data-for-a-subset-of-accessions-around-specific-genomic-regions.md
+    - Use-Cases/Finding-the-genomic-location-of-a-subset-of-markers.md
   - Basic Functions:
     - Basic-Functions/index.md
     - Basic-Functions/Explore-tab.md
