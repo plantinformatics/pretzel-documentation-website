@@ -1,6 +1,6 @@
 # Genotype tab
 
-The main purpose of the genotype tab is to display a genotype matrix for a set of accessions and markers. To ... (Gabriel input)
+Genotype data is visualised in the Genotype tab in the right hand panel
 
 The genotype matrix requires two inputs, the features and accessions which can be inputted a number of ways. 
 
@@ -13,7 +13,7 @@ The genotype matrix requires two inputs, the features and accessions which can b
     ![Image](https://github.com/user-attachments/assets/dcdb90d4-b300-4438-b430-ecf6b713e5da)
 
 
-Features can be selected via the view by selecting a region of the axies.
+Features can be selected via the view by selecting a region of the axis.
 
 <!-- Image for adding SNPs to genotype table -->
 ![Image](https://github.com/user-attachments/assets/bdfdee12-9e36-444d-924f-9f9f89c91bb1)
@@ -39,6 +39,8 @@ If the exact feature names are known, it can be inputted using the [VCF Genotype
 
 
 ## Ordering the genotype matrix
+
+The genotype matrix can be ordered by clicking on the specific allele located in the ref and alt columns. This will order the accessions based on the specific selected alleles.
 
 <!-- Image for ordering the SNPs -->
 <img width="600" alt="Image" src="https://github.com/user-attachments/assets/debc7622-8a60-48b2-98b8-b544f3c49e7d" />

@@ -1,4 +1,4 @@
-# Moving axes
+# Moving an axis
 
 Holding Ctrl, click and drag an axis to re-organise the view.
 

@@ -1,4 +1,4 @@
-# VCF Genotype Search
+# Creating a summary of acessions for a known set of SNPs
 
 In this Use Case, a summary of genotypes for AGG Plant Genetic Resources can be simply and rapidly visualised. For example, a user may wish to view the genotypes for a set of accessions of interest at a small subset of trait linked markers, to make a decision on which accessions to use in an experiment. In this example we will use Pretzel to display a summary of a set of AGG barley Plant Genetic Resources at two markers
 AVRIG00246  and AVRIG00484.
@@ -18,7 +18,10 @@ If one is clicked it will automatically be added into selected samples input box
 ### (Optional) Loading multiple samples 
 !!! note
 
-    The following search has only been tested up to 1000 samples. The interface will become extremely slow if a larger number of samples are selected. If it does become slow efresh the page to restart.
+    It is recommended to only select a small number of samples (up to 1000). The interface may become unresponsive if a larger number of samples are selected. If it does become slow refresh the page to restart.
+
+    Should there be a need for a large number of samples (>1000), please don't hesitate to [contact us](mailto:gabriel.keeble-gagnere@agriculture.vic.gov.au).
+
 To select a range of samples, hold down the CRTL key and select another sample in the list.
 ![vcf-feature-search-04](https://github.com/user-attachments/assets/f2acc5dc-7c31-4fd2-a9fa-37ab09ba7e47)
 ## Adding features to be searched

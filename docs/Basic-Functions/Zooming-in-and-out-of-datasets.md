@@ -17,7 +17,7 @@ Zooming in and out on a dataset can be done in one of two ways, scrolling and se
     ![enter image description here](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/pretzel-basic/zoom/zoom-03.png)
     
 === "Scrolling"
-    1. Click on the axies to select the dataset to zoom into and scroll while the mouse remains over the axies
+    1. Click on the axis to select the dataset to zoom into and scroll while the mouse remains over the axis
 
     !!! note
 

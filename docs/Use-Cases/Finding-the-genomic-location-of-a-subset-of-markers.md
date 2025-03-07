@@ -1,4 +1,4 @@
-# Visualise the location of a subset of markers​
+# Finding the genomic location of a subset of markers
 
 Click on the "Search" button the left hand search panel
 
