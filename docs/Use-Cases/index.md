@@ -1,6 +1,6 @@
 # Use Cases
 
-Use Cases describe was Pretzel can be used for simple outcomes.
+Use Cases describe specific ways Pretzel can be used.
 
 Select a Use Case from the list on the left. If you have any questions, please don't hesitate to [contact us](mailto:gabriel.keeble-gagnere@agriculture.vic.gov.au).
 
