@@ -4,10 +4,10 @@
 
     This use case assumes that a genomic region of interest has already been identified. This can be done from either of the following use cases:
 
-    - [Visualise the location of a subset of markers​ or a region](https://docs.plantinformatics.io/Use-Cases/Visualise-the-location-of-a-subset-of-markers/)
-    - [Finding a marker or gene on a genome](https://docs.plantinformatics.io/Use-Cases/Finding-a-marker-or-gene-on-a-genome/)
+    - [Visualise the location of a subset of markers​ or a region](/Use-Cases/Visualise-the-location-of-a-subset-of-markers/)
+    - [Finding a marker or gene on a genome](/Use-Cases/Finding-a-marker-or-gene-on-a-genome/)
     
-    This specific example continues on from [Visualise the location of a subset of markers​ or a region](https://docs.plantinformatics.io/Use-Cases/Visualise-the-location-of-a-subset-of-markers/)
+    This specific example continues on from [Visualise the location of a subset of markers​ or a region](/Use-Cases/Visualise-the-location-of-a-subset-of-markers/)
 
 Click back onto the Explore tab and search for a genotype dataset and add it to the view then in the view, click on the axis title. This dataset can be found on [agg.plantinformatics.io](https://agg.plantinformatics.io/)
 

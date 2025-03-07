@@ -30,23 +30,28 @@ nav:
   - About Pretzel:
     - index.md
   - User Stories:
+    - User-Stories/index.md
     - User-Stories/User-story-1.md
     - User-Stories/User-story-2.md
     - User-Stories/User-story-3.md
   - Use Cases:
+    - Use-Cases/index.md
+    - Use-Cases/Adding-and-removing-datasets-from-the-view.md
+    - Use-Cases/Creating-a-summary-of-acessions-for-a-known-set-of-SNPs.md
     - Use-Cases/Finding-a-marker-or-gene-on-a-genome.md
     - Use-Cases/Visualise-genotype-data-for-a-subset-of-accessions-around-specific-genomic-regions.md
-    - Use-Cases/Visualise-the-location-of-a-subset-of-markers.md
-    - Use-Cases/VCF-genotype-search.md
+    - Use-Cases/Finding-the-genomic-location-of-a-subset-of-markers.md
   - Basic Functions:
+    - Basic-Functions/index.md
+    - Basic-Functions/Explore-tab.md
     - Basic-Functions/Search-tab.md
     - Basic-Functions/Features-tab.md
-    - Basic-Functions/Adding-and-removing-datasets-from-the-view.md
+    - Basic-Functions/Axis-Title-menu-layout.md
+    - Basic-Functions/Genotype-tab.md
     - Basic-Functions/Search-and-filter-datasets.md
     - Basic-Functions/Zooming-in-and-out-of-datasets.md
-    - Basic-Functions/Moving-axes.md
-    - Basic-Functions/Axis-flip-orientation.md
-    - Basic-Functions/Axis-Title-menu-layout.md
+    - Basic-Functions/Moving-an-axis.md
+
   - Self Hosting:
     - Self-Hosting/Quick-setup.md
     - Self-Hosting/Extended-features.md

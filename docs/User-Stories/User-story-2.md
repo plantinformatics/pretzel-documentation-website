@@ -10,24 +10,12 @@ In this User Story we will achieve the following in Prezel:
 
 4. Filter for AGG accessions matching the Yr34/Yr48 haplotype
 
-## Login
-
-Log in with the provided details at <a href="https://agg.plantinformatics.io/login" target="_blank" rel="noopener noreferrer">https://agg.plantinformatics.io/login</a>:
-
-Email Address (username)
-
-    UserStory2@AGG
-Password
-
-    UserStory2
-
-![image](https://github.com/user-attachments/assets/e84c6263-d342-4dd4-a738-d486385ba5ca)
-
-!!! note
-
-    Please use the provided login account so you have access to all the relevant data 
-
 ## Step by step with screenshots
+
+To quickly filter for all datasets used for this user story use the catagory drop down menu in the 'Explorer' tab and select User Story 2.
+
+![enter image description here](https://github.com/user-attachments/assets/60df80ed-8eec-4f03-b107-dc73adb99e90)
+
 
 ### Explore and compare Yellow Rust QTLs on chromosome 5A
 
