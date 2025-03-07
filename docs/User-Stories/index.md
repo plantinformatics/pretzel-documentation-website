@@ -1,5 +1,8 @@
 # User Stories
 
+User Stories describe how Pretzel can be used to answer complex questions.
+
+For simple outcomes, please see the [Use Cases](/Use-Cases/) section.
 
 # User Story 1 – Identifying virus resistant PGRs using Pretzel
 
