@@ -13,7 +13,7 @@ The genotype matrix requires two inputs, the features and accessions which can b
     ![Image](https://github.com/user-attachments/assets/dcdb90d4-b300-4438-b430-ecf6b713e5da)
 
 
-Features can be selected via the view by selecting a region of the axies.
+Features can be selected via the view by selecting a region of the axis.
 
 <!-- Image for adding SNPs to genotype table -->
 ![Image](https://github.com/user-attachments/assets/bdfdee12-9e36-444d-924f-9f9f89c91bb1)

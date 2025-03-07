@@ -46,7 +46,7 @@ nav:
     - Basic-Functions/Genotype-tab.md
     - Basic-Functions/Search-and-filter-datasets.md
     - Basic-Functions/Zooming-in-and-out-of-datasets.md
-    - Basic-Functions/Moving-axes.md
+    - Basic-Functions/Moving-an-axis.md
 
   - Self Hosting:
     - Self-Hosting/Quick-setup.md
