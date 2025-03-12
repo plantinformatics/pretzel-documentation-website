@@ -49,13 +49,15 @@ nav:
     - Left Pannel:
       - Basic-Functions/Explore-tab.md
       - Basic-Functions/Search-tab.md
-      - Basic-Functions/Features-tab.md
       - Basic-Functions/View-tab.md
+      - Basic-Functions/Upload-tab.md
     - View/Axis controls:
       - Basic-Functions/Axis-Title-menu-layout.md
     - Right Pannel:
       - Basic-Functions/Genotype-tab.md
-
+      - Basic-Functions/Features-tab.md
+      - Basic-Functions/Paths-tab.md
+      - Basic-Functions/Dataset-tab.md
 
   - Self Hosting:
     - Self-Hosting/Quick-setup.md
