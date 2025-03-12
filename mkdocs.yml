@@ -37,20 +37,25 @@ nav:
   - Use Cases:
     - Use-Cases/index.md
     - Use-Cases/Adding-and-removing-datasets-from-the-view.md
-    - Use-Cases/Creating-a-summary-of-acessions-for-a-known-set-of-SNPs.md
+    - Use-Cases/Creating-a-summary-of-accessions-for-a-known-set-of-SNPs.md
     - Use-Cases/Finding-a-marker-or-gene-on-a-genome.md
     - Use-Cases/Visualise-genotype-data-for-a-subset-of-accessions-around-specific-genomic-regions.md
     - Use-Cases/Finding-the-genomic-location-of-a-subset-of-markers.md
+    - Use-Cases/Search-and-filter-datasets.md
+    - Use-Cases/Zooming-in-and-out-of-datasets.md
+    - Use-Cases/Moving-an-axis.md
   - Basic Functions:
     - Basic-Functions/index.md
-    - Basic-Functions/Explore-tab.md
-    - Basic-Functions/Search-tab.md
-    - Basic-Functions/Features-tab.md
-    - Basic-Functions/Axis-Title-menu-layout.md
-    - Basic-Functions/Genotype-tab.md
-    - Basic-Functions/Search-and-filter-datasets.md
-    - Basic-Functions/Zooming-in-and-out-of-datasets.md
-    - Basic-Functions/Moving-an-axis.md
+    - Left Pannel:
+      - Basic-Functions/Explore-tab.md
+      - Basic-Functions/Search-tab.md
+      - Basic-Functions/Features-tab.md
+      - Basic-Functions/View-tab.md
+    - View/Axis controls:
+      - Basic-Functions/Axis-Title-menu-layout.md
+    - Right Pannel:
+      - Basic-Functions/Genotype-tab.md
+
 
   - Self Hosting:
     - Self-Hosting/Quick-setup.md
