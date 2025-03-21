@@ -46,14 +46,14 @@ nav:
     - Use-Cases/Moving-an-axis.md
   - Basic Functions:
     - Basic-Functions/index.md
-    - Left Pannel:
+    - Left Panel:
       - Basic-Functions/Explore-tab.md
       - Basic-Functions/Search-tab.md
       - Basic-Functions/View-tab.md
       - Basic-Functions/Upload-tab.md
     - View/Axis controls:
       - Basic-Functions/Axis-Title-menu-layout.md
-    - Right Pannel:
+    - Right Panel:
       - Basic-Functions/Genotype-tab.md
       - Basic-Functions/Features-tab.md
       - Basic-Functions/Paths-tab.md
