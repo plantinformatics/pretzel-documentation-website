@@ -10,7 +10,7 @@ hide:
 ![Peek 2024-11-01 21-23](https://github.com/user-attachments/assets/41daaab6-7123-4e09-aa42-eafd5180772e){ align=left width="50%" }
 
 <div style="clear:both;" markdown>
-Pretzel is an interactive web application designed to enable rapid translation of genomics outputs for any species into concrete answers to research and breeding questions
+Pretzel - connecting genomics data to research and breeding knowledge
 </div>
 
 <br>

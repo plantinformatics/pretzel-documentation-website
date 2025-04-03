@@ -7,22 +7,21 @@ The genotype matrix requires two inputs, the features and accessions which can b
 ## Inputting features and accessions
 !!!note
 
-    The search function on the Genotype tab is only available once a VCF dataset has been loaded. 
-    VCF Genotype datasets can be added using the search function in the explore tab. For more information see [Searching for a dataset](/Basic-Functions/Explore-tab/#searching-for-a-dataset)
+    The accesstions can only be added once a VCF file has been added to the view. [Searching for a dataset](/Basic-Functions/Explore-tab/#searching-for-a-dataset)
     <!-- Image of adding VCF file into view -->
-    ![Image](https://github.com/user-attachments/assets/dcdb90d4-b300-4438-b430-ecf6b713e5da)
+    ![Image](https://github.com/user-attachments/assets/6c383e9f-84e5-4595-b4d4-d87febcd2649)
 
 
 Features can be selected via the view by selecting a region of the axis.
 
 <!-- Image for adding SNPs to genotype table -->
-![Image](https://github.com/user-attachments/assets/bdfdee12-9e36-444d-924f-9f9f89c91bb1)
+![Image](https://github.com/user-attachments/assets/46e153f9-c840-401a-a58c-427f86735c0f)
 
 
 Acessions can be added via a pop out menu from the genotype tab.
 
 <!-- Image for adding Samples to genotype table -->
-![Image](https://github.com/user-attachments/assets/9f7b7702-9c9e-4407-b8ed-e532f9a000c3)
+![Image](https://github.com/user-attachments/assets/ed288f00-5e16-4cbb-a8fb-5b364d3e4d7a)
 
 If the exact feature names are known, it can be inputted using the [VCF Genotype Search function](/Basic-Functions/Search-tab/#vcf-genotype-search)
 
@@ -43,4 +42,20 @@ If the exact feature names are known, it can be inputted using the [VCF Genotype
 The genotype matrix can be ordered by clicking on the specific allele located in the ref and alt columns. This will order the accessions based on the specific selected alleles.
 
 <!-- Image for ordering the SNPs -->
-<img width="600" alt="Image" src="https://github.com/user-attachments/assets/debc7622-8a60-48b2-98b8-b544f3c49e7d" />
+![Image](https://github.com/user-attachments/assets/ae4041cd-4d6e-467a-ba01-8f0d42bdbd4b)
+
+## Resizing the genotype matrix
+
+The genotype matrix can be resized by dragging the right hand side of the genotype tab.
+<!-- Image for resizing the genotype matrix width -->
+![Image](https://github.com/user-attachments/assets/2486c2ff-aaad-44c7-91a9-1fbef9c2bcda)
+And its headings can be resized using the slider in the table headings
+<!-- Image for resizing the genotype matrix headings -->
+![Image](https://github.com/user-attachments/assets/7a1ef28c-c9ee-478c-8385-e7a2d8397f0a)
+
+## Filter by defined haplotype
+
+When the filter by defined haplotype is selcted, the selections made on the genotype table that also order the genotype table will be used to filter the accessions.
+This then changes the selectable accessions to match the selection.
+<!-- Image for filtering the accessions -->
+![Image](https://github.com/user-attachments/assets/41826e74-da16-47cb-ac2f-fb18d7696d45)
