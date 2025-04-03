@@ -3,6 +3,9 @@
 The view tab controls what data that is displayed in the main view and how it is displayed.
 
 ## Displayed Data
+Coming soon!
+
+If you you're experiencing any issues or have any questions, please [contact us](mailto:gabriel.keeble-gagnere@agriculture.vic.gov.au).
 
 ## View Display Options
 Various aspects of the view can be controlled using the options in the view tab. These controls are split into 3 sections.

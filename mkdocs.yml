@@ -42,8 +42,6 @@ nav:
     - Use-Cases/Visualise-genotype-data-for-a-subset-of-accessions-around-specific-genomic-regions.md
     - Use-Cases/Finding-the-genomic-location-of-a-subset-of-markers.md
     - Use-Cases/Search-and-filter-datasets.md
-    - Use-Cases/Zooming-in-and-out-of-datasets.md
-    - Use-Cases/Moving-an-axis.md
   - Basic Functions:
     - Basic-Functions/index.md
     - Left Panel:
