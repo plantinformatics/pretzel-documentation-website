@@ -7,7 +7,7 @@ The genotype matrix requires two inputs, the features and accessions which can b
 ## Inputting features and accessions
 !!!note
 
-    The accesstions can only be added once a VCF file has been added to the view. [Searching for a dataset](/Basic-Functions/Explore-tab/#searching-for-a-dataset)
+    The accessions can only be added once a VCF file has been added to the view. [Searching for a dataset](/Basic-Functions/Explore-tab/#searching-for-a-dataset)
     <!-- Image of adding VCF file into view -->
     ![Image](https://github.com/user-attachments/assets/6c383e9f-84e5-4595-b4d4-d87febcd2649)
 
@@ -55,7 +55,7 @@ And its headings can be resized using the slider in the table headings
 
 ## Filter by defined haplotype
 
-When the filter by defined haplotype is selcted, the selections made on the genotype table that also order the genotype table will be used to filter the accessions.
+When the filter by defined haplotype is selected, the selections made on the genotype table that also order the genotype table will be used to filter the accessions.
 This then changes the selectable accessions to match the selection.
 <!-- Image for filtering the accessions -->
 ![Image](https://github.com/user-attachments/assets/41826e74-da16-47cb-ac2f-fb18d7696d45)
