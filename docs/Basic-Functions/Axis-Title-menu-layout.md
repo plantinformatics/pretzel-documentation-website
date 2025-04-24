@@ -31,7 +31,7 @@ Upon zooming in the axis (Click and drag) the representation of individual featu
     ![2d-split-axis-remove-feature](https://github.com/user-attachments/assets/2cc78f74-0d63-4d5c-890a-b344e8c9456c)
     
 !!!note
-  Deselect any displayed feature to ensure it is not automatically displayed the next time the same dataset is opened.
+    Deselect any displayed feature to ensure it is not automatically displayed the next time the same dataset is opened.
 
 ## Flip Axis
 
