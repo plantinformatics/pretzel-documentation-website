@@ -2,7 +2,8 @@
 
 !!! example "New feature in v3.7.3"
 
-    - Added the ability to search a VCF file for accessions carrying a specific SNP or haplotype
+    - Added the ability to search a VCF file for accessions carrying a specific SNP or haplotype.
+    - Try out this few feature now on [agg.plantinformatics.io](https://agg.plantinformatics.io/) - sign up for a free account now to get started! 
 
 !!! note "This section assumes some working knowledge of using the [Genotype tab](/Basic-Functions/Genotype-tab/)"
 
@@ -41,7 +42,7 @@ To add the haplotype we want to search, click on the specific allele located in 
 ![Image](https://github.com/user-attachments/assets/e428daf7-1997-4c10-9e20-9ee29d148898)
 
 ## Filtering the accessions for the haplotype
-Once the haplotype has been defined, open up the sample selection menu and select the "Filter by defined haplotype" option. 
+Once the haplotype has been defined, open up the sample selection menu by clicking on the cog icon within the Genotypes tab and select the "Filter by defined haplotype" option. 
 This will filter the accessions for only those that match the selected haplotype.
 This will then update the number of haplotypes and update the list of selectable accessions in the sample selection menu.
 
