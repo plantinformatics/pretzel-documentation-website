@@ -7,7 +7,7 @@ The genotype matrix requires two inputs, the features and accessions which can b
 ## Inputting features and accessions
 !!!note
 
-    The accessions can only be added once a VCF file has been added to the view. [Searching for a dataset](/Basic-Functions/Explore-tab/#searching-for-a-dataset)
+    The accessions can only be added once a VCF file has been added to the view. [Searching for a dataset](Explore-tab.md#searching-for-a-dataset)
     <!-- Image of adding VCF file into view -->
     ![Image](https://github.com/user-attachments/assets/6c383e9f-84e5-4595-b4d4-d87febcd2649)
 
@@ -23,7 +23,7 @@ Acessions can be added via a pop out menu from the genotype tab.
 <!-- Image for adding Samples to genotype table -->
 ![Image](https://github.com/user-attachments/assets/ed288f00-5e16-4cbb-a8fb-5b364d3e4d7a)
 
-If the exact feature names are known, it can be inputted using the [VCF Genotype Search function](/Basic-Functions/Search-tab/#vcf-genotype-search)
+If the exact feature names are known, it can be inputted using the [VCF Genotype Search function](Search-tab.md#vcf-genotype-search)
 
 ## Interpreting the genotype matrix
 
