@@ -31,7 +31,7 @@ Pretzel - connecting genomics data to research and breeding knowledge
 
     Learn about how Pretzel can connect legacy QTL results and pan genomes to AGG data
 
-    [:octicons-arrow-right-24: Try our worked example](/User-Stories/User-story-3/)
+    [:octicons-arrow-right-24: Try our worked example](User-Stories/User-story-3.md)
 
 
 -   :material-pretzel:{ .lg .middle } __Host your own instance of Pretzel__
