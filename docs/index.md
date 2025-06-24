@@ -6,14 +6,16 @@ hide:
 
 # About Pretzel
 
-![Image title](https://github.com/user-attachments/assets/e3326edb-1a3c-4bbe-830e-8298ff995e88){ align=left width="45%" }
-![Peek 2024-11-01 21-23](https://github.com/user-attachments/assets/41daaab6-7123-4e09-aa42-eafd5180772e){ align=left width="50%" }
+## What's new
 
-<div style="clear:both;" markdown>
-Pretzel - connecting genomics data to research and breeding knowledge
-</div>
+**Latest v3.8.0 - 23/06/25**
 
-<br>
+- ["Filter for defined haplotype" search now also returns Heterozygous hits](http://localhost:8000/Basic-Functions/Genotype-tab/#filtering-by-a-defined-haplotype)
+- Partial names are now searchable in Feature search
+- [Added ability to view passport data for a selected number of samples](/Genotype-tab/#accessing-passport-data-for-selected-samples)
+- [Added additional colour options for the genotype table (including colour blink accessibility options)](/Basic-Functions/Genotype-tab/#genotype-matrix-alternative-colour-theme)
+
+## Get started now
 
 <div class="grid cards" markdown>
 
@@ -53,6 +55,12 @@ Pretzel - connecting genomics data to research and breeding knowledge
 </div>
 
 <br>
+
+![Peek 2024-11-01 21-23](https://github.com/user-attachments/assets/41daaab6-7123-4e09-aa42-eafd5180772e){ align=left width="50%" }
+
+<div style="clear:both;" markdown>
+Pretzel - connecting genomics data to research and breeding knowledge
+</div>
 
 ## Funding
 Pretzel is currently (2022-) funded as part of the Australian Grains Genebank Strategic Partnership, a $30M joint investment between the Victorian State Government and Grains Research and Development Corporation (GRDC) that aims to unlock the genetic potential of plant genetic resources for the benefit of the Australian grain growers. [https://agriculture.vic.gov.au/crops-and-horticulture/the-australian-grains-genebank](https://agriculture.vic.gov.au/crops-and-horticulture/the-australian-grains-genebank)
