@@ -23,6 +23,9 @@ Acessions can be added via a pop out menu from the genotype tab.
 <!-- Image for adding Samples to genotype table -->
 ![Image](https://github.com/user-attachments/assets/ed288f00-5e16-4cbb-a8fb-5b364d3e4d7a)
 
+
+
+
 If the exact feature names are known, it can be inputted using the [VCF Genotype Search function](Search-tab.md#vcf-genotype-search)
 
 ## Interpreting the genotype matrix
@@ -37,12 +40,31 @@ If the exact feature names are known, it can be inputted using the [VCF Genotype
 | 2       | Alternate    | Orange     | 
 
 
-## Ordering the genotype matrix
+## Selecting a haplotype and ordering the genotype matrix
 
-The genotype matrix can be ordered by clicking on the specific allele located in the ref and alt columns. This will order the accessions based on the specific selected alleles.
+The cells located in the ref and alt columns can be clicked on to select a specific haplotype. The selected haplotype be further used filter a VCF for a given haplotype.
+When selected, the genotype matrix will be ordered based on the specific haplotype pattern.
 
 <!-- Image for ordering the SNPs -->
 ![Image](https://github.com/user-attachments/assets/ae4041cd-4d6e-467a-ba01-8f0d42bdbd4b)
+
+## Filtering by a defined haplotype
+
+If a haplotype is selected by clicking the cells in the ref and alt columns, the loaded VCF file can be searched using the selected haplotype.
+
+When checked, text will appear below the check box to indicate that the VCF is being searched.
+
+<img alt="Image" src="https://github.com/user-attachments/assets/09b1ebd3-028f-4bf6-b3ec-815d28333e10" />
+Afterwards the number of acessions shown at the top will display "Filtered" together with the number of acessions that match the filter. This will also update the sample selction box to ONLY include those that match the given haplotype pattern.
+
+Note that the search will also return HET (1) results. If you wish to filter them out, please check the "Match exact alleles" button.
+
+![Image](https://github.com/user-attachments/assets/44f93df4-49f5-41dd-9676-ed5e378ae43a)
+
+## Accessing passport data for selected samples
+To access the passport data for the selected samples, simply just click on the Genolink button. This can be useful after filtering for a defined haplotype.
+
+<img alt="Image" src="https://github.com/user-attachments/assets/60f6f28b-6972-4dee-99a9-8ad083ba43a0" />
 
 ## Resizing the genotype matrix
 
@@ -53,9 +75,10 @@ And its headings can be resized using the slider in the table headings
 <!-- Image for resizing the genotype matrix headings -->
 ![Image](https://github.com/user-attachments/assets/7a1ef28c-c9ee-478c-8385-e7a2d8397f0a)
 
-## Filter by defined haplotype
+## Genotype matrix alternative colour theme
 
-When the filter by defined haplotype is selected, the selections made on the genotype table that also order the genotype table will be used to filter the accessions.
-This then changes the selectable accessions to match the selection.
-<!-- Image for filtering the accessions -->
-![Image](https://github.com/user-attachments/assets/41826e74-da16-47cb-ac2f-fb18d7696d45)
+To select an alternative colour scheme, go into the Genotype accession selection menu, click on the controls tab and click on the Choose Colour Theme button
+
+<img alt="Image" src="https://github.com/user-attachments/assets/2569cfeb-cd33-4fd6-a9e7-69d98323e6e5" />
+<img alt="Image" src="https://github.com/user-attachments/assets/66cc209a-580a-4367-a711-aa95cf70cc83" />
+
