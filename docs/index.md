@@ -11,7 +11,7 @@ hide:
 **Latest v3.8.0 - 23/06/25**
 
 - ["Filter for defined haplotype" search now also returns Heterozygous hits](http://localhost:8000/Basic-Functions/Genotype-tab/#filtering-by-a-defined-haplotype)
-- Partial names are now searchable in Feature search
+- [Partial names are now searchable in Feature search](/Basic-Functions/Search-tab/#vcf-search-inputs)
 - [Added ability to view passport data for a selected number of samples](/Genotype-tab/#accessing-passport-data-for-selected-samples)
 - [Added additional colour options for the genotype table (including colour blink accessibility options)](/Basic-Functions/Genotype-tab/#genotype-matrix-alternative-colour-theme)
 
