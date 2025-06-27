@@ -4,16 +4,14 @@ hide:
   - toc
 ---
 
-# About Pretzel
-
-## What's new
+# What's new
 
 **Latest v3.8.0 - 23/06/25**
 
-- ["Filter for defined haplotype" search now also returns Heterozygous hits](http://localhost:8000/Basic-Functions/Genotype-tab/#filtering-by-a-defined-haplotype)
+- ["Filter for defined haplotype" search now also returns heterozygous hits](http://localhost:8000/Basic-Functions/Genotype-tab/#filtering-by-a-defined-haplotype)
 - [Partial names are now searchable in Feature search](/Basic-Functions/Search-tab/#vcf-search-inputs)
-- [Added ability to view passport data for a selected number of samples](/Genotype-tab/#accessing-passport-data-for-selected-samples)
-- [Added additional colour options for the genotype table (including colour blink accessibility options)](/Basic-Functions/Genotype-tab/#genotype-matrix-alternative-colour-theme)
+- [Added ability to view passport data for a selected number of samples via Genolink](/Genotype-tab/#accessing-passport-data-for-selected-samples)
+- [Added additional colour options for the genotype table (including colour blind accessibility options)](/Basic-Functions/Genotype-tab/#genotype-matrix-alternative-colour-theme)
 
 ## Get started now
 
