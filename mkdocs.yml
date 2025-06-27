@@ -55,7 +55,8 @@ nav:
       - Basic-Functions/Features-tab.md
       - Basic-Functions/Paths-tab.md
       - Basic-Functions/Dataset-tab.md
-
+  - Workshops:
+      - Workshops/workshops.md
   - Self Hosting:
     - Self-Hosting/Quick-setup.md
     - Self-Hosting/Extended-features.md
