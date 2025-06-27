@@ -10,7 +10,7 @@ hide:
 
 - ["Filter for defined haplotype" search now also returns heterozygous hits](/Basic-Functions/Genotype-tab/#filtering-by-a-defined-haplotype)
 - [Partial names are now searchable in Feature search](/Basic-Functions/Search-tab/#vcf-search-inputs)
-- [Added ability to view passport data for a selected number of samples via Genolink](/Genotype-tab/#accessing-passport-data-for-selected-samples)
+- [Added ability to view passport data for a selected number of samples via Genolink](/Basic-Functions/Genotype-tab/#accessing-passport-data-for-selected-samples)
 - [Added additional colour options for the genotype table (including colour blind accessibility options)](/Basic-Functions/Genotype-tab/#genotype-matrix-alternative-colour-theme)
 
 ## Get started now
