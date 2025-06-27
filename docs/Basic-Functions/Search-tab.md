@@ -55,11 +55,13 @@ Adding additional features to the search can be done by entering the feature nam
 ## Feature search
 
 ### VCF Search inputs
-!!!note
 
-    Only full names will be accepted by the feature search, and there needs to be an exact match including capitalisation. Most features are stored in their capitalised format. 
+!!! example "New feature in v3.8.0"
+    
+    Genotype search now can search partial names. If you don't have the exact name of the feature or if you want to return all the features that match a name you can enter part of the name into the genotypes search bar. Eg. 'VRN', 'yr', 'IWB'
+
  
-Once the feature names have been inputted into the search box. Please press the search button to view the search results.
+Add the features you want to search into the search bar and click the "Search" button
 
 An example search is shown below:
 ``` text title="Feature names"
