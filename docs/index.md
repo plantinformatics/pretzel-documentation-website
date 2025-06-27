@@ -4,11 +4,11 @@ hide:
   - toc
 ---
 
-# What's new
+# What's new in Pretzel
 
 **Latest v3.8.0 - 23/06/25**
 
-- ["Filter for defined haplotype" search now also returns heterozygous hits](http://localhost:8000/Basic-Functions/Genotype-tab/#filtering-by-a-defined-haplotype)
+- ["Filter for defined haplotype" search now also returns heterozygous hits](/Basic-Functions/Genotype-tab/#filtering-by-a-defined-haplotype)
 - [Partial names are now searchable in Feature search](/Basic-Functions/Search-tab/#vcf-search-inputs)
 - [Added ability to view passport data for a selected number of samples via Genolink](/Genotype-tab/#accessing-passport-data-for-selected-samples)
 - [Added additional colour options for the genotype table (including colour blind accessibility options)](/Basic-Functions/Genotype-tab/#genotype-matrix-alternative-colour-theme)
@@ -23,7 +23,7 @@ hide:
 
     Access the latest AGG data and use it to answer your research questions
 
-    [:octicons-arrow-right-24: Get started now](https://agg.plantinformatics.io/)
+    [:octicons-arrow-right-24: Access AGG Pretzel now](https://agg.plantinformatics.io/)
 
 -   :material-rocket-launch:{ .lg .middle } __More than just data, we have built in tools__
 
