@@ -1,10 +1,27 @@
 ## Upcoming Workshops
-To be confirmed
+
+#### Food Legume Research Conference and 5th Australian Pulse Conference 2025
+
+:material-calendar:{ .lg .middle } **Date:** September 15 – 19
+
+:material-map-marker:{ .lg .middle } **Location:** Perth, Australia
+
+:material-web:{ .lg .middle } **Website:** [https://www.iflrc-apc2025.com/](https://www.iflrc-apc2025.com/)
+
+:material-target:{ .lg .middle } **Workshop Objectives:**
+Workshop content details coming soon!
 
 ## Past Workshops
 
 #### Australasian Plant Breeding Conference 2025
-This workshop aimed to explore:
+
+:material-calendar:{ .lg .middle } **Date:** September 15 – 19
+
+:material-map-marker:{ .lg .middle } **Location:** Perth, Australia
+
+:material-web:{ .lg .middle } **Website:** [https://mcia.eventsair.com/apbc2025/](https://mcia.eventsair.com/apbc2025/)
+
+:material-target:{ .lg .middle } **Workshop Objectives:**
 
 - Layout of the Pretzel GUI
 - Uploading a QTL as a private dataset
