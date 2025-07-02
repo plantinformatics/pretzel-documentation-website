@@ -15,7 +15,7 @@ Workshop content details coming soon!
 
 #### Australasian Plant Breeding Conference 2025
 
-:material-calendar:{ .lg .middle } **Date:** September 15 – 19
+:material-calendar:{ .lg .middle } **Date:** June 4 – 6
 
 :material-map-marker:{ .lg .middle } **Location:** Perth, Australia
 
