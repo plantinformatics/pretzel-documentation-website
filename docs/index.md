@@ -8,7 +8,7 @@ hide:
 
 **Latest v3.9.0 - 24/07/25**
 
-- [View Passport data from Genesys/Genolink for selected accessions](/Basic-Functions/Genotype-tab/#viewing-passport-data-in-the-genotype-table)
+- [View Passport data from Genesys/Genolink for selected accessions in the genotype table](/Basic-Functions/Genotype-tab/#viewing-passport-data-in-the-genotype-table)
 
 **Latest v3.8.0 - 23/06/25**
 
