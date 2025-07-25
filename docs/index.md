@@ -6,6 +6,10 @@ hide:
 
 # What's new in Pretzel
 
+**Latest c3.9.0 - 24/07/25**
+
+- [View Passport data from Genesys/Genolink for selected accessions](/Basic-Functions/Genotype-tab/#viewing-passport-data-in-the-genotype-table)
+
 **Latest v3.8.0 - 23/06/25**
 
 - ["Filter for defined haplotype" search now also returns heterozygous hits](/Basic-Functions/Genotype-tab/#filtering-by-a-defined-haplotype)

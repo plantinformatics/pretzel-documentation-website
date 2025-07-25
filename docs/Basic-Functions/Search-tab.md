@@ -2,9 +2,7 @@
 
 ## VCF Genotype Search
 
-!!! example "New feature"
-    
-    This search allows a user to view the genotypes for a set of accessions of interest at a small subset of markers. The user only needs to know the accessions of interest and marker names to generate a summary table in a few seconds.
+This search allows a user to view the genotypes for a set of accessions of interest at a small subset of markers. The user only needs to know the accessions of interest and marker names to generate a summary table in a few seconds.
  
 
 ![vcf-feature-search](https://github.com/user-attachments/assets/f29743ac-29ff-4660-a384-5991cc48028c)

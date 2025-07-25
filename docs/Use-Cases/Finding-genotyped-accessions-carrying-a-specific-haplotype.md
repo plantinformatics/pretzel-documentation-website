@@ -1,10 +1,5 @@
 # Finding genotyped accessions carrying a specific haplotype
 
-!!! example "New feature in v3.7.3"
-
-    - Added the ability to search a VCF file for accessions carrying a specific SNP or haplotype.
-    - Try out this few feature now on [agg.plantinformatics.io](https://agg.plantinformatics.io/) - sign up for a free account now to get started! 
-
 !!! note "This section assumes some working knowledge of using the [Genotype tab](/Basic-Functions/Genotype-tab/)"
 
 ## Introduction
