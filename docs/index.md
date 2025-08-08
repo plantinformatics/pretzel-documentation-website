@@ -6,6 +6,17 @@ hide:
 
 # What's new in Pretzel
 
+**Upcoming Workshop!**
+
+[https://www.iflrc-apc2025.com/](https://www.iflrc-apc2025.com/pre-conference-workshops/)
+
+We will be looking at:
+
+- What Pretzel does and when to use it
+- Loading genotype data to explore allelic diversity
+- Searching for AGG accessions containing a specific haplotype
+- Exploring diversity in user defined region of interest (e.g. QTLs, genes)
+
 **Latest v3.9.0 - 24/07/25**
 
 - [View Passport data from Genesys/Genolink for selected accessions in the genotype table](/Basic-Functions/Genotype-tab/#viewing-passport-data-in-the-genotype-table)

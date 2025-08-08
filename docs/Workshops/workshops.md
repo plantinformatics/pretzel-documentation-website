@@ -6,10 +6,14 @@
 
 :material-map-marker:{ .lg .middle } **Location:** Perth, Australia
 
-:material-web:{ .lg .middle } **Website:** [https://www.iflrc-apc2025.com/](https://www.iflrc-apc2025.com/)
+:material-web:{ .lg .middle } **Website:** [https://www.iflrc-apc2025.com/](https://www.iflrc-apc2025.com/pre-conference-workshops/)
 
 :material-target:{ .lg .middle } **Workshop Objectives:**
-Workshop content details coming soon!
+
+- What Pretzel does and when to use it
+- Loading genotype data to explore allelic diversity
+- Searching for AGG accessions containing a specific haplotype
+- Exploring diversity in user defined region of interest (e.g. QTLs, genes)
 
 ## Past Workshops
 
