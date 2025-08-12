@@ -8,14 +8,15 @@ hide:
 
 **Upcoming Workshop!**
 
-[https://www.iflrc-apc2025.com/](https://www.iflrc-apc2025.com/pre-conference-workshops/)
+:material-calendar:{ .lg .middle } **Date:** September 15
 
-We will be looking at:
+:material-map-marker:{ .lg .middle } **Location:** Perth, Australia
 
-- What Pretzel does and when to use it
-- Loading genotype data to explore allelic diversity
-- Searching for AGG accessions containing a specific haplotype
-- Exploring diversity in user defined region of interest (e.g. QTLs, genes)
+:material-web:{ .lg .middle } **Conference Registration Details:** [https://www.iflrc-apc2025.com/](https://www.iflrc-apc2025.com/registration/)
+
+:material-information-outline:{ .lg .middle } **Further Details**: [Info about what we will be covering](/Workshops/workshops/#food-legume-research-conference-and-5th-australian-pulse-conference-2025)
+
+
 
 **Latest v3.9.0 - 24/07/25**
 

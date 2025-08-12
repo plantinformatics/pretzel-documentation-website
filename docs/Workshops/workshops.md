@@ -2,7 +2,7 @@
 
 #### Food Legume Research Conference and 5th Australian Pulse Conference 2025
 
-:material-calendar:{ .lg .middle } **Date:** September 15 – 19
+:material-calendar:{ .lg .middle } **Date:** September 15
 
 :material-map-marker:{ .lg .middle } **Location:** Perth, Australia
 
