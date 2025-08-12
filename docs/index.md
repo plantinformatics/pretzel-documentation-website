@@ -10,13 +10,13 @@ hide:
 
 :material-calendar:{ .lg .middle } **Date:** September 15
 
-:material-map-marker:{ .lg .middle } **Location:** Perth, Australia
+:material-map-marker:{ .lg .middle } **Location:** 8th International Food Legume Research Conference and 5th Australian Pulse Conference, Perth, Australia
 
 :material-web:{ .lg .middle } **Conference Registration Details:** [https://www.iflrc-apc2025.com/](https://www.iflrc-apc2025.com/registration/)
 
 :material-information-outline:{ .lg .middle } **Further Details**: [Info about what we will be covering](/Workshops/workshops/#food-legume-research-conference-and-5th-australian-pulse-conference-2025)
 
-
+----
 
 **Latest v3.9.0 - 24/07/25**
 
