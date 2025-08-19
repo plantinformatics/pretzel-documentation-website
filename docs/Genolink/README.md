@@ -89,6 +89,16 @@ Please refer to the *Accession Number Filter* section for detailed steps and exa
 
 The only difference is that, in the text file, you must provide a list of **GenotypeIDs** (one per line) instead of accession numbers.
 
+### Filtering for Genotyped Accessions
+To restrict results to **genotyped accessions only**, tick the **Check for genotype** checkbox in the filter panel and then press **Search**.  
+This will return only those accessions with genotype data available.
+
+<p align="center">
+  <img src="./images/img9.PNG" alt="Accession-Based Filter">
+  <br>
+  <em>Figure 2: Accession-Based Filter</em>
+</p>
+
 ## Requesting genotype data
 To request genotype data for your filtered accession records:
 
