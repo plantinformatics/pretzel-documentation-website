@@ -162,4 +162,11 @@ If you want to restart or run a new genotype search with different filters, clic
 </p>
 
 ### Exporting as a VCF
-Subset options (samples, markers, region), header info, download.
+After retrieving your genotype results, you can select the **server** from which you want to export the data.  
+Once the server is chosen, click the **Export VCF** button to download the genotype data in **VCF format**.  
+
+<p align="center">
+  <img src="./images/img14.PNG" alt="Exporting genotype data as VCF">
+  <br>
+  <em>Figure 14: Exporting genotype data in VCF format</em>
+</p>
