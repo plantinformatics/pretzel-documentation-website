@@ -4,7 +4,11 @@
 
 Genolink provides three main ways to search:
 
-- **Passport Data Filter** – refine search by passport descriptors (date of collection, crop, taxonomy, institute, country of origin, biological status, storage type).
+- **Genesys-PGR Filters** 
+
+- **Accession number Search** 
+
+- **Filtering for genotyped accessions**
 
 <p align="center">
   <img src="./images/img1.PNG" alt="Passport Data Filter">
@@ -12,13 +16,55 @@ Genolink provides three main ways to search:
   <em>Figure 1: Passport Data Filter</em>
 </p>
 
-- **Accession Number Filter** – enter one or multiple accession numbers directly.
+These options can be combined to refine searches and ensure only relevant accessions are retrieved.
+
+## Applying Genesys-PGR filters
+refine search by passport descriptors (date of collection, crop, taxonomy, institute, country of origin, biological status, storage type).
 
 <p align="center">
-  <img src="./images/img2.PNG" alt="Accession-Based Filter">
+  <img src="./images/img2.PNG" alt="Passport Data Filter">
+  <br>
+  <em>Figure 1: Passport Data Filter</em>
+</p>
+
+## Accession number search
+– enter one or multiple accession numbers directly.
+
+<p align="center">
+  <img src="./images/img3.PNG" alt="Accession-Based Filter">
   <br>
   <em>Figure 2: Accession-Based Filter</em>
 </p>
+
+– enter multiple accession numbers using a text file.
+Please click on browse
+
+<p align="center">
+  <img src="./images/img4.PNG" alt="Accession-Based Filter">
+  <br>
+  <em>Figure 2: Accession-Based Filter</em>
+</p>
+
+Please upload a text file with your list of accessions, with each accession entered on a separate line.
+
+<p align="center">
+  <img src="./images/img5.PNG" alt="Accession-Based Filter">
+  <br>
+  <em>Figure 2: Accession-Based Filter</em>
+</p>
+
+After the upload, your filter will be applied when you press Search.
+
+<p align="center">
+  <img src="./images/img6.PNG" alt="Accession-Based Filter">
+  <br>
+  <em>Figure 2: Accession-Based Filter</em>
+</p>
+
+Note: Your file must be a plain text file (.txt).
+
+## GenotypeID search
+Where to find IDs, batch search, expected results.
 
 - **GenotypeID Filter** – search by Genotype IDs linked to accessions.
 
@@ -27,20 +73,8 @@ Genolink provides three main ways to search:
   <br>
   <em>Figure 3: GenotypeId-Based Filter</em>
 </p>
-
-These options can be combined to refine searches and ensure only relevant accessions are retrieved.
-
-## Applying Genesys-PGR filters
-How to open filters, pick taxon, geography, traits, etc., and apply/clear.
-
 ## Wild text search
 What it matches, examples, tips.
-
-## Accession number search
-Accepted formats, multiple entries, common pitfalls.
-
-## GenotypeID search
-Where to find IDs, batch search, expected results.
 
 ## Filtering for genotyped accessions
 Toggle/checkbox, what “genotyped only” means across APIs.
