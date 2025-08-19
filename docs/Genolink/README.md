@@ -147,7 +147,19 @@ To request genotype data for your filtered accession records:
 </p>
 
 ### All markers
-What this mode returns, performance considerations.
+If you do not apply any of the above filters (chromosome, position, or variant ID),  
+Genolink will return genotype results for **all chromosomes and all positions**.  
+
+> **Note:** This may generate very large result sets and could affect performance.  
+
+After configuring your filters (or leaving them empty), click **Search Genotype** to retrieve the results.  
+If you want to restart or run a new genotype search with different filters, click the **Reset** button to clear the current selections.
+
+<p align="center">
+  <img src="./images/img13.PNG" alt="Genotype results table">
+  <br>
+  <em>Figure 13: Example of genotype search results</em>
+</p>
 
 ### Exporting as a VCF
 Subset options (samples, markers, region), header info, download.
