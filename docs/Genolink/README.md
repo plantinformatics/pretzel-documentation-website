@@ -125,11 +125,26 @@ To request genotype data for your filtered accession records:
   <em>Figure 10: Summary showing genotype data availability in Gigwa and internal database</em>
 </p>
 
+5. After selecting the dataset, you can further refine the genotype data search in two ways:
+
 ### Genotype data based on genomic region
-Specify reference, chromosome, start–end; validation rules.
+- Filter results by specific **chromosomes**  
+- Define **genomic positions** (start–end ranges)  
+
+<p align="center">
+  <img src="./images/img11.PNG" alt="Filtering genotype data by chromosome and position">
+  <br>
+  <em>Figure 11: Refining genotype data search using chromosome and position filters</em>
+</p>
 
 ### Genotype data based on names of markers
-Accepted markers list, partial names, case sensitivity.
+- Filter results using **Variant IDs** that correspond to specific genomic regions.  
+
+<p align="center">
+  <img src="./images/img12.PNG" alt="Filtering genotype data by Variant IDs">
+  <br>
+  <em>Figure 12: Refining genotype data search using Variant IDs</em>
+</p>
 
 ### All markers
 What this mode returns, performance considerations.
