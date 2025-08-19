@@ -15,9 +15,9 @@ Genolink provides three main ways to search:
 - **Filtering for genotyped accessions**
 
 <p align="center">
-  <img src="./images/img1.PNG" alt="Passport Data Filter">
+  <img src="./images/img1.PNG" alt="Genolink main interface">
   <br>
-  <em>Figure 1: Passport Data Filter</em>
+  <em>Figure 1: Genolink main interface</em>
 </p>
 
 These options can be combined to refine searches and ensure only relevant accessions are retrieved.
@@ -51,34 +51,34 @@ The example below shows a query for `rice | leaf`. The search returns records th
 – enter one or multiple accession numbers directly.
 
 <p align="center">
-  <img src="./images/img3.PNG" alt="Accession-Based Filter">
+  <img src="./images/img3.PNG" alt="Accession number search using direct input">
   <br>
-  <em>Figure 2: Accession-Based Filter</em>
+  <em>Figure 2: Accession number search using direct input</em>
 </p>
 
 – enter multiple accession numbers using a text file.
 Please click on browse
 
 <p align="center">
-  <img src="./images/img4.PNG" alt="Accession-Based Filter">
+  <img src="./images/img4.PNG" alt="Accession number search using file upload">
   <br>
-  <em>Figure 2: Accession-Based Filter</em>
+  <em>Figure 2: Accession number search using file upload</em>
 </p>
 
 Please upload a text file with your list of accessions, with each accession entered on a separate line.
 
 <p align="center">
-  <img src="./images/img5.PNG" alt="Accession-Based Filter">
+  <img src="./images/img5.PNG" alt="Text file format for accession number upload">
   <br>
-  <em>Figure 2: Accession-Based Filter</em>
+  <em>Figure 2: Text file format for accession number upload</em>
 </p>
 
 After the upload, your filter will be applied when you press Search.
 
 <p align="center">
-  <img src="./images/img6.PNG" alt="Accession-Based Filter">
+  <img src="./images/img6.PNG" alt="Search results after uploading accession list">
   <br>
-  <em>Figure 2: Accession-Based Filter</em>
+  <em>Figure 2: Search results after uploading accession list</em>
 </p>
 
 Note: Your file must be a plain text file (.txt).
@@ -94,9 +94,9 @@ To restrict results to **genotyped accessions only**, tick the **Check for genot
 This will return only those accessions with genotype data available.
 
 <p align="center">
-  <img src="./images/img9.PNG" alt="Accession-Based Filter">
+  <img src="./images/img9.PNG" alt="Filtering results by selecting the ‘Check for genotype’ option">
   <br>
-  <em>Figure 2: Accession-Based Filter</em>
+  <em>Figure 2: Filtering results by selecting the ‘Check for genotype’ option</em>
 </p>
 
 ## Requesting genotype data
