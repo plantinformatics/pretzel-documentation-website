@@ -15,7 +15,7 @@ Genolink provides three main ways to search:
 - **Accession Number Filter** – enter one or multiple accession numbers directly.
 
 <p align="center">
-  <img src="./images/g2.png" alt="Accession-Based Filter">
+  <img src="./images/img2.PNG" alt="Accession-Based Filter">
   <br>
   <em>Figure 2: Accession-Based Filter</em>
 </p>
@@ -23,7 +23,7 @@ Genolink provides three main ways to search:
 - **GenotypeID Filter** – search by Genotype IDs linked to accessions.
 
 <p align="center">
-  <img src="./images/g3.png" alt="GenotypeId-Based Filter">
+  <img src="./images/img3.PNG" alt="GenotypeId-Based Filter">
   <br>
   <em>Figure 3: GenotypeId-Based Filter</em>
 </p>
