@@ -4,9 +4,13 @@
 
 Genolink provides three main ways to search:
 
-- **Genesys-PGR Filters** 
+- **Genesys-PGR Filters**
+  
+- **Wild text search** 
 
-- **Accession number Search** 
+- **Accession number Search**
+
+- **GenotypeID search**
 
 - **Filtering for genotyped accessions**
 
@@ -25,6 +29,22 @@ refine search by passport descriptors (date of collection, crop, taxonomy, insti
   <img src="./images/img2.PNG" alt="Passport Data Filter">
   <br>
   <em>Figure 1: Passport Data Filter</em>
+</p>
+
+### Wild Text Search
+The wild text search allows you to query across multiple fields of the passport data.  
+you can:  
+- Use **double quotes** for exact phrases (e.g., `"rice"`)  
+- Use the **OR operator** (`|`) for multiple terms (e.g., `rice | leaf`)  
+- Use **asterisks** for prefix searches (e.g., `rice*`)  
+- Use **parentheses** for grouping  
+
+The example below shows a query for `rice | leaf`. The search returns records that match either term across different fields, such as accession name, taxonomy, or remarks.  
+
+<p align="center">
+  <img src="./images/img8.PNG" alt="Wild text search results example">
+  <br>
+  <em>Figure 2: Example results for query <code>rice | leaf</code></em>
 </p>
 
 ### Accession number search
