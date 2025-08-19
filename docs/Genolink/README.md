@@ -28,7 +28,7 @@ refine search by passport descriptors (date of collection, crop, taxonomy, insti
 <p align="center">
   <img src="./images/img2.PNG" alt="Passport Data Filter">
   <br>
-  <em>Figure 1: Passport Data Filter</em>
+  <em>Figure 2: Passport Data Filter</em>
 </p>
 
 ### Wild Text Search
@@ -44,7 +44,7 @@ The example below shows a query for `rice | leaf`. The search returns records th
 <p align="center">
   <img src="./images/img8.PNG" alt="Wild text search results example">
   <br>
-  <em>Figure 2: Example results for query <code>rice | leaf</code></em>
+  <em>Figure 3: Example results for query <code>rice | leaf</code></em>
 </p>
 
 ### Accession number search
@@ -53,7 +53,7 @@ The example below shows a query for `rice | leaf`. The search returns records th
 <p align="center">
   <img src="./images/img3.PNG" alt="Accession number search using direct input">
   <br>
-  <em>Figure 2: Accession number search using direct input</em>
+  <em>Figure 4: Accession number search using direct input</em>
 </p>
 
 – enter multiple accession numbers using a text file.
@@ -62,7 +62,7 @@ Please click on browse
 <p align="center">
   <img src="./images/img4.PNG" alt="Accession number search using file upload">
   <br>
-  <em>Figure 2: Accession number search using file upload</em>
+  <em>Figure 5: Accession number search using file upload</em>
 </p>
 
 Please upload a text file with your list of accessions, with each accession entered on a separate line.
@@ -70,7 +70,7 @@ Please upload a text file with your list of accessions, with each accession ente
 <p align="center">
   <img src="./images/img5.PNG" alt="Text file format for accession number upload">
   <br>
-  <em>Figure 2: Text file format for accession number upload</em>
+  <em>Figure 6: Text file format for accession number upload</em>
 </p>
 
 After the upload, your filter will be applied when you press Search.
@@ -78,7 +78,7 @@ After the upload, your filter will be applied when you press Search.
 <p align="center">
   <img src="./images/img6.PNG" alt="Search results after uploading accession list">
   <br>
-  <em>Figure 2: Search results after uploading accession list</em>
+  <em>Figure 7: Search results after uploading accession list</em>
 </p>
 
 Note: Your file must be a plain text file (.txt).
@@ -96,7 +96,7 @@ This will return only those accessions with genotype data available.
 <p align="center">
   <img src="./images/img9.PNG" alt="Filtering results by selecting the ‘Check for genotype’ option">
   <br>
-  <em>Figure 2: Filtering results by selecting the ‘Check for genotype’ option</em>
+  <em>Figure 8: Filtering results by selecting the ‘Check for genotype’ option</em>
 </p>
 
 ## Requesting genotype data
@@ -111,7 +111,7 @@ To request genotype data for your filtered accession records:
 <p align="center">
   <img src="./images/img7.PNG" alt="Selecting accessions and requesting genotype data">
   <br>
-  <em>Figure: Selecting accessions and identifying genotype data availability</em>
+  <em>Figure 9: Selecting accessions and identifying genotype data availability</em>
 </p>
 
 ### Genotype data based on genomic region
