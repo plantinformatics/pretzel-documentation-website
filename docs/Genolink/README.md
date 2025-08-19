@@ -84,8 +84,8 @@ After the upload, your filter will be applied when you press Search.
 > Note: Your file must be a plain text file (.txt).
 
 ### GenotypeID search
-The GenotypeID filter works the same way as the Accession Number filter (direct input or file upload).  
-Please refer to the *Accession Number Filter* section for detailed steps and examples.  
+The GenotypeID filter works the same way as the **Accession number search** (direct input or file upload).  
+Please refer to the **Accession number search** section for detailed steps and examples.  
 
 The only difference is that, in the text file, you must provide a list of **GenotypeIDs** (one per line) instead of accession numbers.
 
