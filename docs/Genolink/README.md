@@ -2,7 +2,7 @@
 
 ## Searching Genolink
 
-Genolink provides three main ways to search:
+Genolink provides the following search options:
 
 - **Genesys-PGR Filters**
   
