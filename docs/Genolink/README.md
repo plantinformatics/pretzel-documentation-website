@@ -106,12 +106,23 @@ To request genotype data for your filtered accession records:
 2. Once selected, the **server(s) containing the genotype data** for those records will be displayed.  
 3. You can identify which accessions have genotype data by checking the **AGG-SP Status** column.  
    - Accessions with genotype data show **Status = Completed**.  
-   - These records also include a specific **GenotypeID** value.  
+   - These records also include a specific **GenotypeID** value.
 
 <p align="center">
   <img src="./images/img7.PNG" alt="Selecting accessions and requesting genotype data">
   <br>
   <em>Figure 9: Selecting accessions and identifying genotype data availability</em>
+</p>
+
+4. After selecting the accessions and clicking **Lookup Data**, a summary will be shown.  
+   - It indicates how many of the selected accessions have genotype data in the **Gigwa server**.  
+   - It also shows how many of them are registered in the **Genolink internal database**.  
+   - The summary lists the **Gigwa datasets** that contain genotype data for those accessions.  
+
+<p align="center">
+  <img src="./images/img10.PNG" alt="Lookup Data summary for selected accessions">
+  <br>
+  <em>Figure 10: Summary showing genotype data availability in Gigwa and internal database</em>
 </p>
 
 ### Genotype data based on genomic region
