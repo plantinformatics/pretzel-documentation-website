@@ -7,7 +7,7 @@ Genolink provides three main ways to search:
 - **Passport Data Filter** – refine search by passport descriptors (date of collection, crop, taxonomy, institute, country of origin, biological status, storage type).
 
 <p align="center">
-  <img src="./images/g1.png" alt="Passport Data Filter">
+  <img src="./images/img1.png" alt="Passport Data Filter">
   <br>
   <em>Figure 1: Passport Data Filter</em>
 </p>
