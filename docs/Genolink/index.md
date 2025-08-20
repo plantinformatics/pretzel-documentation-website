@@ -1,5 +1,12 @@
 # Genolink
 
+## Introduction to Genolink
+
+Genolink is a tool designed for managing and analyzing genotype and passport data, enabling easy search, filtering, and retrieval of relevant accessions. 
+
+You can access Genolink and contribute to its development by visiting the official GitHub repository:  
+[Genolink GitHub Repository](https://github.com/plantinformatics/genolink)
+
 ## Searching Genolink
 
 Genolink provides the following search options that can be combined to refine searches and ensure only relevant accessions are retrieved.
