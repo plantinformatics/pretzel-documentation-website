@@ -63,7 +63,7 @@ nav:
   - Lamington:
     - lamington/setup.md
   - Genolink:
-    - index.md
+    - Genolink/index.md
 markdown_extensions:
   - toc:
       permalink: true
