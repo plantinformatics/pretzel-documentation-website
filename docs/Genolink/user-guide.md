@@ -1,4 +1,4 @@
-# Genolink
+# Genolink User Guide
 
 ## Introduction to Genolink
 
@@ -17,14 +17,14 @@ Genolink provides the following search options that can be combined to refine se
 
 
 ### Applying Genesys-PGR filters
-refine search by passport descriptors (date of collection, crop, taxonomy, institute, country of origin, biological status, storage type).
+Refine your search by passport descriptors (date of collection, crop, taxonomy, institute, country of origin, biological status, storage type).
 
 ![Passport Data Filter](https://github.com/user-attachments/assets/3af2dc8c-2084-4cb7-b3ba-3fd22e311f3a)  
 *Figure 2: Passport Data Filter*
 
 ### Wild Text Search
 The wild text search allows you to query across multiple fields of the passport data.  
-you can:  
+You can:  
 - Use **double quotes** for exact phrases (e.g., `"rice"`)  
 - Use the **OR operator** (`|`) for multiple terms (e.g., `rice | leaf`)  
 - Use **asterisks** for prefix searches (e.g., `rice*`)  
@@ -35,14 +35,14 @@ The example below shows a query for `rice | leaf`. The search returns records th
 ![Wild text search results example](https://github.com/user-attachments/assets/eee39d3f-0284-4bd3-b39d-7d26ac53a98f)  
 *Figure 3: Example results for query <code>rice | leaf</code>*
 
-### Accession number search
-– enter one or multiple accession numbers directly.
+### Accession Number Search
+Enter one or multiple accession numbers directly.
 
 ![Accession number search using direct input](https://github.com/user-attachments/assets/2a41f5cb-2a02-416e-8640-5fb94fedae9b)  
 *Figure 4: Accession number search using direct input*
 
-– enter multiple accession numbers using a text file.
-Please click on browse
+Enter multiple accession numbers by uploading a text file.
+Once uploaded, click Browse.
 
 ![Accession number search using file upload](https://github.com/user-attachments/assets/69cece37-b651-477a-ad50-c4b1f9c6238b)  
 *Figure 5: Accession number search using file upload*
@@ -52,16 +52,16 @@ Please upload a text file with your list of accessions, with each accession ente
 ![Text file format for accession number upload](https://github.com/user-attachments/assets/eaba74b1-0199-41c4-bd02-ccb0f7d51c32)  
 *Figure 6: Text file format for accession number upload*
 
-After the upload, your filter will be applied when you press Search.
+After the upload, the filter will be applied when you press Search.
 
 ![Search results after uploading accession list](https://github.com/user-attachments/assets/ce24dacf-acce-41e4-8856-e48909a70dab)  
 *Figure 7: Search results after uploading accession list*
 
-> Note: Your file must be a plain text file (.txt).
+> **Note:** Your file must be a plain text file (.txt).
 
-### GenotypeID search
-The GenotypeID filter works the same way as the **Accession number search** (direct input or file upload).  
-Please refer to the **Accession number search** section for detailed steps and examples.  
+### GenotypeID Search
+The GenotypeID filter works the same way as the **Accession Number Search** (direct input or file upload).  
+Please refer to the **Accession Number Search** section for detailed steps and examples.  
 
 The only difference is that, in the text file, you must provide a list of **GenotypeIDs** (one per line) instead of accession numbers.
 
@@ -69,10 +69,10 @@ The only difference is that, in the text file, you must provide a list of **Geno
 To restrict results to **genotyped accessions only**, tick the **Check for genotype** checkbox in the filter panel and then press **Search**.  
 This will return only those accessions with genotype data available.
 
-![Filtering results by selecting the ‘Check for genotype’ option](https://github.com/user-attachments/assets/44cd0ffa-5152-490d-8ceb-b4b45e5f4751)  
-*Figure 8: Filtering results by selecting the ‘Check for genotype’ option*
+![Filtering results by selecting the "Check for genotype" option](https://github.com/user-attachments/assets/44cd0ffa-5152-490d-8ceb-b4b45e5f4751)  
+*Figure 8: Filtering results by selecting the "Check for genotype" option*
 
-## Requesting genotype data
+## Requesting Genotype Data
 To request genotype data for your filtered accession records:
 
 1. **Select accessions** from the table by checking the boxes in the first column.  
@@ -94,22 +94,21 @@ To request genotype data for your filtered accession records:
 
 5. After selecting the dataset, you can further refine the genotype data search in two ways:
 
-### Genotype data based on genomic region
+### Genotype Data Based on Genomic Region
 - Filter results by specific **chromosomes**  
 - Define **genomic positions** (start–end ranges)  
 
 ![Filtering genotype data by chromosome and position](https://github.com/user-attachments/assets/888c7fb3-895b-4f74-9fd7-cfee8a3dd52a)  
 *Figure 11: Refining genotype data search using chromosome and position filters*
 
-### Genotype data based on names of markers
+### Genotype Data Based on Marker Names
 - Filter results using **Variant IDs** that correspond to specific genomic regions.  
 
 ![Filtering genotype data by Variant IDs](https://github.com/user-attachments/assets/44b15828-1fe4-4105-a899-1f38a08b5f4c)  
 *Figure 12: Refining genotype data search using Variant IDs*
 
-### All markers
-If you do not apply any of the above filters (chromosome, position, or variant ID),  
-Genolink will return genotype results for **all chromosomes and all positions**.  
+### All Markers
+If you do not apply any of the above filters (chromosome, position, or variant ID), Genolink will return genotype results for **all chromosomes and all positions**.  
 
 > **Note:** This may generate very large result sets and could affect performance.  
 
@@ -119,9 +118,9 @@ If you want to restart or run a new genotype search with different filters, clic
 ![Genotype results table](https://github.com/user-attachments/assets/e24217d2-ec6d-411e-826c-f4de158f8b71)  
 *Figure 13: Example of genotype search results*
 
-### Exporting as a VCF
+### Exporting to VCF
 After retrieving your genotype results, you can select the **server** from which you want to export the data.  
-Once the server is chosen, click the **Export VCF** button to download the genotype data in **VCF format**.  
+Once the server is chosen, click the **Export VCF** button to download the genotype data as a **VCF file**.  
 
 ![Exporting genotype data as VCF](https://github.com/user-attachments/assets/16bf07b2-c82c-4e4d-9c46-55c02df53a67)  
 *Figure 14: Exporting genotype data in VCF format*
