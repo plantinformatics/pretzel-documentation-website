@@ -62,6 +62,8 @@ nav:
     - Self-Hosting/Extended-features.md
   - Lamington:
     - lamington/setup.md
+  - Genolink:
+    - Genolink/user-guide.md
 markdown_extensions:
   - toc:
       permalink: true
