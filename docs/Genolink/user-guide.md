@@ -2,9 +2,9 @@
 
 ## Introduction to Genolink
 
-Genolink is a tool designed for managing and analyzing genotype and passport data, enabling easy search, filtering, and retrieval of relevant accessions. 
+Genolink is middleware designed to seamlessly connect passport data from [Genesys-PGR](https://www.genesys-pgr.org/) with genotype data in databases such as [Gigwa](https://gigwa.southgreen.fr/gigwa/), enabling easy search, filtering, and retrieval of relevant genebank accessions.
 
-You can access Genolink and contribute to its development by visiting the official GitHub repository:  
+Genolink is developed by the AGG Strategic Partnership in collaboration with The Crop Trust. You can access Genolink and contribute to its development by visiting the official GitHub repository:  
 [Genolink GitHub Repository](https://github.com/plantinformatics/genolink)
 
 ## Searching Genolink
