@@ -32,29 +32,29 @@ You can:
 
 The example below shows a query for `rice | leaf`. The search returns records that match either term across different fields, such as accession name, taxonomy, or remarks.  
 
-![Wild text search results example](https://github.com/user-attachments/assets/eee39d3f-0284-4bd3-b39d-7d26ac53a98f)  
+![Wild text search results example](https://github.com/user-attachments/assets/44cd0ffa-5152-490d-8ceb-b4b45e5f4751)  
 *Figure 3: Example results for query <code>rice | leaf</code>*
 
 ### Accession Number Search
 Enter one or multiple accession numbers directly.
 
-![Accession number search using direct input](https://github.com/user-attachments/assets/2a41f5cb-2a02-416e-8640-5fb94fedae9b)  
+![Accession number search using direct input](https://github.com/user-attachments/assets/eee39d3f-0284-4bd3-b39d-7d26ac53a98f)  
 *Figure 4: Accession number search using direct input*
 
 Enter multiple accession numbers by uploading a text file.
 Once uploaded, click Browse.
 
-![Accession number search using file upload](https://github.com/user-attachments/assets/69cece37-b651-477a-ad50-c4b1f9c6238b)  
+![Accession number search using file upload](https://github.com/user-attachments/assets/2a41f5cb-2a02-416e-8640-5fb94fedae9b)  
 *Figure 5: Accession number search using file upload*
 
 Please upload a text file with your list of accessions, with each accession entered on a separate line.
 
-![Text file format for accession number upload](https://github.com/user-attachments/assets/eaba74b1-0199-41c4-bd02-ccb0f7d51c32)  
+![Text file format for accession number upload](https://github.com/user-attachments/assets/69cece37-b651-477a-ad50-c4b1f9c6238b)  
 *Figure 6: Text file format for accession number upload*
 
 After the upload, the filter will be applied when you press Search.
 
-![Search results after uploading accession list](https://github.com/user-attachments/assets/ce24dacf-acce-41e4-8856-e48909a70dab)  
+![Search results after uploading accession list](https://github.com/user-attachments/assets/eaba74b1-0199-41c4-bd02-ccb0f7d51c32)  
 *Figure 7: Search results after uploading accession list*
 
 > **Note:** Your file must be a plain text file (.txt).
@@ -69,7 +69,7 @@ The only difference is that, in the text file, you must provide a list of **Geno
 To restrict results to **genotyped accessions only**, tick the **Check for genotype** checkbox in the filter panel and then press **Search**.  
 This will return only those accessions with genotype data available.
 
-![Filtering results by selecting the "Check for genotype" option](https://github.com/user-attachments/assets/44cd0ffa-5152-490d-8ceb-b4b45e5f4751)  
+![Filtering results by selecting the "Check for genotype" option](https://github.com/user-attachments/assets/0826761e-a0fa-4336-a93c-eb8c233b4bb9)  
 *Figure 8: Filtering results by selecting the "Check for genotype" option*
 
 ## Requesting Genotype Data
@@ -81,7 +81,7 @@ To request genotype data for your filtered accession records:
    - Accessions with genotype data show **Status = Completed**.  
    - These records also include a specific **GenotypeID** value.
 
-![Selecting accessions and requesting genotype data](https://github.com/user-attachments/assets/0826761e-a0fa-4336-a93c-eb8c233b4bb9)  
+![Selecting accessions and requesting genotype data](https://github.com/user-attachments/assets/e1d9e9b0-46d5-44ac-926a-287f02f5008c)  
 *Figure 9: Selecting accessions and identifying genotype data availability*
 
 4. After selecting the accessions and clicking **Lookup Data**, a summary will be shown.  
