@@ -18,16 +18,14 @@ hide:
 
 ----
 
+**Genolink Documentation Released - 25/08/25**
+
+- [Start learning how to connect passport data to genotype data using Genolink now!](/Genolink/user-guide/)
+
 **Latest v3.9.0 - 24/07/25**
 
 - [View Passport data from Genesys/Genolink for selected accessions in the genotype table](/Basic-Functions/Genotype-tab/#viewing-passport-data-in-the-genotype-table)
 
-**Latest v3.8.0 - 23/06/25**
-
-- ["Filter for defined haplotype" search now also returns heterozygous hits](/Basic-Functions/Genotype-tab/#filtering-by-a-defined-haplotype)
-- [Partial names are now searchable in Feature search](/Basic-Functions/Search-tab/#vcf-search-inputs)
-- [Added ability to view passport data for a selected number of samples via Genolink](/Basic-Functions/Genotype-tab/#accessing-passport-data-for-selected-samples)
-- [Added additional colour options for the genotype table (including colour blind accessibility options)](/Basic-Functions/Genotype-tab/#genotype-matrix-alternative-colour-theme)
 
 ## Get started now
 
@@ -41,11 +39,11 @@ hide:
 
     [:octicons-arrow-right-24: Access AGG Pretzel now](https://agg.plantinformatics.io/)
 
--   :material-rocket-launch:{ .lg .middle } __More than just data, we have built in tools__
+-   :material-rocket-launch:{ .lg .middle } __More than just data, we have built-in tools__
 
     ---
 
-    Learn about how Pretzel can connect legacy QTL results and pan genomes to AGG data
+    Learn about how Pretzel can connect legacy QTL results and pangenomes to AGG data
 
     [:octicons-arrow-right-24: Try our worked example](User-Stories/User-story-3.md)
 
