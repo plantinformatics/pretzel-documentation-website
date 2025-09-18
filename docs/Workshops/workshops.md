@@ -1,4 +1,4 @@
-## Upcoming Workshops
+## Past Workshops
 
 #### Food Legume Research Conference and 5th Australian Pulse Conference 2025
 
@@ -22,8 +22,6 @@
 -  [:material-file-document-multiple:{ .lg .middle } __IFLRC 2025 Workshop materials__](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/pretzel-workshops/250905_Pulse_Pretzel_Workshop_Materials_FINAL.zip)
 
 </div>
-
-## Past Workshops
 
 #### Australasian Plant Breeding Conference 2025
 
