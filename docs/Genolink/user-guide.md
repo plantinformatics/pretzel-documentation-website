@@ -34,7 +34,7 @@ You can:
 The example below shows a query for `leaf | pea`. The search returns records that match either term across different fields, such as accession name, taxonomy, or remarks.
 
 ![Wild text search results example](https://github.com/user-attachments/assets/52ba8ac3-f495-4717-9312-4f2fb39eacd2)  
-_Figure 3: Example results for query <code>rice | leaf</code>_
+_Figure 3: Example results for query <code>leaf | pea</code>_
 
 ### Accession Number Search
 
