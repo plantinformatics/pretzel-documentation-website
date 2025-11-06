@@ -1,4 +1,4 @@
-## Upcoming Workshops
+## Past Workshops
 
 #### Food Legume Research Conference and 5th Australian Pulse Conference 2025
 
@@ -15,7 +15,13 @@
 - Searching for AGG accessions containing a specific haplotype
 - Exploring diversity in user defined region of interest (e.g. QTLs, genes)
 
-## Past Workshops
+<div class="grid cards" markdown>
+
+-   [:material-book-open-page-variant:{ .lg .middle } __IFLRC 2025 Workshop manual__](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/pretzel-workshops/250905_Pulse_Pretzel_Workshop_Manual_FINAL.pdf)
+
+-  [:material-file-document-multiple:{ .lg .middle } __IFLRC 2025 Workshop materials__](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/pretzel-workshops/250905_Pulse_Pretzel_Workshop_Materials_FINAL.zip)
+
+</div>
 
 #### Australasian Plant Breeding Conference 2025
 
