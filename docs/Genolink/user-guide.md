@@ -72,13 +72,14 @@ The only difference is that, in the text file, you must provide a list of **Geno
 
 To restrict the results to genotyped accessions for a given crop, you first need to:
 
-1. Select **Passport Filter** from filter-type dropdown.
-2. In the **Crops** section, tick the box for your crop of interest (e.g., **barley**).
-3. At the bottom of the filter panel, select the Genotyped checkbox and choose one of the options:
+1.  Select **Passport Filter** from filter-type dropdown.
+2.  In the **Crops** section, tick the box for your crop of interest (e.g., **barley**).
+3.  At the bottom of the filter panel, select the Genotyped checkbox and choose one of the options:
+    <!-- list-break -->
 
-- **Yes**: Only genotyped accessions will be included.
-- **No**: Only non-genotyped accessions will be included.
-- If both or neither options are selected, both genotyped and non-genotyped accessions will be included.
+        - **Yes**: Only genotyped accessions will be included.
+        - **No**: Only non-genotyped accessions will be included.
+        - If both or neither options are selected, both genotyped and non-genotyped accessions will be included.
 
 Once the filters are set, press the **Search** button.
 
@@ -95,28 +96,24 @@ _Figure 9: Export All Passport Data_
 To request genotype data for your filtered accession records:
 
 1. **Select accessions** from the table by checking the boxes in the first column.
-2. Once selected, open **Genotype Data** tab
-
-![Selecting accessions and requesting genotype data](https://github.com/user-attachments/assets/02bf12fd-b3b1-403a-8239-19ed074837fb)  
-_Figure 10: Selecting accessions and identifying genotype data availability_
+2. Once selected, open **Genotype Data**
+   ![Selecting accessions and requesting genotype data](https://github.com/user-attachments/assets/02bf12fd-b3b1-403a-8239-19ed074837fb)  
+   _Figure 10: Selecting accessions and identifying genotype data availability_
 
 3. After opening the Genotype-Data tab, click **Lookup Servers** to find Gigwa servers containing the selected accessions.
-
-![Lookup Gigwa Servers](https://github.com/user-attachments/assets/1a46dee4-2d97-425d-8c4e-e4c5f8bd0ce6)
-_Figure 11: Click Lookup Servers in the Genotype-Data tab to find Gigwa servers with selected accessions_
+   ![Lookup Gigwa Servers](https://github.com/user-attachments/assets/1a46dee4-2d97-425d-8c4e-e4c5f8bd0ce6)
+   _Figure 11: Click Lookup Servers in the Genotype-Data tab to find Gigwa servers with selected accessions_
 
 4. To authenticate Gigwa servers, enter credentials for private databases. For public servers, no credentials are needed. Note: all private selections require credentials.
+   ![Authenticate Gigwa Servers](https://github.com/user-attachments/assets/49800c5d-e406-479e-a449-aa2c3bcec0b1)
+   _Figure 12: Authenticate Gigwa servers with credentials for private databases; no credentials needed for public servers._
 
-![Authenticate Gigwa Servers](https://github.com/user-attachments/assets/49800c5d-e406-479e-a449-aa2c3bcec0b1)
-_Figure 12: Authenticate Gigwa servers with credentials for private databases; no credentials needed for public servers._
-
-5. After verifying access, a summary will be shown.
-   - It shows how many of the selected accessions are registered in the **Genesys**.
-   - It also indicates how many of the selected accessions have genotype data in the **Gigwa server**.
-   - The summary lists the **Gigwa datasets** that contain genotype data for those accessions.
-
-![Lookup Data summary for selected accessions](https://github.com/user-attachments/assets/4cd147be-4210-4553-991f-8e0c8f714e9a)  
-_Figure 13: Summary showing genotype data availability in Genesys and Gigwa_
+5. After verifying access, a summary will be shown.  
+   • It shows how many of the selected accessions are registered in the **Genesys**.  
+   • It also indicates how many of the selected accessions have genotype data in the **Gigwa server**.  
+   • The summary lists the **Gigwa datasets** that contain genotype data for those accessions.  
+   ![Lookup Data summary for selected accessions](https://github.com/user-attachments/assets/4cd147be-4210-4553-991f-8e0c8f714e9a)  
+   _Figure 13: Summary showing genotype data availability in Genesys and Gigwa_
 
 6. After selecting the dataset, you can further refine the genotype data search in two ways:
 
