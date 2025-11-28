@@ -42,6 +42,7 @@ nav:
     - Use-Cases/Visualise-genotype-data-for-a-subset-of-accessions-around-specific-genomic-regions.md
     - Use-Cases/Finding-the-genomic-location-of-a-subset-of-markers.md
     - Use-Cases/Visualising-QTLs.md
+    - Use-Cases/Comparative-mapping-to-compare-assemblies.md
   - Basic Functions:
     - Basic-Functions/index.md
     - Left Panel:
