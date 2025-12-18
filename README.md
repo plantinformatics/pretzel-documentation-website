@@ -23,7 +23,9 @@ This can be accessed locally at
     
     http://0.0.0.0:8000/
 
-## Deployment
+## Building
 Below is a version where process is started in the background
+    
+    docker run --rm -it -v ${PWD}:/docs squidfunk/mkdocs-material build
 
-    docker run --rm -it -p 8000:8000 -v ${PWD}:/docs squidfunk/mkdocs-material
+This will create a directory called `site` in the root directory
