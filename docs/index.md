@@ -6,13 +6,24 @@ hide:
 
 # What's new in Pretzel
 
-**Genolink Documentation Released - 25/08/25**
+## New use cases added
 
-- [Start learning how to connect passport data to genotype data using Genolink now!](/Genolink/user-guide/)
+See how to:
 
-**Latest v3.9.0 - 24/07/25**
+* [Visualise QTLs](Use-Cases/Visualising-QTLs/) 
+* [Comparative mapping to compare assemblies](Use-Cases/Comparative-mapping-to-compare-assemblies/)
 
-- [View Passport data from Genesys/Genolink for selected accessions in the genotype table](/Basic-Functions/Genotype-tab/#viewing-passport-data-in-the-genotype-table)
+## Food Legume Research Conference and 5th Australian Pulse Conference 2025 Workshop Notes
+
+See what we covered in out latest workshop:
+
+<div class="grid cards" markdown>
+
+-   [:material-book-open-page-variant:{ .lg .middle } __IFLRC 2025 Workshop manual__](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/pretzel-workshops/250905_Pulse_Pretzel_Workshop_Manual_FINAL.pdf)
+
+-  [:material-file-document-multiple:{ .lg .middle } __IFLRC 2025 Workshop materials__](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/pretzel-workshops/250905_Pulse_Pretzel_Workshop_Materials_FINAL.zip)
+
+</div>
 
 
 ## Get started now
