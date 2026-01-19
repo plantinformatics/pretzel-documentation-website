@@ -6,14 +6,14 @@ hide:
 
 # What's new in Pretzel
 
-## New use cases added
+#### New use cases added
 
 See how to:
 
 * [Visualise QTLs](Use-Cases/Visualising-QTLs/) 
 * [Comparative mapping to compare assemblies](Use-Cases/Comparative-mapping-to-compare-assemblies/)
 
-## Food Legume Research Conference and 5th Australian Pulse Conference 2025 Workshop Notes
+#### Food Legume Research Conference and 5th Australian Pulse Conference 2025 Workshop Notes
 
 See what we covered in out latest workshop:
 
