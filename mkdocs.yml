@@ -38,7 +38,7 @@ nav:
     - Use-Cases/index.md
     - Use-Cases/Finding-genotyped-accessions-carrying-a-specific-haplotype.md
     - Use-Cases/Creating-a-summary-of-accessions-for-a-known-set-of-SNPs.md
-    - Use-Cases/Finding-a-marker-or-gene-on-a-genome.md
+    - Use-Cases/Finding-a-marker-or-gene-on-a-genome-using-dna-sequence.md
     - Use-Cases/Visualise-genotype-data-for-a-subset-of-accessions-around-specific-genomic-regions.md
     - Use-Cases/Finding-the-genomic-location-of-a-subset-of-markers.md
     - Use-Cases/Visualising-QTLs.md
@@ -91,3 +91,4 @@ plugins:
         'AGG-User-group-documentation/Finding-a-marker-or-gene-on-a-genome.md': 'Use-Cases/Finding-a-marker-or-gene-on-a-genome.md'
         'AGG-User-group-documentation/View-a-summary-of-accessions-for-a-searched-subset-of-markers.md': 'Use-Cases/Visualise-genotype-data-for-a-subset-of-accessions-around-specific-genomic-regions.md'
         'AGG-User-group-documentation/Visualise-the-location-of-a-subset-of-markers.md': 'Use-Cases/Visualise-the-location-of-a-subset-of-markers.md'
+        'Use-Cases/Finding-a-marker-or-gene-on-a-genome.md': 'Use-Cases/Finding-a-marker-or-gene-on-a-genome-using-dna-sequence.md'
