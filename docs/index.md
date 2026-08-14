@@ -6,25 +6,26 @@ hide:
 
 # What's new in Pretzel
 
+#### 22nd Australian Barley Technical Symposium Workshop 2026 Notes
+
+See what we covered in our latest workshop:
+
+<div class="grid cards" markdown>
+
+-   [:material-book-open-page-variant:{ .lg .middle } __ABTS 2026 Workshop manual__](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/pretzel-workshops/abst/260814_ABTS_Digital_Tool_Workshop_Manual.pdf){ target=_blank }
+
+-   [:material-file-document:{ .lg .middle } __ABTS 2026 Supplementary file__](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/pretzel-workshops/abst/2026_ABTS_SupplementaryFile.txt){ target=_blank}
+
+-   [:material-file-excel:{ .lg .middle } __ABTS 2026 Alignment upload template__](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/pretzel-workshops/abst/Pretzel_Workshop_barley_Alignment_Upload_XX.xlsx){download="Pretzel_Workshop_barley_Alignment_Upload_XX.xlsx" }
+
+</div>
+
 #### New use cases added
 
 See how to:
 
 * [Visualise QTLs](Use-Cases/Visualising-QTLs/) 
 * [Comparative mapping to compare assemblies](Use-Cases/Comparative-mapping-to-compare-assemblies/)
-
-#### Food Legume Research Conference and 5th Australian Pulse Conference 2025 Workshop Notes
-
-See what we covered in out latest workshop:
-
-<div class="grid cards" markdown>
-
--   [:material-book-open-page-variant:{ .lg .middle } __IFLRC 2025 Workshop manual__](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/pretzel-workshops/250905_Pulse_Pretzel_Workshop_Manual_FINAL.pdf)
-
--  [:material-file-document-multiple:{ .lg .middle } __IFLRC 2025 Workshop materials__](https://pretzel-images-public.s3.ap-southeast-2.amazonaws.com/pretzel-workshops/250905_Pulse_Pretzel_Workshop_Materials_FINAL.zip)
-
-</div>
-
 
 ## Get started now
 
