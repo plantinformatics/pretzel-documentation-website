@@ -27,8 +27,7 @@ theme:
     - content.code.copy
     - navigation.indexes
 nav:
-  - About Pretzel:
-    - index.md
+  - Home: index.md
   - User Stories:
     - User-Stories/index.md
     - User-Stories/User-story-1.md
