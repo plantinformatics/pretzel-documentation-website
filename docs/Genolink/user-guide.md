@@ -20,15 +20,30 @@ Passport data is supplied by Genesys-PGR. Follow the Genesys terms and condition
 
 Genolink provides the following search options that can be combined to refine searches and ensure only relevant accessions are retrieved.
 
-![Genolink main interface](https://github.com/user-attachments/assets/1a39da3f-20b1-494a-8ed6-77b42fb9e4eb)  
+![Genolink main interface](https://github.com/user-attachments/assets/7caf380a-96bd-43a3-b2b7-b0be3624cf21)  
 _Figure 1: Genolink main interface_
 
 ### Applying Genesys-PGR filters
 
-Refine your search by passport descriptors (date of collection, crop, taxonomy, institute, country of origin, biological status, storage type, and other descriptors). Open a filter section, select one or more values, and apply the filter. Compatible filters are combined to narrow the results.
+Refine your search by passport descriptors (alias/name, date of collection, crop, taxonomy, institute, country of origin, biological status, storage type, and other descriptors). Open a filter section, select one or more values, and apply the filter. Compatible filters are combined to narrow the results.
 
-![Passport Data Filter](https://github.com/user-attachments/assets/1d351541-6ddf-4a72-8492-306bfcbf7e5c)  
+![Passport Data Filter](https://github.com/user-attachments/assets/e4725f13-2c06-4527-b939-c94b86eb756b)  
 _Figure 2: Passport Data Filter_
+
+### Advanced Name/Alias search
+
+To search accession names and other names associated with an accession without matching unrelated fields such as pedigree, open **Advanced Name/Alias search**. Genesys stores these names in the accession's aliases, so this search checks every alias attached to the record.
+
+Choose one of the following search options:
+
+- **Exact match** requires the complete alias to match the entered value.
+- **Starts with** matches aliases that begin with the entered value.
+- **Contains** matches the entered value anywhere in an alias; broad searches may take longer.
+
+Enter a value in only one option. After a value is entered, the other two options are disabled until the active value is cleared. Do not add quotation marks to an advanced name/alias search.
+
+![Advanced Name/Alias search results example](https://github.com/user-attachments/assets/b6a3b0c3-fde0-4821-8c77-758ef662eef3)  
+_Figure 3: Example results for query <code>chinese spring</code>_
 
 ### Wild Text Search
 
@@ -40,30 +55,30 @@ You can:
 - Use **asterisks** for prefix searches (e.g., `leaf*`)
 - Use **parentheses** for grouping
 
-The example below shows a query for `leaf | pea`. The search returns records that match either term across different fields, such as accession name, taxonomy, or remarks.
+The example below shows a query for `leaf | pea`. The search returns records that match either term across different fields, such as accession name, aliases, or crop name.
 
-![Wild text search results example](https://github.com/user-attachments/assets/16f38fe4-050e-4b2e-8cbf-d576f2dcc897)  
-_Figure 3: Example results for query <code>leaf | pea</code>_
+![Wild text search results example](https://github.com/user-attachments/assets/f3b38c5a-ad03-4bf0-ab13-93f5117f754a)  
+_Figure 4: Example results for query <code>leaf | pea</code>_
 
 ### Accession Number Search
 
 Enter one or multiple accession numbers directly.
 
-![Accession number search using direct input](https://github.com/user-attachments/assets/5c2229e6-4c69-4a36-b493-6a59b29fba69)  
-_Figure 4: Accession number search using direct input_
+![Accession number search using direct input](https://github.com/user-attachments/assets/343b9a73-323a-4da8-8666-7c207ac1eca4)  
+_Figure 5: Accession number search using direct input_
 
 Enter multiple accession numbers by uploading a text file.
 Once uploaded, click Browse.
 
-![Accession number search using file upload](https://github.com/user-attachments/assets/e6e070f6-5db3-4c6c-b0fb-0bafc6ee024b)  
-_Figure 5: Accession number search using file upload_
+![Accession number search using file upload](https://github.com/user-attachments/assets/64f5e62d-5e5e-4725-9aac-1956f36d136f)  
+_Figure 6: Accession number search using file upload_
 
 Please upload a text file with your list of accessions, with each accession entered on a separate line. Uploaded values may also be separated by commas, tabs, semicolons, or vertical bars.
 
 After the upload, select **Apply Filter** to apply the accession number filter.
 
-![Search results after uploading accession list](https://github.com/user-attachments/assets/40fdc2da-33a1-4c29-8e2e-d5d5f8cf35c6)  
-_Figure 6: Search results after uploading accession list_
+![Search results after uploading accession list](https://github.com/user-attachments/assets/e6ba1e03-d806-4429-be7c-645a5158d3f8)  
+_Figure 7: Search results after uploading accession list_
 
 > **Note:** Your file must be a plain text file (.txt).
 
@@ -85,13 +100,13 @@ The **Check for genotype** checkbox is available only in **Passport Filter** mod
 
 When the checkbox is not selected, the results can include both genotyped and non-genotyped accessions. The checkbox is unavailable while text is entered in the wild text search box.
 
-![Filtering results using the "Check for genotype" checkbox](https://github.com/user-attachments/assets/cf347ee8-da8c-4926-b290-c73982dd338b)  
-_Figure 7: Filtering results using the "Check for genotype" checkbox_
+![Filtering results using the "Check for genotype" checkbox](https://github.com/user-attachments/assets/e4ad1fe4-a533-4bfc-a3b6-24955c8f0591)  
+_Figure 8: Filtering results using the "Check for genotype" checkbox_
 
 Finally, to download the full passport data for these filtered results, click on **Export All Passport Data**. This will export all passport data for the genotyped accessions matching your crop filter.
 
-![Export All Passport Data](https://github.com/user-attachments/assets/2ff9be66-c637-4c80-a15b-aec3bd227b06)  
-_Figure 8: Export All Passport Data_
+![Export All Passport Data](https://github.com/user-attachments/assets/51960ce2-3642-418a-b129-db2a469e20d8)  
+_Figure 9: Export All Passport Data_
 
 ### Managing Active Filters
 
@@ -99,8 +114,8 @@ Applied criteria appear under **Active Filters**. Select the red remove icon bes
 
 The **Total Accessions** value reports how many records match the current search. The table initially loads a portion of those records; use **More Results** below the table to load additional pages.
 
-![Active filters, total accessions, and reset control](https://github.com/user-attachments/assets/bc2e4287-ba5e-4ca1-8e79-aeffd50737bc)  
-_Figure 9: Active filters, total accessions, and reset control_
+![Active filters, total accessions, and reset control](https://github.com/user-attachments/assets/9b3e3287-1d46-4f58-8dc1-c3a40f28ab96)  
+_Figure 10: Active filters, total accessions, and reset control_
 
 ## Controlling the Passport Table View
 
@@ -116,8 +131,8 @@ If no columns are selected when the view is saved, Genolink restores the default
 
 Available columns include passport descriptors such as institute, accession, taxonomy, crop, provenance, dates, and DOI, as well as Genolink-enriched fields such as genotype status, Genotype ID, dataset DOI, region, and sub-region.
 
-![View modal for selecting passport metadata columns](https://github.com/user-attachments/assets/55491ea5-b43c-43ea-a4cb-2566898f29d3)  
-_Figure 10: View modal for selecting passport metadata columns_
+![View modal for selecting passport metadata columns](https://github.com/user-attachments/assets/7caa7be4-1fc6-4f19-b46c-76ac694b3b06)  
+_Figure 11: View modal for selecting passport metadata columns_
 
 Changing the table view does not control which fields are exported. Export fields are selected separately when starting a passport export.
 
@@ -133,8 +148,8 @@ Choose **Export All Passport Data** below the passport table. The **Select Field
 
 The download covers the complete filtered result, not only the rows currently loaded or selected on screen. Large exports can take time; a loading indicator replaces the export button while Genolink fetches and prepares the data.
 
-![Select Fields to Export modal for passport TSV data](https://github.com/user-attachments/assets/32c960d2-b20b-4aca-a4d2-d0c957ff1c60)  
-_Figure 11: Select Fields to Export modal for passport TSV data_
+![Select Fields to Export modal for passport TSV data](https://github.com/user-attachments/assets/d984fddc-2240-438e-94b6-e895eab3af2b)  
+_Figure 12: Select Fields to Export modal for passport TSV data_
 
 The downloaded file is named `filtered_data_selected_fields.tsv`.
 
@@ -144,12 +159,12 @@ To request genotype data for your filtered accession records:
 
 1. **Select accessions** from the table by checking the boxes in the first column.
 2. Once selected, open **Genotype Data**
-   ![Selecting accessions and requesting genotype data](https://github.com/user-attachments/assets/be3e86ba-4abd-4b9b-8291-65db8d94cbf1)  
-   _Figure 12: Selecting accessions and identifying genotype data availability_
+   ![Selecting accessions and requesting genotype data](https://github.com/user-attachments/assets/61a7eec7-ba8f-460b-95a4-84f3eda45dcd)  
+   _Figure 13: Selecting accessions and identifying genotype data availability_
 
 3. After opening the **Genotype Data** tab, Genolink automatically lists the Gigwa servers associated with the selected samples. A server is listed when its details are recorded for those samples in either the Genolink internal database or the Genesys database.
-   ![Gigwa servers associated with the selected samples](https://github.com/user-attachments/assets/390bdc95-69e5-4967-825d-ecc11fe431a7)
-   _Figure 13: Gigwa servers automatically identified for the selected samples_
+   ![Gigwa servers associated with the selected samples](https://github.com/user-attachments/assets/4ac7c79c-6f9e-4040-b8af-fc4b3a28fd83)
+   _Figure 14: Gigwa servers automatically identified for the selected samples_
 
 4. By default, all listed Gigwa servers are treated as public, so no username or password is required. An administrator can enable the credential setting to provide additional security when accessing Gigwa data. When this setting is enabled, a **Public/Private** selection is displayed for every listed server:
    - Select **Public** to access the server in the same way as the default public mode, without credentials.
@@ -161,31 +176,31 @@ To request genotype data for your filtered accession records:
    • It shows how many of the selected accessions are registered in the **Genesys**.  
    • It also indicates how many of the selected accessions have genotype data in the **Gigwa server**.  
    • The summary lists the **Gigwa datasets** that contain genotype data for those accessions.  
-   ![Lookup Data summary for selected accessions](https://github.com/user-attachments/assets/95b75675-a2c7-4065-97a7-ac47f74c9524)  
-   _Figure 14: Summary showing genotype data availability in Genesys and Gigwa_
+   ![Lookup Data summary for selected accessions](https://github.com/user-attachments/assets/0a0c70d1-7f3c-4f16-8793-0b262a5d51d7)  
+   _Figure 15: Summary showing genotype data availability in Genesys and Gigwa_
 
    Choose **Copy Sample-Names** to copy the discovered sample names to the clipboard. When available, a source table also shows accession, DOI, Genotype ID, and the studies containing each sample. Study headings link to the corresponding Gigwa project.
 
 6. Select one dataset for each listed Gigwa server. A dataset must be selected for every server that will participate in the search. After selecting the datasets, you can further refine the genotype data search in two ways:
 
-   ![Dataset selection grouped by Gigwa server](https://github.com/user-attachments/assets/29559948-5d22-4ac5-814a-6f212fafc9c4)  
-   _Figure 15: Dataset selection grouped by Gigwa server_
+   ![Dataset selection grouped by Gigwa server](https://github.com/user-attachments/assets/c9303e8f-0c66-44c2-9cc0-db95fd906658)  
+   _Figure 16: Dataset selection grouped by Gigwa server_
 
 ### Genotype Data Based on Genomic Region
 
 - Filter results by specific **chromosomes**
 - Define **genomic positions** (start–end ranges)
 
-![Filtering genotype data by chromosome and position](https://github.com/user-attachments/assets/bb5554d7-b077-443c-b6dd-384c0115c4c2)  
-_Figure 16: Refining genotype data search using chromosome and position filters_
+![Filtering genotype data by chromosome and position](https://github.com/user-attachments/assets/974e5de3-7b64-4b50-aac4-3907201aaad4)  
+_Figure 17: Refining genotype data search using chromosome and position filters_
 
 ### Genotype Data Based on Marker Names
 
 - Filter results using **Variant IDs** that correspond to specific genomic regions.
 - Enter multiple Variant IDs separated by commas.
 
-![Filtering genotype data by Variant IDs](https://github.com/user-attachments/assets/b44d9307-a367-409c-adf9-44ceae09992c)  
-_Figure 17: Refining genotype data search using Variant IDs_
+![Filtering genotype data by Variant IDs](https://github.com/user-attachments/assets/8622be6c-6ba7-4247-aac2-0b56b9c60ca4)  
+_Figure 18: Refining genotype data search using Variant IDs_
 
 Only one of the genomic-region and Variant-ID filters is active at a time. Switching filter type clears values belonging to the other type.
 
@@ -198,8 +213,8 @@ If you do not apply any of the above filters (chromosome, position, or variant I
 After configuring your filters (or leaving them empty), click **Search Genotype** to retrieve the results.  
 You can perform multiple genotype searches on the same selected accessions by simply adjusting filters and clicking **Search Genotype** again. The **Reset** button is only used when you want to choose a new set of accessions from the Passport-Data tab before running a new genotype search.
 
-![Genotype results table](https://github.com/user-attachments/assets/40f7aef0-87e3-4839-b7ba-f698d16e1914)  
-_Figure 18: Example of genotype search results_
+![Genotype results table](https://github.com/user-attachments/assets/78d8f17a-4c4d-4f15-bcf4-3d65247b11fe)  
+_Figure 19: Example of genotype search results_
 
 Gigwa results from participating servers are displayed in a combined table. The fixed columns identify each variant:
 
@@ -218,8 +233,8 @@ Once the server is chosen, click the **Export VCF** button to download the genot
 
 VCF export is performed for one server at a time because each server may contain a different dataset or set of samples. Repeat the export for another server when required. The export uses the selected dataset, samples, and active variant or position filter.
 
-![Exporting genotype data as VCF](https://github.com/user-attachments/assets/d0e35010-b650-4760-bfa1-fb063ec48baf)  
-_Figure 19: Exporting genotype data in VCF format_
+![Exporting genotype data as VCF](https://github.com/user-attachments/assets/eaf78f70-d9d4-4db1-b7a1-ab132828f432)  
+_Figure 20: Exporting genotype data in VCF format_
 
 ## Troubleshooting
 
